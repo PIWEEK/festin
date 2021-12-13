@@ -16,8 +16,27 @@
   "profile": {
     "name": "typicode"
   },
-  "main-tags": ["Principal", "Postre", "Sopa", "Entrantes"],
-  "tags" : ["Japonesa" ,"Sin gluten" , "Arroz"],
+  "main-tags": ["Entrantes", "Principales", "Postres" ,"Bebidas" ,"Salsas"],
+  "tags" : [
+    "Vegetariana",
+    "Vegana",
+    "Sin gluten",
+    "Sin azúcar",
+    "Sin lactosa",
+    "Sin huevo",
+    "Sin soja",
+    "Sin pescado",
+    "Sin crustáceos",
+    "Japonesa",
+    "Española",
+    "Mediterránea",
+    "Americana",
+    "India",
+    "Thai",
+    "China",
+    "Francesa",
+    "Italiana"
+  ],
   "recipes": [
     {
       "id": 1,
@@ -25,8 +44,8 @@
       "name" : "Chiles en nogada",
       "prep-time": "20 minutes",
       "cook-time": "40 minutes",
-      "main-tag": "Principal",
-      "tags": ["Japonesa", "Gluten free"],
+      "main-tag": "Principales",
+      "tags": ["Japonesa", "Sin gluten"],
       "rations": "4",
       "fav": false,
       "ingredients": {
@@ -56,13 +75,13 @@
   {
     "id": 2,
     "main-img": "asdadsad",
-    "name" : "Chiles en nogada 2",
+    "name" : "Empanadillas de atún",
     "prep-time": "20 minutes",
     "cook-time": "40 minutes",
-    "main-tag": "Principal",
-    "secondary-tags": ["Arroz"],
+    "main-tag": "Entrantes",
+    "tags": ["Sin gluten", "Vegetariana"],
     "rations": "4",
-    "fav": false,
+    "fav": true,
     "ingredients": {
         "eggs": {
             "quantity": 3,
