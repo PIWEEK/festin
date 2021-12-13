@@ -1,5 +1,8 @@
 # festin
-Un festín de postín
+¡Qué festín! Un banquete de postín. 
+Un sitio precioso donde recopilar todas tus recetas. 
+Made with love in [Penpot](https://penpot.app/).  
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
