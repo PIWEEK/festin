@@ -1,0 +1,89 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "recipes": [
+    {
+      "id": 1,
+      "main-img": "asdadsad",
+      "name" : "Chiles en nogada",
+      "prep-time": "20 minutes",
+      "cook-time": "40 minutes",
+      "main-tag": "Principal",
+      "secondary-tags": ["Japan", "Gluten free"],
+      "rations": "4",
+      "fav": false,
+      "ingredients": {
+          "eggs": {
+              "quantity": 3,
+              "unit": "ud"
+          },
+          "flour": {
+              "quantity": 200,
+              "unit": "gr"
+          }
+      },
+      "steps" :{
+          "1": {
+              "text" : "askajdkljsd",
+              "img": "-"
+          },
+          "2": {
+              "text" : "askajdkljsd",
+              "img": "-"
+          }
+      },
+      "other" : "",
+      "credits": "",
+      "remember": ""
+  },
+  {
+    "id": 2,
+    "main-img": "asdadsad",
+    "name" : "Chiles en nogada 2",
+    "prep-time": "20 minutes",
+    "cook-time": "40 minutes",
+    "main-tag": "Principal",
+    "secondary-tags": ["Japan", "Gluten free"],
+    "rations": "4",
+    "fav": false,
+    "ingredients": {
+        "eggs": {
+            "quantity": 3,
+            "unit": "ud"
+        },
+        "flour": {
+            "quantity": 200,
+            "unit": "gr"
+        }
+    },
+    "steps" :{
+        "1": {
+            "text" : "askajdkljsd",
+            "img": "-"
+        },
+        "2": {
+            "text" : "askajdkljsd",
+            "img": "-"
+        }
+    },
+    "other" : "",
+    "credits": "",
+    "remember": ""
+}
+  ]
+}
