@@ -1,9 +1,9 @@
-function RecipeList() {
+import Recipe from "../recipe/Recipe";
+function RecipeList({recipes}) {
     return (
-      <div className="recipe-list">
-          La cabecera de las recetas
-
-      </div>
+        <ul>
+            {recipes.map(recipe => <Recipe key={recipe.id} recipe={recipe}/>)}
+        </ul>
     );
   }
 

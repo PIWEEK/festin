@@ -1,8 +1,11 @@
-function Recipe() {
+function Recipe({recipe}) {
     return (
-      <div className="recipe">
-          Una receta
-      </div>
+      <li key={recipe.index} className="recipe">
+          <p>Name: {recipe.name}</p>
+          <p>Fav: {recipe.fav ? "Si" : "No"}</p>
+          <p>Categoria: {recipe["main-tag"]}</p>
+          <p>{recipe.tags.map(item=><span>{item}</span>)}</p>
+      </li>
     );
   }
 
