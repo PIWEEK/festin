@@ -1,367 +1,367 @@
 {
   "main-tags": ["Entrantes", "Principales", "Postres", "Bebidas", "Salsas"],
   "tags" : ["Vegetariana" ,"Vegana" , "Sin gluten", "Sin azúcar", "Sin lactosa", "Sin huevo", "Sin soja", "Sin pescado", "Sin crustaceos", "Japonesa", "Española", "Mediterránea", "Americana", "India", "Thai", "China", "Francesa", "Italiana"],
-  "recipes": [  
-    {
-      "id": 1,
-      "main-img": "asdadsad",
-      "name" : "Fiambre de pollo casero",
-      "prep-time": "5 minutos",
-      "cook-time": "25 minutos",
+  "recipes": [
+  {
+        "id": 1,
+        "main-img": "data:image/jpeg;base64,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",
+        "name" : "Fiambre de pollo casero",
+        "prep-time": "5 minutos",
+        "cook-time": "25 minutos",
+        "main-tag": "Entrantes",
+        "tags": ["Española"],
+        "rations": "4",
+        "fav": true,
+        "ingredients": {
+            "pechuga de pollo picada": {
+                "quantity": 300,
+                "unit": "gr"
+            },
+            "huevos": {
+                "quantity": 3,
+                "unit": "ud"
+            },
+            "sémola de trigo": {
+              "quantity": 100,
+              "unit": "gr"
+            },
+            "queso crema para untar": {
+              "quantity": 60,
+              "unit": "gr"
+            },
+            "aceite de oliva extra": {
+              "quantity": 3,
+              "unit": "cucharadas"
+            },
+            "mezcla de frutos secos": {
+              "quantity": 3,
+              "unit": "cucharadas"
+            },
+            "sal": {
+              "quantity": 1,
+              "unit": "cucharadita"
+            },
+            "pimienta negra": {
+              "quantity": 1,
+              "unit": "pizca"
+    }
+        },
+        "steps" :{
+            "1": {
+                "text" : "mezclar la pechuga de pollo picada en un recipiente con los huevos, el queso, la sémola de trigo, la sal, la pimienta, el aceite y la mezcla de semillas y frutos secos. Lo mezclamos todo muy bien. Si tenéis Thermomix u otro procesador de alimentos, podéis hacerlo con éste. Debemos conseguir una pasta.",
+                "img": "-"
+            },
+            "2": {
+                "text" : "Extendemos papel film y ponemos la mitad de la mezcla, enrollamos formando un rulo que cerramos apretando los extremos como si fuera un caramelo. Para cocinarlo podéis hacerlo de varias formas, bien  en el microondas, unos 8-10 minutos a máxima potencia dándole la vuelta a mitad de la cocción o al baño María, en este caso envuelvo el rulo de papel film de nuevo en papel aluminio.",
+                "img": "-"
+            },
+            "3": {
+              "text" : "Extendemos papel film y ponemos la mitad de la mezcla, enrollamos formando un rulo que cerramos apretando los extremos como si fuera un caramelo. Para cocinarlo podéis hacerlo de varias formas: bien  en el microondas, unos 8-10 minutos a máxima potencia dándole la vuelta a mitad de la cocción o al baño María, en este caso envuelvo el rulo de papel film de nuevo en papel aluminio. Lo dejamos cocer unos 30 o 40 minutos.",
+              "img": "-"
+            },
+            "4": {
+              "text" : "Una vez que está cocinado, lo dejamos enfriar y guardamos en el frigorífico. Una vez frío, está listo para utilizar.",
+              "img": "-"
+          }
+        },
+        "other" : "",
+        "credits": "",
+        "remember": "Pedir en la carnicería que nos piquen la pechuga de pollo"
+  },
+  {
+      "id": 2,
+      "main-img": "",
+      "name" : "Empanadillas de atún",
+      "prep-time": "20 minutes",
+      "cook-time": "40 minutes",
       "main-tag": "Entrantes",
-      "tags": ["Española"],
+      "tags": ["Sin gluten", "Vegetariana"],
       "rations": "4",
       "fav": true,
       "ingredients": {
-          "pechuga de pollo picada": {
-              "quantity": 300,
-              "unit": "gr"
-          },
-          "huevos": {
+          "eggs": {
               "quantity": 3,
               "unit": "ud"
           },
-          "sémola de trigo": {
-            "quantity": 100,
-            "unit": "gr"
-          },
-          "queso crema para untar": {
-            "quantity": 60,
-            "unit": "gr"
-          },
-          "aceite de oliva extra": {
-            "quantity": 3,
-            "unit": "cucharadas"
-          },
-          "mezcla de frutos secos": {
-            "quantity": 3,
-            "unit": "cucharadas"
-          },
-          "sal": {
-            "quantity": 1,
-            "unit": "cucharadita"
-          },
-          "pimienta negra": {
-            "quantity": 1,
-            "unit": "pizca"
-  }
+          "flour": {
+              "quantity": 200,
+              "unit": "gr"
+          }
       },
       "steps" :{
           "1": {
-              "text" : "mezclar la pechuga de pollo picada en un recipiente con los huevos, el queso, la sémola de trigo, la sal, la pimienta, el aceite y la mezcla de semillas y frutos secos. Lo mezclamos todo muy bien. Si tenéis Thermomix u otro procesador de alimentos, podéis hacerlo con éste. Debemos conseguir una pasta.",
+              "text" : "askajdkljsd",
               "img": "-"
           },
           "2": {
-              "text" : "Extendemos papel film y ponemos la mitad de la mezcla, enrollamos formando un rulo que cerramos apretando los extremos como si fuera un caramelo. Para cocinarlo podéis hacerlo de varias formas, bien  en el microondas, unos 8-10 minutos a máxima potencia dándole la vuelta a mitad de la cocción o al baño María, en este caso envuelvo el rulo de papel film de nuevo en papel aluminio.",
+              "text" : "askajdkljsd",
               "img": "-"
-          },
-          "3": {
-            "text" : "Extendemos papel film y ponemos la mitad de la mezcla, enrollamos formando un rulo que cerramos apretando los extremos como si fuera un caramelo. Para cocinarlo podéis hacerlo de varias formas: bien  en el microondas, unos 8-10 minutos a máxima potencia dándole la vuelta a mitad de la cocción o al baño María, en este caso envuelvo el rulo de papel film de nuevo en papel aluminio. Lo dejamos cocer unos 30 o 40 minutos.",
-            "img": "-"
-          },
-          "4": {
-            "text" : "Una vez que está cocinado, lo dejamos enfriar y guardamos en el frigorífico. Una vez frío, está listo para utilizar.",
-            "img": "-"
-        }
+          }
       },
       "other" : "",
       "credits": "",
-      "remember": "Pedir en la carnicería que nos piquen la pechuga de pollo"
+      "remember": ""
   },
   {
-    "id": 2,
-    "main-img": "asdadsad",
-    "name" : "Empanadillas de atún",
-    "prep-time": "20 minutes",
-    "cook-time": "40 minutes",
-    "main-tag": "Entrantes",
+    "id": 3,
+    "main-img": "",
+    "name" : "Crepes sin gluten",
+    "prep-time": "10 minutes",
+    "cook-time": "20 minutes",
+    "main-tag": "Postres",
     "tags": ["Sin gluten", "Vegetariana"],
     "rations": "4",
-    "fav": true,
+    "fav": false,
     "ingredients": {
-        "eggs": {
-            "quantity": 3,
-            "unit": "ud"
-        },
-        "flour": {
-            "quantity": 200,
+        "harina de garbanzos": {
+            "quantity": 250,
             "unit": "gr"
+        },
+        "agua": {
+            "quantity": 300,
+            "unit": "ml"
+        },
+        "huevo": {
+          "quantity": 1,
+          "unit": "ud"
+        },
+        "leche": {
+          "quantity": 70,
+          "unit": "ml"
+        },
+        "aceite de oliva": {
+          "quantity": 10,
+          "unit": "ml"
+        },
+        "bicarbonato": {
+          "quantity": 1,
+          "unit": "cucharada"
+        },
+        "especias": {
+          "quantity": 1,
+          "unit": "al gusto"
         }
     },
     "steps" :{
         "1": {
-            "text" : "askajdkljsd",
-            "img": "-"
-        },
-        "2": {
-            "text" : "askajdkljsd",
+            "text" : "Mezclar y hacer en una sartén antiadherente.",
             "img": "-"
         }
     },
     "other" : "",
     "credits": "",
-    "remember": ""
-},
-{
-  "id": 3,
-  "main-img": "asdadsad",
-  "name" : "Crepes sin gluten",
-  "prep-time": "10 minutes",
-  "cook-time": "20 minutes",
-  "main-tag": "Postres",
-  "tags": ["Sin gluten", "Vegetariana"],
-  "rations": "4",
-  "fav": false,
-  "ingredients": {
-      "harina de garbanzos": {
-          "quantity": 250,
-          "unit": "gr"
-      },
-      "agua": {
-          "quantity": 300,
-          "unit": "ml"
-      },
-      "huevo": {
-        "quantity": 1,
-        "unit": "ud"
-      }, 
-      "leche": {
-        "quantity": 70,
-        "unit": "ml"
-      },
-      "aceite de oliva": {
-        "quantity": 10,
-        "unit": "ml"
-      },
-      "bicarbonato": {
-        "quantity": 1,
-        "unit": "cucharada"
-      },
-      "especias": {
-        "quantity": 1,
-        "unit": "al gusto"
-      }
+    "remember": "Acuérdate de comprar harina de garbanzos y leche de soja."
   },
-  "steps" :{
-      "1": {
-          "text" : "Mezclar y hacer en una sartén antiadherente.",
-          "img": "-"
-      }
-  },
-  "other" : "",
-  "credits": "",
-  "remember": "Acuérdate de comprar harina de garbanzos y leche de soja."
-},
-{
-  "id": 4,
-  "main-img": "asdadsad",
-  "name" : "Cocido",
-  "prep-time": "15 minutos",
-  "cook-time": "210 minutos",
-  "main-tag": "Principales",
-  "tags": ["Española"],
-  "rations": "6",
-  "fav": false,
-  "ingredients": {
-      "garbanzos": {
-          "quantity": 350,
+  {
+    "id": 4,
+    "main-img": "data:image/jpeg;base64,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",
+    "name" : "Cocido",
+    "prep-time": "15 minutos",
+    "cook-time": "210 minutos",
+    "main-tag": "Principales",
+    "tags": ["Española"],
+    "rations": "6",
+    "fav": false,
+    "ingredients": {
+        "garbanzos": {
+            "quantity": 350,
+            "unit": "gr"
+        },
+        "gallina": {
+            "quantity": 1,
+            "unit": "cuarto"
+        },
+        "morcillo": {
+          "quantity": 500,
           "unit": "gr"
-      },
-      "gallina": {
+        },
+        "chorizos": {
+          "quantity": 2,
+          "unit": "ud"
+        },
+        "morcilla": {
           "quantity": 1,
-          "unit": "cuarto"
-      },
-      "morcillo": {
-        "quantity": 500,
-        "unit": "gr"
-      },
-      "chorizos": {
-        "quantity": 2,
-        "unit": "ud"
-      },
-      "morcilla": {
-        "quantity": 1,
-        "unit": "ud"
-      },
-      "huesos de jamón": {
-        "quantity": 2,
-        "unit": "ud"
-      },
-      "taco jamón": {
-        "quantity": 1,
-        "unit": "ud"
-      },
-      "lacón": {
-        "quantity": 1,
-        "unit": "trozo"
-      },
-      "patatas medianas": {
-        "quantity": 2,
-        "unit": "uds"
-      },
-      "zanahorias": {
-        "quantity": 3,
-        "unit": "uds"
-}
-  },
-  "steps" :{
-      "1": {
-          "text" : "Se pone en una cazuela grande el morcillo, el jamón, el lacón y los huesos. Se pone agua fría (bastante, pero contando que tienen que caber el resto de ingredientes).",
-          "img": "-"
-      },
-      "2": {
-          "text" : "Cuando rompe a hervir, le quitas la espuma y hechas los garbanzos escurridos.",
-          "img": "-"
-      }, 
-      "3": {
-        "text" : "A la hora echas los chorizos y la gallina.",
-        "img": "-"
-      }, 
-      "4": {
-        "text" : "Lo dejas otra hora y echas la patata y la zanahoria. Cuando veas que está hecha se apaga y se deja reposar.",
-        "img": "-"
-      }, 
-      "5": {
-        "text" : "Luego típica sopa de fideos con el caldo.",
-        "img": "-"
-      }, 
-      "6": {
-        "text" : "La morcilla yo la cuezo aparte en un cacito para que no quede muy fuerte la sopa y si hago repollo también aparte.",
-        "img": "-"
-        
-    }
-  },
-  "other" : "Lo más importante es tener paciencia y no escatimar con los ingredientes. Poner garbanzos buenos le da muuuuucho sabor, aunque parezca que no.",
-  "credits": "",
-  "remember": "Pon los garbanzos en remojo la noche de antes, que siempre se te olvida."
-},
-{
-  "id": 3,
-  "main-img": "asdadsad",
-  "name" : "Crepes sin gluten",
-  "prep-time": "10 minutes",
-  "cook-time": "20 minutes",
-  "main-tag": "Postres",
-  "tags": ["Sin gluten", "Vegetariana"],
-  "rations": "4",
-  "fav": false,
-  "ingredients": {
-      "harina de garbanzos": {
-          "quantity": 250,
-          "unit": "gr"
-      },
-      "agua": {
-          "quantity": 300,
-          "unit": "ml"
-      },
-      "huevo": {
-        "quantity": 1,
-        "unit": "ud"
-      }, 
-      "leche": {
-        "quantity": 70,
-        "unit": "ml"
-      },
-      "aceite de oliva": {
-        "quantity": 10,
-        "unit": "ml"
-      },
-      "bicarbonato": {
-        "quantity": 1,
-        "unit": "cucharada"
-      },
-      "especias": {
-        "quantity": 1,
-        "unit": "al gusto"
-      }
-  },
-  "steps" :{
-      "1": {
-          "text" : "Mezclar y hacer en una sartén antiadherente.",
-          "img": "-"
-      }
-  },
-  "other" : "",
-  "credits": "",
-  "remember": "Acuérdate de comprar harina de garbanzos y leche de soja."
-},
-{
-  "id": 4,
-  "main-img": "asdadsad",
-  "name" : "Cocido",
-  "prep-time": "15 minutos",
-  "cook-time": "210 minutos",
-  "main-tag": "Principales",
-  "tags": ["Española"],
-  "rations": "6",
-  "fav": false,
-  "ingredients": {
-      "garbanzos": {
-          "quantity": 350,
-          "unit": "gr"
-      },
-      "gallina": {
+          "unit": "ud"
+        },
+        "huesos de jamón": {
+          "quantity": 2,
+          "unit": "ud"
+        },
+        "taco jamón": {
           "quantity": 1,
-          "unit": "cuarto"
-      },
-      "morcillo": {
-        "quantity": 500,
-        "unit": "gr"
-      },
-      "chorizos": {
-        "quantity": 2,
-        "unit": "ud"
-      },
-      "morcilla": {
-        "quantity": 1,
-        "unit": "ud"
-      },
-      "huesos de jamón": {
-        "quantity": 2,
-        "unit": "ud"
-      },
-      "taco jamón": {
-        "quantity": 1,
-        "unit": "ud"
-      },
-      "lacón": {
-        "quantity": 1,
-        "unit": "trozo"
-      },
-      "patatas medianas": {
-        "quantity": 2,
-        "unit": "uds"
-      },
-      "zanahorias": {
-        "quantity": 3,
-        "unit": "uds"
-    } 
-  },
-  "steps" :{
-      "1": {
-          "text" : "mezclar la pechuga de pollo picada en un recipiente con los huevos, el queso, la sémola de trigo, la sal, la pimienta, el aceite y la mezcla de semillas y frutos secos. Lo mezclamos todo muy bien. Si tenéis Thermomix u otro procesador de alimentos, podéis hacerlo con éste. Debemos conseguir una pasta.",
+          "unit": "ud"
+        },
+        "lacón": {
+          "quantity": 1,
+          "unit": "trozo"
+        },
+        "patatas medianas": {
+          "quantity": 2,
+          "unit": "uds"
+        },
+        "zanahorias": {
+          "quantity": 3,
+          "unit": "uds"
+  }
+    },
+    "steps" :{
+        "1": {
+            "text" : "Se pone en una cazuela grande el morcillo, el jamón, el lacón y los huesos. Se pone agua fría (bastante, pero contando que tienen que caber el resto de ingredientes).",
+            "img": "-"
+        },
+        "2": {
+            "text" : "Cuando rompe a hervir, le quitas la espuma y hechas los garbanzos escurridos.",
+            "img": "-"
+        },
+        "3": {
+          "text" : "A la hora echas los chorizos y la gallina.",
           "img": "-"
-      },
-      "2": {
-          "text" : "Extendemos papel film y ponemos la mitad de la mezcla, enrollamos formando un rulo que cerramos apretando los extremos como si fuera un caramelo. Para cocinarlo podéis hacerlo de varias formas, bien  en el microondas, unos 8-10 minutos a máxima potencia dándole la vuelta a mitad de la cocción o al baño María, en este caso envuelvo el rulo de papel film de nuevo en papel aluminio.",
+        },
+        "4": {
+          "text" : "Lo dejas otra hora y echas la patata y la zanahoria. Cuando veas que está hecha se apaga y se deja reposar.",
           "img": "-"
-      }, 
-      "3": {
-        "text" : "Extendemos papel film y ponemos la mitad de la mezcla, enrollamos formando un rulo que cerramos apretando los extremos como si fuera un caramelo. Para cocinarlo podéis hacerlo de varias formas: bien  en el microondas, unos 8-10 minutos a máxima potencia dándole la vuelta a mitad de la cocción o al baño María, en este caso envuelvo el rulo de papel film de nuevo en papel aluminio. Lo dejamos cocer unos 30 o 40 minutos.",
-        "img": "-"
-      }, 
-      "4": {
-        "text" : "Una vez que está cocinado, lo dejamos enfriar y guardamos en el frigorífico. Una vez frío, está listo para utilizar.",
-        "img": "-"
+        },
+        "5": {
+          "text" : "Luego típica sopa de fideos con el caldo.",
+          "img": "-"
+        },
+        "6": {
+          "text" : "La morcilla yo la cuezo aparte en un cacito para que no quede muy fuerte la sopa y si hago repollo también aparte.",
+          "img": "-"
+
       }
-  },
-  "other" : "",
-  "credits": "",
-  "remember": "Pedir en la carnicería que nos piquen la pechuga de pollo"
+    },
+    "other" : "Lo más importante es tener paciencia y no escatimar con los ingredientes. Poner garbanzos buenos le da muuuuucho sabor, aunque parezca que no.",
+    "credits": "",
+    "remember": "Pon los garbanzos en remojo la noche de antes, que siempre se te olvida."
   },
   {
     "id": 5,
-    "main-img": "asdadsad",
+    "main-img": "",
+    "name" : "Crepes sin gluten",
+    "prep-time": "10 minutes",
+    "cook-time": "20 minutes",
+    "main-tag": "Postres",
+    "tags": ["Sin gluten", "Vegetariana"],
+    "rations": "4",
+    "fav": false,
+    "ingredients": {
+        "harina de garbanzos": {
+            "quantity": 250,
+            "unit": "gr"
+        },
+        "agua": {
+            "quantity": 300,
+            "unit": "ml"
+        },
+        "huevo": {
+          "quantity": 1,
+          "unit": "ud"
+        },
+        "leche": {
+          "quantity": 70,
+          "unit": "ml"
+        },
+        "aceite de oliva": {
+          "quantity": 10,
+          "unit": "ml"
+        },
+        "bicarbonato": {
+          "quantity": 1,
+          "unit": "cucharada"
+        },
+        "especias": {
+          "quantity": 1,
+          "unit": "al gusto"
+        }
+    },
+    "steps" :{
+        "1": {
+            "text" : "Mezclar y hacer en una sartén antiadherente.",
+            "img": "-"
+        }
+    },
+    "other" : "",
+    "credits": "",
+    "remember": "Acuérdate de comprar harina de garbanzos y leche de soja."
+  },
+  {
+    "id": 6,
+    "main-img": "",
+    "name" : "Cocido",
+    "prep-time": "15 minutos",
+    "cook-time": "210 minutos",
+    "main-tag": "Principales",
+    "tags": ["Española"],
+    "rations": "6",
+    "fav": false,
+    "ingredients": {
+        "garbanzos": {
+            "quantity": 350,
+            "unit": "gr"
+        },
+        "gallina": {
+            "quantity": 1,
+            "unit": "cuarto"
+        },
+        "morcillo": {
+          "quantity": 500,
+          "unit": "gr"
+        },
+        "chorizos": {
+          "quantity": 2,
+          "unit": "ud"
+        },
+        "morcilla": {
+          "quantity": 1,
+          "unit": "ud"
+        },
+        "huesos de jamón": {
+          "quantity": 2,
+          "unit": "ud"
+        },
+        "taco jamón": {
+          "quantity": 1,
+          "unit": "ud"
+        },
+        "lacón": {
+          "quantity": 1,
+          "unit": "trozo"
+        },
+        "patatas medianas": {
+          "quantity": 2,
+          "unit": "uds"
+        },
+        "zanahorias": {
+          "quantity": 3,
+          "unit": "uds"
+      }
+    },
+    "steps" :{
+        "1": {
+            "text" : "mezclar la pechuga de pollo picada en un recipiente con los huevos, el queso, la sémola de trigo, la sal, la pimienta, el aceite y la mezcla de semillas y frutos secos. Lo mezclamos todo muy bien. Si tenéis Thermomix u otro procesador de alimentos, podéis hacerlo con éste. Debemos conseguir una pasta.",
+            "img": "-"
+        },
+        "2": {
+            "text" : "Extendemos papel film y ponemos la mitad de la mezcla, enrollamos formando un rulo que cerramos apretando los extremos como si fuera un caramelo. Para cocinarlo podéis hacerlo de varias formas, bien  en el microondas, unos 8-10 minutos a máxima potencia dándole la vuelta a mitad de la cocción o al baño María, en este caso envuelvo el rulo de papel film de nuevo en papel aluminio.",
+            "img": "-"
+        },
+        "3": {
+          "text" : "Extendemos papel film y ponemos la mitad de la mezcla, enrollamos formando un rulo que cerramos apretando los extremos como si fuera un caramelo. Para cocinarlo podéis hacerlo de varias formas: bien  en el microondas, unos 8-10 minutos a máxima potencia dándole la vuelta a mitad de la cocción o al baño María, en este caso envuelvo el rulo de papel film de nuevo en papel aluminio. Lo dejamos cocer unos 30 o 40 minutos.",
+          "img": "-"
+        },
+        "4": {
+          "text" : "Una vez que está cocinado, lo dejamos enfriar y guardamos en el frigorífico. Una vez frío, está listo para utilizar.",
+          "img": "-"
+        }
+    },
+    "other" : "",
+    "credits": "",
+    "remember": "Pedir en la carnicería que nos piquen la pechuga de pollo"
+  },
+  {
+    "id": 7,
+    "main-img": "",
     "name" : "Salsa holandesa",
     "prep-time": "5 minutos",
     "cook-time": "10 minutos",
@@ -399,30 +399,30 @@
         "2": {
             "text" : "Déjala reposar unos 5 minutos.",
             "img": "-"
-        }, 
+        },
         "3": {
           "text" : "En una jarrita pon un colador y echa sobre él la mantequilla poco a poco para que se quede tanto en el colador como en el fondo de la jarra original la parte blanquecina de la mantequilla que es el suero."
-        }, 
+        },
         "4": {
           "text" : "Ahora ya podemos preparar la salsa holandesa. Para mi un truco muy bueno es utilizar una batidora de mano para montarla.",
           "img": "-"
-        }, 
+        },
         "5": {
           "text" : "Casca los huevos, separa la yema de la clara y echa las yemas en el vaso de la batidora junto con el zumo de limón o lima, la sal y el agua.",
           "img": "-"
-        }, 
+        },
         "6": {
           "text" : "Empieza a batir sin mover la batidora y cuando se empiece a montar la mezcla ve añadiendo poco a poco la mantequilla, sin dejar de batir.",
           "img": "-"
-        }, 
+        },
         "7": {
           "text" : "Casca los huevos, separa la yema de la clara y echa las yemas en el vaso de la batidora junto con el zumo de limón o lima, la sal y el agua.",
           "img": "-"
-        }, 
+        },
         "8": {
           "text" : "No eches toda la mantequilla, fíjate que en el fondo seguirá quedando un poco de residuo blanquecino y no debes añadirlo. ",
           "img": "-"
-        }, 
+        },
         "9": {
           "text" : "Cuando ya la tengas lista ten en cuenta que en cuanto deje de estar en contacto con calor se endurecerá, así que para mantenerla bien ve cambiando el agua del recipiente exterior para que siempre esté caliente. También puedes pasarla a un bol y mantener éste sobre un cazo con agua caliente pero sin llegar a hervir y sin que en ningún momento el bol toque el agua.",
           "img": "-"
@@ -431,6 +431,5 @@
     "other" : "Truco: si se te ha solidificado demasiado y quieres aligerarla o simplemente quieres que la salsa no sea tan espesa, añade una cucharadita de agua caliente y tritúrala con la batidora de nuevo. Puedes añadir tanta agua como necesites hasta conseguir la textura que buscas, pero no te pases porque podría quedarse demasiado líquida y además el sabor quedaría demasiado diluido. Yo suelo añadir entre una y dos cucharadas soperas de agua para que no me quede demasiado espesa.",
     "credits": "",
     "remember": "Pedir en la carnicería que nos piquen la pechuga de pollo"
-  }
-]
+  }]
 }

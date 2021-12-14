@@ -9,14 +9,14 @@ import {
 import './index.css';
 import App from './App';
 import Detail from "./routes/details/DetailRoute";
-import RecipeDetail from "./recipe-detail/RecipeDetail";
+
 
 ReactDOM.render(
   <BrowserRouter>
     <Routes>
         <Route path="/" element={<App />} />
         <Route path="receta" element={<Detail />} >
-          <Route path=":recipeId" element={<RecipeDetail />} />
+          <Route path=":recipeId" />
         </Route>
         <Route
             path="*"

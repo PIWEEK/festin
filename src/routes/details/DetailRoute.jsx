@@ -6,7 +6,6 @@ import {
 
 
 export default function Detail() {
-
     const [recipe, setRecipe] = useState([]);
     const [isLoading, setIsLoading] = useState(true);
     let params = useParams();
@@ -20,31 +19,31 @@ export default function Detail() {
                 setIsLoading(false);
             });
     };
+
     useEffect(() => {
         fetchRecipe(baseUrl);
     }, [baseUrl]);
 
-    if(isLoading){
+    if (isLoading) {
         return (
-            <main style={{ padding: "1rem 0" }}>
-                ...
-              <Link to="/">Festín</Link>
-            </main>
-          );
+                <main style={{ padding: "1rem 0" }}>
+                    ...
+                    <Link to="/">Festín</Link>
+                </main>
+            );
     }
-    console.log(params, baseUrl, recipe)
     const [thisRecipe] = recipe;
-    console.log(thisRecipe);
     const {name, tags, fav } = thisRecipe;
     return (
-      <main style={{ padding: "1rem 0" }}>
-        <h2>Detail</h2>
-        <p>Name: {name}</p>
-
-            <p>Fav: {fav ? "Si" : "No"}</p>
-            <p>Categoria: {thisRecipe["main-tag"]}</p>
-            <p>{tags.map(item=><span>{item}</span>)}</p>
-        <Link to="/">Festín</Link>
-      </main>
+        <main>
+            <h2>Detail</h2>
+            <p>Name: {name}</p>
+            {thisRecipe["main-img"] !== "" && <img src={thisRecipe["main-img"]}></img>}
+            <img src={thisRecipe["main-img"]}></img>
+                <p>Fav: {fav ? "Si" : "No"}</p>
+                <p>Categoria: {thisRecipe["main-tag"]}</p>
+                <p>{tags.map(item=><span>{item}</span>)}</p>
+            <Link to="/">Festín</Link>
+        </main>
     );
-  }
+}
