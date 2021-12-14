@@ -9,7 +9,7 @@ const RecipeManager = () => {
     const [tags, setTags] = useState([]);
     const [sections, setSections] = useState([]);
 
-    const [toggleFav, setToggleFav] = useState("all");
+    const [toggleFav, setToggleFav] = useState(false);
     const [selectedSection, setSelectedSection] = useState("all");
     const [selectedTags, setSelectedTags] = useState([]);
     const [recipeName, setRecipeName] = useState("");
@@ -22,17 +22,13 @@ const RecipeManager = () => {
     const fetchRecipes = (baseUrl, recipeName, toggleFav, section, selectedTags) => {
         const nameFilter = recipeName ? `name_like=${recipeName}` : "";
 
-        const favFilter = {
-            "all": "",
-            "fav": "fav=true",
-            "nofav": "fav=false",
-        };
+        const favFilter = toggleFav ? "fav=true" : "";
 
         const mainTagFilter = section !== "all" ? `main-tag_like=${section}` : "";
 
         const tagsFilter = selectedTags.length >= 0 ? `tags_like=${selectedTags.join()}` : "";
 
-        const url = `${baseUrl}?${nameFilter}&${favFilter[toggleFav]}&${mainTagFilter}&${tagsFilter}`;
+        const url = `${baseUrl}?${nameFilter}&${favFilter}&${mainTagFilter}&${tagsFilter}`;
 
         fetch(url)
             .then(response => response.json())
@@ -82,6 +78,7 @@ const RecipeManager = () => {
                 favs={favRecipes}
                 sections={sections}
                 tags={tags}
+                toggleFav={toggleFav}
                 manageInput={manageInput}
                 setToggleFav={setToggleFav}
                 setSelectedSection={setSelectedSection}

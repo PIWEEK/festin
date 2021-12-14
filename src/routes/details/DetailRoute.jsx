@@ -3,6 +3,7 @@ import {
     useParams
   } from "react-router-dom";
   import React, { useState, useEffect } from "react";
+  import "./DetailRecipe.css";
 
 
 export default function Detail() {
@@ -35,15 +36,46 @@ export default function Detail() {
     const [thisRecipe] = recipe;
     const {name, tags, fav } = thisRecipe;
     return (
-        <main>
-            <h2>Detail</h2>
-            <p>Name: {name}</p>
-            {thisRecipe["main-img"] !== "" && <img src={thisRecipe["main-img"]}></img>}
-            <img src={thisRecipe["main-img"]}></img>
-                <p>Fav: {fav ? "Si" : "No"}</p>
-                <p>Categoria: {thisRecipe["main-tag"]}</p>
-                <p>{tags.map(item=><span>{item}</span>)}</p>
-            <Link to="/">Festín</Link>
-        </main>
+        <div className="recipeWrapper">
+            <aside className="imageAside" style={{
+                    backgroundImage:`url('${thisRecipe["main-img"]}')`,
+                }}>
+                <Link to="/">Festín</Link>
+            </aside>
+            <main>
+                <section className={`FrontRecipe ${thisRecipe["main-tag"]}`}>
+                    <div className="PrepBar">
+                        <div className="prepPartial">
+                            <p className="prepText">Preparación</p>
+                            <p className="prepText">{thisRecipe["prep-time"]}</p>
+                        </div>
+                        <div className="prepPartial">
+                            <p className="prepText">Cocinado</p>
+                            <p className="prepText">{thisRecipe["cook-time"]}</p>
+                        </div>
+                        <div className="prepPartial">
+                            <p className="prepText">Total</p>
+                            <p className="prepText">{thisRecipe["total-time"]}</p>
+                        </div>
+                    </div>
+                    <div className="NameBar">
+                        <h2 className="recipeTitle">{name}</h2>
+                        <p>
+                            <span className="tag">{fav ? "Preferidas" : ""}</span>
+                            {tags.map(item=>
+                                <span key={item} className="tag">{item}</span> )}
+                        </p>
+                    </div>
+                </section>
+                <section>
+                    <p>Ingredientes</p>
+
+                </section>
+                <section>
+                    <p>Pasos</p>
+
+                </section>
+            </main>
+        </div>
     );
 }
