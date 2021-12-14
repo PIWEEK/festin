@@ -9,7 +9,7 @@ const RecipeManager = () => {
     const [tags, setTags] = useState([]);
     const [sections, setSections] = useState([]);
 
-    const [toggleFav, setToggleFav] = useState("all"); // Puede ser only fav, only no fav, all
+    const [toggleFav, setToggleFav] = useState("all");
     const [selectedSection, setSelectedSection] = useState("all");
     const [selectedTags, setSelectedTags] = useState([]);
     const [recipeName, setRecipeName] = useState("");
@@ -20,7 +20,6 @@ const RecipeManager = () => {
     const sectionsUrl = "http://localhost:3004/main-tags";
 
     const fetchRecipes = (baseUrl, recipeName, toggleFav, section, selectedTags) => {
-        console.log("en el fetch", selectedTags);
         const nameFilter = recipeName ? `name_like=${recipeName}` : "";
 
         const favFilter = {
@@ -31,10 +30,7 @@ const RecipeManager = () => {
 
         const mainTagFilter = section !== "all" ? `main-tag_like=${section}` : "";
 
-
         const tagsFilter = selectedTags.length >= 0 ? `tags_like=${selectedTags.join()}` : "";
-
-        console.log(tagsFilter);
 
         const url = `${baseUrl}?${nameFilter}&${favFilter[toggleFav]}&${mainTagFilter}&${tagsFilter}`;
 
@@ -70,7 +66,6 @@ const RecipeManager = () => {
     };
 
     useEffect(() => {
-        console.log("en el effect",selectedTags )
         fetchRecipes(recipeUrl, recipeName, toggleFav, selectedSection, selectedTags);
         fetchFavs(favsUrl);
         fetchTags(tagsUrl);
@@ -92,7 +87,7 @@ const RecipeManager = () => {
                 setSelectedSection={setSelectedSection}
                 setSelectedTags={setSelectedTags}
                 selectedTags={selectedTags}/>
-            <RecipeList recipes={recipes} />
+                <RecipeList recipes={recipes} />
         </>
     );
 };

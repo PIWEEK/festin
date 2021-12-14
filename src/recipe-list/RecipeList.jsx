@@ -1,4 +1,6 @@
 import Recipe from "../recipe/Recipe";
+import './RecipeList.css';
+
 function RecipeList({recipes}) {
     return (
         <ul>
