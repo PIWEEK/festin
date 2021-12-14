@@ -1,24 +1,7 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  },
   "main-tags": ["Entrantes", "Principales", "Postres", "Bebidas", "Salsas"],
   "tags" : ["Vegetariana" ,"Vegana" , "Sin gluten", "Sin azúcar", "Sin lactosa", "Sin huevo", "Sin soja", "Sin pescado", "Sin crustaceos", "Japonesa", "Española", "Mediterránea", "Americana", "India", "Thai", "China", "Francesa", "Italiana"],
-  "recipes": [
+  "recipes": [  
     {
       "id": 1,
       "main-img": "asdadsad",
@@ -118,6 +101,336 @@
     "other" : "",
     "credits": "",
     "remember": ""
+},
+{
+  "id": 3,
+  "main-img": "asdadsad",
+  "name" : "Crepes sin gluten",
+  "prep-time": "10 minutes",
+  "cook-time": "20 minutes",
+  "main-tag": "Postres",
+  "tags": ["Sin gluten", "Vegetariana"],
+  "rations": "4",
+  "fav": false,
+  "ingredients": {
+      "harina de garbanzos": {
+          "quantity": 250,
+          "unit": "gr"
+      },
+      "agua": {
+          "quantity": 300,
+          "unit": "ml"
+      },
+      "huevo": {
+        "quantity": 1,
+        "unit": "ud"
+      }, 
+      "leche": {
+        "quantity": 70,
+        "unit": "ml"
+      },
+      "aceite de oliva": {
+        "quantity": 10,
+        "unit": "ml"
+      },
+      "bicarbonato": {
+        "quantity": 1,
+        "unit": "cucharada"
+      },
+      "especias": {
+        "quantity": 1,
+        "unit": "al gusto"
+      }
+  },
+  "steps" :{
+      "1": {
+          "text" : "Mezclar y hacer en una sartén antiadherente.",
+          "img": "-"
+      }
+  },
+  "other" : "",
+  "credits": "",
+  "remember": "Acuérdate de comprar harina de garbanzos y leche de soja."
+},
+{
+  "id": 4,
+  "main-img": "asdadsad",
+  "name" : "Cocido",
+  "prep-time": "15 minutos",
+  "cook-time": "210 minutos",
+  "main-tag": "Principales",
+  "tags": ["Española"],
+  "rations": "6",
+  "fav": false,
+  "ingredients": {
+      "garbanzos": {
+          "quantity": 350,
+          "unit": "gr"
+      },
+      "gallina": {
+          "quantity": 1,
+          "unit": "cuarto"
+      },
+      "morcillo": {
+        "quantity": 500,
+        "unit": "gr"
+      },
+      "chorizos": {
+        "quantity": 2,
+        "unit": "ud"
+      },
+      "morcilla": {
+        "quantity": 1,
+        "unit": "ud"
+      },
+      "huesos de jamón": {
+        "quantity": 2,
+        "unit": "ud"
+      },
+      "taco jamón": {
+        "quantity": 1,
+        "unit": "ud"
+      },
+      "lacón": {
+        "quantity": 1,
+        "unit": "trozo"
+      },
+      "patatas medianas": {
+        "quantity": 2,
+        "unit": "uds"
+      },
+      "zanahorias": {
+        "quantity": 3,
+        "unit": "uds"
 }
-  ]
+  },
+  "steps" :{
+      "1": {
+          "text" : "Se pone en una cazuela grande el morcillo, el jamón, el lacón y los huesos. Se pone agua fría (bastante, pero contando que tienen que caber el resto de ingredientes).",
+          "img": "-"
+      },
+      "2": {
+          "text" : "Cuando rompe a hervir, le quitas la espuma y hechas los garbanzos escurridos.",
+          "img": "-"
+      }, 
+      "3": {
+        "text" : "A la hora echas los chorizos y la gallina.",
+        "img": "-"
+      }, 
+      "4": {
+        "text" : "Lo dejas otra hora y echas la patata y la zanahoria. Cuando veas que está hecha se apaga y se deja reposar.",
+        "img": "-"
+      }, 
+      "5": {
+        "text" : "Luego típica sopa de fideos con el caldo.",
+        "img": "-"
+      }, 
+      "6": {
+        "text" : "La morcilla yo la cuezo aparte en un cacito para que no quede muy fuerte la sopa y si hago repollo también aparte.",
+        "img": "-"
+        
+    }
+  },
+  "other" : "Lo más importante es tener paciencia y no escatimar con los ingredientes. Poner garbanzos buenos le da muuuuucho sabor, aunque parezca que no.",
+  "credits": "",
+  "remember": "Pon los garbanzos en remojo la noche de antes, que siempre se te olvida."
+},
+{
+  "id": 3,
+  "main-img": "asdadsad",
+  "name" : "Crepes sin gluten",
+  "prep-time": "10 minutes",
+  "cook-time": "20 minutes",
+  "main-tag": "Postres",
+  "tags": ["Sin gluten", "Vegetariana"],
+  "rations": "4",
+  "fav": false,
+  "ingredients": {
+      "harina de garbanzos": {
+          "quantity": 250,
+          "unit": "gr"
+      },
+      "agua": {
+          "quantity": 300,
+          "unit": "ml"
+      },
+      "huevo": {
+        "quantity": 1,
+        "unit": "ud"
+      }, 
+      "leche": {
+        "quantity": 70,
+        "unit": "ml"
+      },
+      "aceite de oliva": {
+        "quantity": 10,
+        "unit": "ml"
+      },
+      "bicarbonato": {
+        "quantity": 1,
+        "unit": "cucharada"
+      },
+      "especias": {
+        "quantity": 1,
+        "unit": "al gusto"
+      }
+  },
+  "steps" :{
+      "1": {
+          "text" : "Mezclar y hacer en una sartén antiadherente.",
+          "img": "-"
+      }
+  },
+  "other" : "",
+  "credits": "",
+  "remember": "Acuérdate de comprar harina de garbanzos y leche de soja."
+},
+{
+  "id": 4,
+  "main-img": "asdadsad",
+  "name" : "Cocido",
+  "prep-time": "15 minutos",
+  "cook-time": "210 minutos",
+  "main-tag": "Principales",
+  "tags": ["Española"],
+  "rations": "6",
+  "fav": false,
+  "ingredients": {
+      "garbanzos": {
+          "quantity": 350,
+          "unit": "gr"
+      },
+      "gallina": {
+          "quantity": 1,
+          "unit": "cuarto"
+      },
+      "morcillo": {
+        "quantity": 500,
+        "unit": "gr"
+      },
+      "chorizos": {
+        "quantity": 2,
+        "unit": "ud"
+      },
+      "morcilla": {
+        "quantity": 1,
+        "unit": "ud"
+      },
+      "huesos de jamón": {
+        "quantity": 2,
+        "unit": "ud"
+      },
+      "taco jamón": {
+        "quantity": 1,
+        "unit": "ud"
+      },
+      "lacón": {
+        "quantity": 1,
+        "unit": "trozo"
+      },
+      "patatas medianas": {
+        "quantity": 2,
+        "unit": "uds"
+      },
+      "zanahorias": {
+        "quantity": 3,
+        "unit": "uds"
+    } 
+  },
+  "steps" :{
+      "1": {
+          "text" : "mezclar la pechuga de pollo picada en un recipiente con los huevos, el queso, la sémola de trigo, la sal, la pimienta, el aceite y la mezcla de semillas y frutos secos. Lo mezclamos todo muy bien. Si tenéis Thermomix u otro procesador de alimentos, podéis hacerlo con éste. Debemos conseguir una pasta.",
+          "img": "-"
+      },
+      "2": {
+          "text" : "Extendemos papel film y ponemos la mitad de la mezcla, enrollamos formando un rulo que cerramos apretando los extremos como si fuera un caramelo. Para cocinarlo podéis hacerlo de varias formas, bien  en el microondas, unos 8-10 minutos a máxima potencia dándole la vuelta a mitad de la cocción o al baño María, en este caso envuelvo el rulo de papel film de nuevo en papel aluminio.",
+          "img": "-"
+      }, 
+      "3": {
+        "text" : "Extendemos papel film y ponemos la mitad de la mezcla, enrollamos formando un rulo que cerramos apretando los extremos como si fuera un caramelo. Para cocinarlo podéis hacerlo de varias formas: bien  en el microondas, unos 8-10 minutos a máxima potencia dándole la vuelta a mitad de la cocción o al baño María, en este caso envuelvo el rulo de papel film de nuevo en papel aluminio. Lo dejamos cocer unos 30 o 40 minutos.",
+        "img": "-"
+      }, 
+      "4": {
+        "text" : "Una vez que está cocinado, lo dejamos enfriar y guardamos en el frigorífico. Una vez frío, está listo para utilizar.",
+        "img": "-"
+      }
+  },
+  "other" : "",
+  "credits": "",
+  "remember": "Pedir en la carnicería que nos piquen la pechuga de pollo"
+  },
+  {
+    "id": 5,
+    "main-img": "asdadsad",
+    "name" : "Salsa holandesa",
+    "prep-time": "5 minutos",
+    "cook-time": "10 minutos",
+    "main-tag": "Salsa",
+    "tags": ["Vegetariana"],
+    "rations": "4",
+    "fav": false,
+    "ingredients": {
+        "yemas de huevo": {
+            "quantity": 2,
+            "unit": "ud"
+        },
+        "mantequilla sin sal": {
+            "quantity": 100,
+            "unit": "gr"
+        },
+        "agua": {
+          "quantity": 1,
+          "unit": "cucharada"
+        },
+        "zumo de limón o lima": {
+          "quantity": 1,
+          "unit": "cucharadita"
+        },
+        "sal": {
+          "quantity": 1,
+          "unit": "pizca"
+        }
+    },
+    "steps" :{
+        "1": {
+            "text" : "El primer caso es clarificar la mantequilla. Para ello ponla en un cazo a fuego suave hasta que se vuelva líquida, y durante el proceso no la remuevas ni tampoco esperes a que hierva y burbujee. Esto mismo también puedes hacerlo en el microondas, vigilando cada pocos segundos para comprobar si ya está líquida.",
+            "img": "-"
+        },
+        "2": {
+            "text" : "Déjala reposar unos 5 minutos.",
+            "img": "-"
+        }, 
+        "3": {
+          "text" : "En una jarrita pon un colador y echa sobre él la mantequilla poco a poco para que se quede tanto en el colador como en el fondo de la jarra original la parte blanquecina de la mantequilla que es el suero."
+        }, 
+        "4": {
+          "text" : "Ahora ya podemos preparar la salsa holandesa. Para mi un truco muy bueno es utilizar una batidora de mano para montarla.",
+          "img": "-"
+        }, 
+        "5": {
+          "text" : "Casca los huevos, separa la yema de la clara y echa las yemas en el vaso de la batidora junto con el zumo de limón o lima, la sal y el agua.",
+          "img": "-"
+        }, 
+        "6": {
+          "text" : "Empieza a batir sin mover la batidora y cuando se empiece a montar la mezcla ve añadiendo poco a poco la mantequilla, sin dejar de batir.",
+          "img": "-"
+        }, 
+        "7": {
+          "text" : "Casca los huevos, separa la yema de la clara y echa las yemas en el vaso de la batidora junto con el zumo de limón o lima, la sal y el agua.",
+          "img": "-"
+        }, 
+        "8": {
+          "text" : "No eches toda la mantequilla, fíjate que en el fondo seguirá quedando un poco de residuo blanquecino y no debes añadirlo. ",
+          "img": "-"
+        }, 
+        "9": {
+          "text" : "Cuando ya la tengas lista ten en cuenta que en cuanto deje de estar en contacto con calor se endurecerá, así que para mantenerla bien ve cambiando el agua del recipiente exterior para que siempre esté caliente. También puedes pasarla a un bol y mantener éste sobre un cazo con agua caliente pero sin llegar a hervir y sin que en ningún momento el bol toque el agua.",
+          "img": "-"
+      }
+    },
+    "other" : "Truco: si se te ha solidificado demasiado y quieres aligerarla o simplemente quieres que la salsa no sea tan espesa, añade una cucharadita de agua caliente y tritúrala con la batidora de nuevo. Puedes añadir tanta agua como necesites hasta conseguir la textura que buscas, pero no te pases porque podría quedarse demasiado líquida y además el sabor quedaría demasiado diluido. Yo suelo añadir entre una y dos cucharadas soperas de agua para que no me quede demasiado espesa.",
+    "credits": "",
+    "remember": "Pedir en la carnicería que nos piquen la pechuga de pollo"
+  }
+]
 }
