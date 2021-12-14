@@ -72,3 +72,12 @@ main{
     margin: 7px;
     border-radius: 14px;
 }
+
+.backLink{
+    font-size: 2rem;
+    text-decoration: none;
+    color:white;
+    padding: 20px;
+    position:fixed;
+    background-color: black;
+}

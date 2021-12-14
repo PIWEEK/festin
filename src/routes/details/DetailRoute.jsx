@@ -34,13 +34,18 @@ export default function Detail() {
             );
     }
     const [thisRecipe] = recipe;
-    const {name, tags, fav } = thisRecipe;
+    const {name, tags, fav, ingredients, steps } = thisRecipe;
+    const ingredientList = Object.keys(ingredients);
+    const stepList = Object.values(steps);
+    console.log(ingredientList, ingredients, stepList);
     return (
         <div className="recipeWrapper">
             <aside className="imageAside" style={{
                     backgroundImage:`url('${thisRecipe["main-img"]}')`,
                 }}>
-                <Link to="/">Festín</Link>
+                <Link to="/">
+                    <span className="backLink">Festín</span>
+                </Link>
             </aside>
             <main>
                 <section className={`FrontRecipe ${thisRecipe["main-tag"]}`}>
@@ -61,7 +66,9 @@ export default function Detail() {
                     <div className="NameBar">
                         <h2 className="recipeTitle">{name}</h2>
                         <p>
-                            <span className="tag">{fav ? "Preferidas" : ""}</span>
+                            {fav ?
+                                <span className="tag">Preferidas</span> :
+                                "" }
                             {tags.map(item=>
                                 <span key={item} className="tag">{item}</span> )}
                         </p>
@@ -69,11 +76,27 @@ export default function Detail() {
                 </section>
                 <section>
                     <p>Ingredientes</p>
-
+                    <ul>
+                        {ingredientList.map((ingr) => {
+                            const cantidad = ingredients[ingr].quantity;
+                            const unidad = ingredients[ingr].unit;
+                            return(
+                                <li key={ingr}>
+                                    {`${ingr}: ${cantidad} ${unidad} `}
+                                </li>
+                            )
+                        })}
+                    </ul>
                 </section>
                 <section>
                     <p>Pasos</p>
-
+                        <ul>
+                            {stepList.map((step, index)=>{
+                                return(
+                                    <li key={index}>{step.text}</li>
+                                )
+                            })}
+                        </ul>
                 </section>
             </main>
         </div>
