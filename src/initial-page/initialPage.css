@@ -1,58 +1,56 @@
 .initial {
-    margin: 20;
-    align-self: center;
-    font-family: 'DM Serif Display', serif;
-  }
-  .tagSelection {
-    display: flex;
-    list-style: none;
-    align-self: center;
-    font-family: 'DM Sans', sans-serif;
-    justify-content: space-between;
-  }
-  .searchBar {
-    font-size: 2.4rem;
-    width: 25rem;
-    height: 5rem;
-    border: none;
-    outline: none;
-    border-radius: 5rem;
-    padding: 2rem;
-    font-family: 'DM Sans', sans-serif;
-  }
-  .labelAsButton {
-    font-size: 0.75rem;
-    display: flex;
-    margin: 3px;
-    position: relative;
-    min-width: 100px;
-    height: 25px;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid black;
-    border-radius: 20px;
-    cursor: pointer;
-  }
-  .inputCheck, .inputRadio {
-    display: none;
-  }
-  .labelAsMenu {
-    font-size: 0.75rem;
-    display: flex;
-    margin: 3px;
-    position: relative;
-    min-width: 100px;
-    height: 25px;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid black;
-    border-radius: 20px;
-    cursor: pointer;
-  }
-  .sectionWrapper {
-    display: flex;
-    list-style: none;
-    align-self: center;
-    font-family: 'DM Sans', sans-serif;
-    justify-content: space-between;
-  }
+  margin: 20;
+  align-self: center;
+  font-family: 'DM Serif Display', serif;
+}
+.tagSelection {
+  display: flex;
+  list-style: none;
+  align-self: center;
+  font-family: 'DM Sans', sans-serif;
+}
+.searchBar {
+  font-size: 2.4rem;
+  width: 25rem;
+  height: 5rem;
+  border: none;
+  outline: none;
+  border-radius: 5rem;
+  padding: 2rem;
+  font-family: 'DM Serif Display', serif;
+}
+.labelAsButton {
+  font-size: 1rem;
+  display: flex;
+  position: relative;
+  padding: 5px 20px;
+  height: 25px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.inputCheck, .inputRadio {
+  display: none;
+}
+.labelAsMenu {
+  font-size: 0.75rem;
+  display: flex;
+  margin: 3px;
+  position: relative;
+  min-width: 100px;
+  height: 25px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.sectionWrapper {
+  display: flex;
+  list-style: none;
+  align-self: center;
+  font-family: 'DM Sans', sans-serif;
+  justify-content: space-between;
+}
