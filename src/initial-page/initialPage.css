@@ -2,6 +2,7 @@
   margin: 20;
   align-self: center;
   font-family: 'DM Serif Display', serif;
+  padding-top: 3rem;
 }
 
 .tagWrapper {
@@ -48,9 +49,10 @@
   display: none;
 }
 
-:checked + span {
+:checked + span.labelAsButton {
   font-weight: bold;
-  background-color: red;
+  color: white;
+  background-color: black;
 }
 
 .sectionWrapper {
@@ -59,7 +61,7 @@
   list-style: none;
   align-self: center;
   font-family: 'DM Sans', sans-serif;
-  margin: 3rem;
+  margin: 6rem 0 0 3rem;
 }
 
 .labelAsMenu {
