@@ -1,4 +1,6 @@
 import React, { useCallback } from "react";
+
+import { ReactComponent as FestinLogo }from '../assets/festinLogoBlack.svg';
 import './initialPage.css';
 
 function InitialPage({sections, tags, manageInput, setToggleFav, setSelectedSection, setSelectedTags, selectedTags, toggleFav}) {
@@ -22,6 +24,9 @@ function InitialPage({sections, tags, manageInput, setToggleFav, setSelectedSect
 
     return (
         <div className="initial">
+            <span className="logoWrapper">
+                <FestinLogo />
+            </span>
             <div>
                 <input className="searchBar" type="input" placeholder="Buscar recetas" onChange={manageInput} />
             </div>

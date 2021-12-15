@@ -1,12 +1,11 @@
 import {
     Link,
     useParams
-  } from "react-router-dom";
-  import React, { useState, useEffect } from "react";
-  import "./DetailRecipe.css";
+} from "react-router-dom";
+import React, { useState, useEffect } from "react";
 
-  import { ReactComponent as FestinLogo }from '../../assets/festinLogo.svg';
-
+import "./DetailRecipe.css";
+import { ReactComponent as FestinLogo }from '../../assets/festinLogo.svg';
 
 export default function Detail() {
     const [recipe, setRecipe] = useState([]);
@@ -30,9 +29,11 @@ export default function Detail() {
     if (isLoading) {
         return (
                 <main style={{ padding: "1rem 0" }}>
-                    ...
                     <Link to="/">
-                        Festín</Link>
+                        <span className="backLink">
+                            <FestinLogo />
+                        </span>
+                    </Link>
                 </main>
             );
     }

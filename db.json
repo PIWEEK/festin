@@ -77,7 +77,7 @@
       "cook-time": "40 minutos",
       "total-time": "1 hora",
       "main-tag": "Entrantes",
-      "tags": ["Sin gluten", "Vegetariana"],
+      "tags": ["Española", "Sin soja"],
       "rations": "4",
       "fav": true,
       "ingredients": {
@@ -247,7 +247,7 @@
     "cook-time": "5 minutos",
     "total-time": "10 minutos",
     "main-tag": "Bebidas",
-    "tags": ["", ""],
+    "tags": ["Sin crustaceos", "Sin pescadp", "Sin lactosa", "Vegetariana"],
     "rations": "6",
     "fav": false,
     "ingredients": {
