@@ -25,7 +25,7 @@ function InitialPage({sections, tags, manageInput, setToggleFav, setSelectedSect
     return (
         <div className="initial">
             <span className="logoWrapper">
-                <FestinLogo />
+                <FestinLogo/>
             </span>
             <div>
                 <input className="searchBar" type="input" placeholder="Buscar recetas" onChange={manageInput} />

@@ -33,7 +33,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 80px;
+    padding: 60px;
 }
 
 .FrontRecipe.Principales{
@@ -168,14 +168,14 @@
     height: 200px;
     width: 200px;
     margin: -80px;
-    background: var(--all-recipes-color-font);
+    background: black;
     position: absolute;
     filter: blur(120px);
 }
 
 .ingredientsRecipe {
     font-family: 'DM Serif';
-    margin: 80px;
+    margin: 100px;
     list-style: none;
 }
 
@@ -198,7 +198,7 @@
 
 .stepsRecipe {
     font-family: 'DM Serif';
-    margin: 80px;
+    margin: 100px;
     list-style: none;
 }
 

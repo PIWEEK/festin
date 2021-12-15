@@ -61,7 +61,7 @@
 }
 
 span.labelAsMenu{
-  color: rgba(0, 0, 0, 0.4)
+  color: var(--all-recipes-color-font);
 }
 
 :checked + span.labelAsButton{
@@ -71,8 +71,8 @@ span.labelAsMenu{
 }
 
 :checked + span.labelAsButton {
-  color: white;
-  background-color: black;
+  color: var(--all-recipes-color);
+  background-color: var(--all-recipes-color-font);
 }
 
 .sectionWrapper {
@@ -94,10 +94,6 @@ span.labelAsMenu{
   align-items: center;
   cursor: pointer;
 }
-
-span.labelAsMenu{
-  color: rgba(0, 0, 0, 0.4)
-  }
 
 :checked + span.labelAsMenu{
   font-weight: bold;
