@@ -60,14 +60,18 @@
 }
 
 .prepPartial{
+    font-family: 'DM Sans';
     margin: 0 15px;
 }
 
 .prepText{
+    font-family: 'DM Sans';
     margin: 5px 15px;
 }
 
 .tag {
+    font-family: 'DM Sans';
+    font-size: 0.75rem;
     border: 1px solid black;
     padding: 5px 14px;
     margin: 7px;
@@ -83,3 +87,47 @@
     background-color: black;
 }
 
+.ingredientsRecipe {
+    font-family: 'DM Serif';
+    margin: 50px 60px;
+    list-style: none;
+}
+
+.ingredientsList {
+    margin: -10px -40px;
+    list-style: none;
+    font-family: 'DM Sans';
+    line-height: 40px;
+}
+
+.ingredientCheck {
+    display: none;
+}
+
+/*:checked + span.ingredientLabel{
+    text-decoration-line: line-through;
+}
+*/
+
+
+.stepsRecipe {
+    font-family: 'DM Serif';
+    margin: 10px 60px;
+    list-style: none;
+}
+
+.stepsList {
+    font-family: 'DM Sans';
+    list-style: none;
+    line-height: 25px;
+}
+span.ingredientLabel:before{
+    content: "\025ef";
+    margin: 5px 10px;
+    width: 20px;
+}
+
+:checked + span.ingredientLabel:before{
+    content: "\02713";
+    width: 20px;
+}
