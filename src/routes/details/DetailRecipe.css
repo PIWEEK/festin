@@ -15,18 +15,19 @@
     min-height: 100vh;
     width: 40vw;
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: center;
     background-size: cover;
 }
 
-main{
-    width: 59.5vw;
+.recipeMain{
+    width: 100%;
+    height: 100vh;
+    overflow-y: auto;
 }
 
 .FrontRecipe{
     background-color: #e5dec4;
     height: calc(100vh - 70px);
-    overflow-y: auto;
     overflow-x: hidden;
     display: flex;
     flex-direction: column;
@@ -81,3 +82,4 @@ main{
     position:fixed;
     background-color: black;
 }
+

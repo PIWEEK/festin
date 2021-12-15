@@ -47,7 +47,7 @@ export default function Detail() {
                     <span className="backLink">Festín</span>
                 </Link>
             </aside>
-            <main>
+            <main className="recipeMain">
                 <section className={`FrontRecipe ${thisRecipe["main-tag"]}`}>
                     <div className="PrepBar">
                         <div className="prepPartial">
