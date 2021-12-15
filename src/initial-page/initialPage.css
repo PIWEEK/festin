@@ -1,7 +1,11 @@
 .initial {
   align-self: center;
   font-family: 'DM Serif Display', serif;
-  padding-top: 3rem;
+  padding-top: 20px;
+}
+
+.logoWrapper{
+  margin: 50px;
 }
 
 .tagSelection {
@@ -43,6 +47,16 @@
 
 .inputCheck, .inputRadio {
   display: none;
+}
+
+span.labelAsMenu{
+  color: rgba(0, 0, 0, 0.4)
+}
+
+:checked + span.labelAsButton{
+  font-weight: bold;
+  background-color: var(--all-recipes-color-font);
+  color: var(--all-recipes-color);
 }
 
 :checked + span.labelAsButton {
