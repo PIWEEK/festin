@@ -73,32 +73,32 @@ export default function Detail() {
                         </p>
                     </div>
                 </section>
-                <section>
-                    <p>Ingredientes</p>
-                    <ul>
+                <section className="ingredientsRecipe">
+                    <h1>Ingredientes</h1>
+                    <ul className="ingredientsList">
                         {ingredientList.map((ingr) => {
                             const cantidad = ingredients[ingr].quantity;
                             const unidad = ingredients[ingr].unit;
                             return(
                                 <li key={ingr}>
-                                    <label htmlFor={ingr}>
-                                        <input className="ingredientCheck" onClick={() =>{}} type="checkbox" name={ingr} id={ingr} />
-                                        <span className="ingredItem">{`${ingr}: ${cantidad} ${unidad}`}</span>
-                                    </label>
+                                  <label htmlFor={ingr}>
+                                    <input className="ingredientCheck" onClick={() =>{}} type="checkbox" name={ingr} id={ingr} />
+                                    <span className="ingredientLabel">{`${ingr}: ${cantidad} ${unidad} `}</span>
+                                  </label>
                                 </li>
                             )
                         })}
                     </ul>
                 </section>
-                <section>
-                    <p>Pasos</p>
-                        <ul>
+                <section className="stepsRecipe">
+                    <h1>Pasos</h1>
+                        <p className="stepsList">
                             {stepList.map((step, index)=>{
                                 return(
                                     <li key={index}>{step.text}</li>
                                 )
                             })}
-                        </ul>
+                        </p>
                 </section>
             </main>
         </div>
