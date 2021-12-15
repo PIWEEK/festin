@@ -37,7 +37,6 @@ export default function Detail() {
     const {name, tags, fav, ingredients, steps } = thisRecipe;
     const ingredientList = Object.keys(ingredients);
     const stepList = Object.values(steps);
-    console.log(ingredientList, ingredients, stepList);
     return (
         <div className="recipeWrapper">
             <aside className="imageAside" style={{
@@ -46,6 +45,7 @@ export default function Detail() {
                 <Link to="/">
                     <span className="backLink">Festín</span>
                 </Link>
+                <img src={`url('${thisRecipe["main-img"]}')`}></img>
             </aside>
             <main className="recipeMain">
                 <section className={`FrontRecipe ${thisRecipe["main-tag"]}`}>

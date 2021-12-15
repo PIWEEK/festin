@@ -5,16 +5,19 @@ import "./Recipe.css";
 
 function Recipe({recipe}) {
     return (
-      <Link
-        to={`/receta/${recipe.id}`}
-        key={recipe.id}>
-        <li key={recipe.id} className="recipe">
-            <p>Name: {recipe.name}</p>
-            <p>Fav: {recipe.fav ? "Si" : "No"}</p>
-            <p>Categoria: {recipe["main-tag"]}</p>
-            <p>{recipe.tags.map(item=><span key={item}>{item}</span>)}</p>
-        </li>
-      </Link>
+      <li key={recipe.id} className="recipe">
+        <Link
+          to={`/receta/${recipe.id}`}
+          key={recipe.id}>
+              <p className="recipeImg"><img src={recipe["main-img"]} alt="main"></img></p>
+              <p className="recipeName">{recipe.name}</p>
+              {/* 
+              <p>Fav: {recipe.fav ? "Si" : "No"}</p>
+              <p>Categoria: {recipe["main-tag"]}</p>
+              <p>{recipe.tags.map(item=><span key={item}>{item}</span>)}</p>
+              */}
+        </Link>
+      </li>
     );
   }
 
