@@ -48,6 +48,11 @@
   display: none;
 }
 
+:checked + span {
+  font-weight: bold;
+  background-color: red;
+}
+
 .sectionWrapper {
   display: flex;
   justify-content: flex-start;

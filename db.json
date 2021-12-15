@@ -374,25 +374,38 @@
     },{
     "steps" :{
         "1": {
-            "text" : "mezclar la pechuga de pollo picada en un recipiente con los huevos, el queso, la sémola de trigo, la sal, la pimienta, el aceite y la mezcla de semillas y frutos secos. Lo mezclamos todo muy bien. Si tenéis Thermomix u otro procesador de alimentos, podéis hacerlo con éste. Debemos conseguir una pasta.",
+            "text" : "Comenzamos limpiando las tajadas de pollo retirando la piel y cortándolas en trozos de tamaño mediano limpios y sin hueso. Yo usé pechugas y contramuslos para hacerlo de manera más sencilla.",
             "img": "-"
         },
         "2": {
-            "text" : "Extendemos papel film y ponemos la mitad de la mezcla, enrollamos formando un rulo que cerramos apretando los extremos como si fuera un caramelo. Para cocinarlo podéis hacerlo de varias formas, bien  en el microondas, unos 8-10 minutos a máxima potencia dándole la vuelta a mitad de la cocción o al baño María, en este caso envuelvo el rulo de papel film de nuevo en papel aluminio.",
+            "text" : "Preparamos nuestra mezcla de especias, con el garam masala, comino molido, cilantro en polvo, hojas de curry, cúrcuma, ajo en polvo, jengibre en polvo, y lo mezclamos bien. Tomamos la mitad de esa mezcla y la reservamos.",
             "img": "-"
         },
         "3": {
-          "text" : "Extendemos papel film y ponemos la mitad de la mezcla, enrollamos formando un rulo que cerramos apretando los extremos como si fuera un caramelo. Para cocinarlo podéis hacerlo de varias formas: bien  en el microondas, unos 8-10 minutos a máxima potencia dándole la vuelta a mitad de la cocción o al baño María, en este caso envuelvo el rulo de papel film de nuevo en papel aluminio. Lo dejamos cocer unos 30 o 40 minutos.",
+          "text" : "La otra mitad de esas especias, la mezclamos con el yogur y la utilizamos para marinar allí el pollo durante unas horas. Podéis hacerlo por la noche y dejarlo toda la noche en la nevera para que tome sabor.",
           "img": "-"
         },
         "4": {
-          "text" : "Una vez que está cocinado, lo dejamos enfriar y guardamos en el frigorífico. Una vez frío, está listo para utilizar.",
+          "text" : "Tras el marinado, freímos las tajadas de pollo hasta que queden ligeramente doradas.",
           "img": "-"
+        },
+        "5": {
+          "text" : "Después preparamos una pasta con el tomate concentrado, tres tomates sin piel ni pepitas, la cebolla, un diente de ajo, unas bayas de pimienta y la otra mitad de la mezcla de especias, triturando en un procesador de alimentos.",
+          "img": "-"
+        },
+        "6": {
+          "text" : "En la misma sartén donde tenemos las tajadas del pollo, añadimos la leche de coco y la pasta de tomate y especias que hemos hecho con el procesador, dejando que el pollo cueza dentro, donde tomará su tradicional color rojizo. Mientras el pollo se termina de hacer, podemos aprovechar para preparar el arroz para la guarnición.",
+          "img": "-"
+        },
+        "3": {
+          "text" : "Terminamos la receta añadiendo si queremos un poco de cilantro fresco muy picado que refrescará la elaboración o agregando un cm de raíz de jengibre rallado.",
+          "img": "-"
+      }
         }
     },
     "other" : "",
     "credits": "",
-    "remember": "Pedir en la carnicería que nos piquen la pechuga de pollo"
+    "remember": "Dejar las especias marinadas con el yogur toda la noche en la nevera para que tome sabor."
   },
   {
     "id": 7,
