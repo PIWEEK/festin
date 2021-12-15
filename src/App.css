@@ -1,5 +1,11 @@
 body {
   margin: 0;
+  background: #f3f3f8;
   align-self: center;
   font-family: 'DM Sans', sans-serif;
+}
+
+p{
+  font-size: 1.2rem;
+  color: black;
 }

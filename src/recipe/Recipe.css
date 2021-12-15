@@ -10,13 +10,14 @@
   .recipe {
     list-style: none;
     width: 23.5%;
-    padding: 0;
+    padding-bottom: 30px;
     align-self: center;
     font-family: 'DM Sans', sans-serif;
   }
 
   .recipeName {
     text-decoration: none;
+    padding: 5px 0;
   }
 
   .recipeImg {

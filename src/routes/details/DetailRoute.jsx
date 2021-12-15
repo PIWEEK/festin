@@ -5,6 +5,8 @@ import {
   import React, { useState, useEffect } from "react";
   import "./DetailRecipe.css";
 
+  import { ReactComponent as FestinLogo }from '../../assets/festinLogo.svg';
+
 
 export default function Detail() {
     const [recipe, setRecipe] = useState([]);
@@ -29,7 +31,8 @@ export default function Detail() {
         return (
                 <main style={{ padding: "1rem 0" }}>
                     ...
-                    <Link to="/">Festín</Link>
+                    <Link to="/">
+                        Festín</Link>
                 </main>
             );
     }
@@ -43,7 +46,9 @@ export default function Detail() {
                     backgroundImage:`url('${thisRecipe["main-img"]}')`,
                 }}>
                 <Link to="/">
-                    <span className="backLink">Festín</span>
+                    <span className="backLink">
+                        <FestinLogo />
+                    </span>
                 </Link>
             </aside>
             <main className="recipeMain">
