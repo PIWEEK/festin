@@ -50,7 +50,8 @@
 
 :checked + span {
   font-weight: bold;
-  background-color: red;
+  background-color: black;
+  color: white;
 }
 
 .sectionWrapper {

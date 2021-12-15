@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   margin: 50px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +17,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root {
+  /*Colors*/
+  --all-recipes-color: #e5dec4;
+  --entrantes-color: #c8c777;
+  --sopas-color: #ffdd96;
+  --principales-color: 240, 180, 133;
+  /*
+  Este color va con opacidad, ojo¡¡¡
+    :root{ --color: 240, 240, 240;
+        }
+
+    #element {
+      background-color: rgba(var(--color), 0.1);
+    }
+  */
+  --salsas-color: #f9a4a3;
+  --postres-color: #bdbfec;
+  --bebidas-color: #b4d8e0;
+
+  --all-recipes-color-font: #244521;
+  --entrantes-color-font: #244521;
+  --sopas-color-font: #244521;
+  --principales-color-font: #244521;
+  --salsas-color-font: #244521;
+  --postres-color-font: #244521;
+  --bebidas-color-font: #244521;
+
+  /* Fonts */
+  --title-font: "Bebas Neue", cursive;
+}
+

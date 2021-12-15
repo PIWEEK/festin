@@ -4,7 +4,7 @@
   "recipes": [
   {
         "id": 1,
-        "main-img": "https://drive.google.com/uc?export=view&id=1JFVDdFRYWgr7jLJ35PgsvBMOQpkZt7a5/view?usp=sharing",
+        "main-img": "https://drive.google.com/uc?export=view&id=1JFVDdFRYWgr7jLJ35PgsvBMOQpkZt7a5",
         "name" : "Fiambre de pollo casero",
         "prep-time": "5 minutos",
         "cook-time": "25 minutos",
@@ -71,7 +71,7 @@
   },
   {
       "id": 2,
-      "main-img": "https://drive.google.com/uc?export=view&id=/1JGuDnbe8-ChhsTu8Y-2V12tAyYIwk9e7/view?usp=sharing",
+      "main-img": "https://drive.google.com/uc?export=view&id=1JGuDnbe8-ChhsTu8Y-2V12tAyYIwk9e7",
       "name" : "Empanadillas de atún",
       "prep-time": "20 minutos",
       "cook-time": "40 minutos",
@@ -106,7 +106,7 @@
   },
   {
     "id": 3,
-    "main-img": "https://drive.google.com/file/d/111xrdiqqd2P0Xkprl1Cp44Ppm1TKwvbw/view?usp=sharing",
+    "main-img": "https://drive.google.com/uc?export=view&id=111xrdiqqd2P0Xkprl1Cp44Ppm1TKwvbw",
     "name" : "Crepes sin gluten",
     "prep-time": "10 minutos",
     "cook-time": "20 minutos",
@@ -157,7 +157,7 @@
   },
   {
     "id": 4,
-    "main-img": "https://drive.google.com/uc?export=view&id=/1kbMCSqQRJxVRBSQojd6c0dUhybIe92-O//view?usp=sharing",
+    "main-img": "https://drive.google.com/uc?export=view&id=1kbMCSqQRJxVRBSQojd6c0dUhybIe92-O",
     "name" : "Cocido",
     "prep-time": "15 minutos",
     "cook-time": "210 minutos",
@@ -241,7 +241,7 @@
   },
   {
     "id": 5,
-    "main-img": "https://drive.google.com/uc?export=view&id=/1t95uJw_c5d1hIkK_pj-hhGVfeuFC3j6a//view?usp=sharing",
+    "main-img": "https://drive.google.com/uc?export=view&id=1l0etNTq6p5wZq6oIKzSPlEegZs8avnjg",
     "name" : "Mojito Thermomix",
     "prep-time": "5 minutos",
     "cook-time": "5 minutos",
@@ -284,7 +284,7 @@
         "2": {
             "text" : "Sin limpiar el vaso, añade los hielos y dale 5 o 6 golpes de turbo (recuerda, usa hielo hecho en casa, que el de bolsa comercial es muy duro). Reparte el hielo triturado en los vasos donde habías puesto la menta y el azúcar",
             "img": "-"
-        }, 
+        },
         "3": {
             "text" : "Añade un chorrito de ron en cada vaso, el zumo de ½ lima por vaso y el refresco hasta completar el vaso. Decora con una rodaja de lima y unas hojas de menta o hierbabuena. Remueve con una pajita y listo para disfrutar.",
             "img": "-"
@@ -296,7 +296,7 @@
   },
   {
     "id": 6,
-    "main-img": "https://drive.google.com/uc?export=view&id=/1t95uJw_c5d1hIkK_pj-hhGVfeuFC3j6a/view?usp=sharing",
+    "main-img": "https://drive.google.com/uc?export=view&id=1t95uJw_c5d1hIkK_pj-hhGVfeuFC3j6a",
     "name" : "Pollo tikka masala",
     "prep-time": "20 minutos",
     "cook-time": "30 minutos",
@@ -365,7 +365,7 @@
         "ajo en polvo": {
           "quantity": 1,
           "unit": "cucharadita"
-        },  
+        },
         "diente de ajo": {
           "quantity": 1,
           "unit": "ud"
@@ -407,7 +407,7 @@
   },
   {
     "id": 7,
-    "main-img": "https://drive.google.com/uc?export=view&id=/1tS_rNFDB4TBAiATivRohR1e66GUUNA3w/view?usp=sharing",
+    "main-img": "https://drive.google.com/uc?export=view&id=1tS_rNFDB4TBAiATivRohR1e66GUUNA3w",
     "name" : "Salsa holandesa",
     "prep-time": "5 minutos",
     "cook-time": "10 minutos",

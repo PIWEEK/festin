@@ -82,4 +82,27 @@
     position:fixed;
     background-color: black;
 }
+.ingredItem{
+    margin-left:20px
+}
 
+:checked + span.ingredItem {
+    font-weight: normal;
+    text-decoration: line-through;
+    background-color: transparent;
+    color:inherit;
+}
+
+:checked + span.ingredItem:before {
+    content: "\02713";
+
+}
+
+span.ingredItem:before{
+    content: "\025ef";
+
+}
+
+.ingredientCheck{
+    display: none;
+}

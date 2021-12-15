@@ -45,7 +45,6 @@ export default function Detail() {
                 <Link to="/">
                     <span className="backLink">Festín</span>
                 </Link>
-                <img src={`url('${thisRecipe["main-img"]}')`}></img>
             </aside>
             <main className="recipeMain">
                 <section className={`FrontRecipe ${thisRecipe["main-tag"]}`}>
@@ -82,7 +81,10 @@ export default function Detail() {
                             const unidad = ingredients[ingr].unit;
                             return(
                                 <li key={ingr}>
-                                    {`${ingr}: ${cantidad} ${unidad} `}
+                                    <label htmlFor={ingr}>
+                                        <input className="ingredientCheck" onClick={() =>{}} type="checkbox" name={ingr} id={ingr} />
+                                        <span className="ingredItem">{`${ingr}: ${cantidad} ${unidad}`}</span>
+                                    </label>
                                 </li>
                             )
                         })}
