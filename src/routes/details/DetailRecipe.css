@@ -1,0 +1,85 @@
+.recipeWrapper {
+    display: grid;
+    grid-template-columns: 40% 1fr;
+}
+
+.PrepBar{
+    display: flex;
+}
+.NameBar{
+    width: 100%;
+}
+
+.imageAside{
+    height:100%;
+    min-height: 100vh;
+    width: 40vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.recipeMain{
+    width: 100%;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.FrontRecipe{
+    background-color: #e5dec4;
+    height: calc(100vh - 70px);
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 35px;
+}
+
+.FrontRecipe.Principales{
+    background-color: #f0b485;
+}
+
+.FrontRecipe.Entrantes{
+    background-color: #c8c777;
+}
+
+.FrontRecipe.Postres{
+    background-color: #bdbfec;
+}
+
+.FrontRecipe.Bebidas{
+    background-color: #b4d8e0;
+}
+
+.FrontRecipe.Salsas{
+    background-color: #f9a4a3;
+}
+
+.recipeTitle{
+    font-size: 4rem;
+}
+
+.prepPartial{
+    margin: 0 15px;
+}
+
+.prepText{
+    margin: 5px 15px;
+}
+
+.tag {
+    border: 1px solid black;
+    padding: 5px 14px;
+    margin: 7px;
+    border-radius: 14px;
+}
+
+.backLink{
+    font-size: 2rem;
+    text-decoration: none;
+    color:white;
+    padding: 20px;
+    position:fixed;
+    background-color: black;
+}
+

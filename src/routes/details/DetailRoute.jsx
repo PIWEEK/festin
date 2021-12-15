@@ -3,6 +3,7 @@ import {
     useParams
   } from "react-router-dom";
   import React, { useState, useEffect } from "react";
+  import "./DetailRecipe.css";
 
 
 export default function Detail() {
@@ -33,17 +34,71 @@ export default function Detail() {
             );
     }
     const [thisRecipe] = recipe;
-    const {name, tags, fav } = thisRecipe;
+    const {name, tags, fav, ingredients, steps } = thisRecipe;
+    const ingredientList = Object.keys(ingredients);
+    const stepList = Object.values(steps);
+    console.log(ingredientList, ingredients, stepList);
     return (
-        <main>
-            <h2>Detail</h2>
-            <p>Name: {name}</p>
-            {thisRecipe["main-img"] !== "" && <img src={thisRecipe["main-img"]}></img>}
-            <img src={thisRecipe["main-img"]}></img>
-                <p>Fav: {fav ? "Si" : "No"}</p>
-                <p>Categoria: {thisRecipe["main-tag"]}</p>
-                <p>{tags.map(item=><span>{item}</span>)}</p>
-            <Link to="/">Festín</Link>
-        </main>
+        <div className="recipeWrapper">
+            <aside className="imageAside" style={{
+                    backgroundImage:`url('${thisRecipe["main-img"]}')`,
+                }}>
+                <Link to="/">
+                    <span className="backLink">Festín</span>
+                </Link>
+            </aside>
+            <main className="recipeMain">
+                <section className={`FrontRecipe ${thisRecipe["main-tag"]}`}>
+                    <div className="PrepBar">
+                        <div className="prepPartial">
+                            <p className="prepText">Preparación</p>
+                            <p className="prepText">{thisRecipe["prep-time"]}</p>
+                        </div>
+                        <div className="prepPartial">
+                            <p className="prepText">Cocinado</p>
+                            <p className="prepText">{thisRecipe["cook-time"]}</p>
+                        </div>
+                        <div className="prepPartial">
+                            <p className="prepText">Total</p>
+                            <p className="prepText">{thisRecipe["total-time"]}</p>
+                        </div>
+                    </div>
+                    <div className="NameBar">
+                        <h2 className="recipeTitle">{name}</h2>
+                        <p>
+                            {fav ?
+                                <span className="tag">Preferidas</span> :
+                                "" }
+                            {tags.map(item=>
+                                <span key={item} className="tag">{item}</span> )}
+                        </p>
+                    </div>
+                </section>
+                <section>
+                    <p>Ingredientes</p>
+                    <ul>
+                        {ingredientList.map((ingr) => {
+                            const cantidad = ingredients[ingr].quantity;
+                            const unidad = ingredients[ingr].unit;
+                            return(
+                                <li key={ingr}>
+                                    {`${ingr}: ${cantidad} ${unidad} `}
+                                </li>
+                            )
+                        })}
+                    </ul>
+                </section>
+                <section>
+                    <p>Pasos</p>
+                        <ul>
+                            {stepList.map((step, index)=>{
+                                return(
+                                    <li key={index}>{step.text}</li>
+                                )
+                            })}
+                        </ul>
+                </section>
+            </main>
+        </div>
     );
 }
