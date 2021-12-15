@@ -1,11 +1,17 @@
 body {
   margin: 0;
-  background: #f3f3f8;
+  background: var(--all-recipes-color);
   align-self: center;
   font-family: 'DM Sans', sans-serif;
 }
 
+
+@font-face {
+  font-family: Restora;
+  src: url("./assets/font/restora.otf") format("opentype");
+}
+
 p{
   font-size: 1.2rem;
-  color: black;
+  color: var(--all-recipes-color-font);
 }

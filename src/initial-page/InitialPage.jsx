@@ -44,7 +44,6 @@ function InitialPage({sections, tags, manageInput, setToggleFav, setSelectedSect
                         </label>
                     </li>
                 )}
-
             </ul>
             <div className="sectionWrapper">
                 <label htmlFor="all">

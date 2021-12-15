@@ -57,15 +57,15 @@ export default function Detail() {
                 <section className={`FrontRecipe ${thisRecipe["main-tag"]}`}>
                     <div className="PrepBar">
                         <div className="prepPartial">
-                            <p className={`prepText ${thisRecipe["main-tag"]}`}>Preparación</p>
+                            <p className={`prepText prepTitle ${thisRecipe["main-tag"]}`}>Preparación</p>
                             <p className={`prepText ${thisRecipe["main-tag"]}`}>{thisRecipe["prep-time"]}</p>
                         </div>
                         <div className="prepPartial">
-                            <p className={`prepText ${thisRecipe["main-tag"]}`}>Cocinado</p>
+                            <p className={`prepText prepTitle ${thisRecipe["main-tag"]}`}>Cocinado</p>
                             <p className={`prepText ${thisRecipe["main-tag"]}`}>{thisRecipe["cook-time"]}</p>
                         </div>
                         <div className="prepPartial">
-                            <p className={`prepText ${thisRecipe["main-tag"]}`}>Total</p>
+                            <p className={`prepText prepTitle ${thisRecipe["main-tag"]}`}>Total</p>
                             <p className={`prepText ${thisRecipe["main-tag"]}`}>{thisRecipe["total-time"]}</p>
                         </div>
                     </div>
@@ -102,7 +102,7 @@ export default function Detail() {
                         <p className="stepsList">
                             {stepList.map((step, index)=>{
                                 return(
-                                    <li key={index}>{step.text}</li>
+                                    <li className="steps" key={index}>{step.text}</li>
                                 )
                             })}
                         </p>

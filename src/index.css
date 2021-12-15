@@ -27,7 +27,7 @@ code {
   --postres-color: #ffbd89;
   --bebidas-color: #ffb3b3;
 
-  --all-recipes-color-font: #000;
+  --all-recipes-color-font: rgb(39, 128, 104);
   --entrantes-color-font: #ffdaab;
   --principales-color-font: #ffb3de;
   --salsas-color-font: #c5ffb3;

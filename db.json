@@ -1,6 +1,6 @@
 {
   "main-tags": ["Entrantes", "Principales", "Postres", "Bebidas", "Salsas"],
-  "tags" : ["Vegetariana" ,"Vegana" , "Sin gluten", "Sin azúcar", "Sin lactosa", "Sin huevo", "Sin soja", "Sin pescado", "Sin crustaceos", "Japonesa", "Española", "Mediterránea", "Americana", "India", "Thai", "China", "Francesa", "Italiana"],
+  "tags" : ["Vegetariana" ,"Vegana" , "Sin gluten", "Sin azúcar", "Sin lactosa", "Sin huevo", "Sin soja", "Sin pescado", "Sin crustáceos", "Japonesa", "Española", "Mediterránea", "Americana", "India", "Thai", "China", "Francesa", "Italiana"],
   "recipes": [
   {
         "id": 1,
@@ -158,10 +158,10 @@
   {
     "id": 4,
     "main-img": "https://drive.google.com/uc?export=view&id=1kbMCSqQRJxVRBSQojd6c0dUhybIe92-O",
-    "name" : "Cocido",
+    "name" : "Cocido madrileño",
     "prep-time": "15 minutos",
     "cook-time": "210 minutos",
-    "total-time": "2 horas  y 45 minutos",
+    "total-time": "2h y 45min",
     "main-tag": "Principales",
     "tags": ["Española"],
     "rations": "6",
@@ -247,7 +247,7 @@
     "cook-time": "5 minutos",
     "total-time": "10 minutos",
     "main-tag": "Bebidas",
-    "tags": ["Sin crustaceos", "Sin pescadp", "Sin lactosa", "Vegetariana"],
+    "tags": ["Sin crustáceos", "Sin pescado", "Sin lactosa", "Vegetariana"],
     "rations": "6",
     "fav": false,
     "ingredients": {
