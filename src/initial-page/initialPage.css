@@ -34,6 +34,29 @@
 .inputCheck, .inputRadio {
   display: none;
 }
+
+.labelAsButton {
+  font-size: 1rem;
+  display: flex;
+  position: relative;
+  padding: 5px 20px;
+  height: 25px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.inputCheck:checked + label{
+  background-color: red;
+}
+
+:checked + span {
+  font-weight: bold;
+  background-color: red;
+}
+
 .labelAsMenu {
   font-size: 0.75rem;
   display: flex;

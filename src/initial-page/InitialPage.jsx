@@ -29,10 +29,18 @@ function InitialPage({sections, tags, manageInput, setToggleFav, setSelectedSect
             </div>
             <ul className="tagSelection">
                 <li>
-                    <label className="labelAsButton" htmlFor="fav"><input className="inputCheck" type="checkbox" onClick={()=> manageFavorite()} name="favOption" id="fav" value="fav" />Preferidas</label>
+                    <label htmlFor="fav">
+                    <input className="inputCheck" type="checkbox" onClick={()=> manageFavorite()} name="favOption" id="fav"/>
+                    <span className="labelAsButton" >Preferidas</span>
+                    </label>
                 </li>
-                {tags.map(tag => <li key={`tag-${tag}`}><label className="labelAsButton" htmlFor={tag}>
-                  <input className="inputCheck" onClick={() => manageCheck(tag)} type="checkbox" name={tag} id={tag} />{tag}</label></li>)}
+                {tags.map(tag => <li key={`tag-${tag}`}>
+                        <label htmlFor={tag}>
+                            <input className="inputCheck" onClick={() => manageCheck(tag)} type="checkbox" name={tag} id={tag} />
+                            <span className="labelAsButton" >{tag}</span>
+                        </label>
+                    </li>
+                )}
             </ul>
             <div className="sectionWrapper">
                 <label  className="labelAsMenu" htmlFor="all"><input className="inputRadio" type="radio" onClick={()=> setSelectedSection("all")} name="sectionName" id="all" value="all" />Todas</label>
