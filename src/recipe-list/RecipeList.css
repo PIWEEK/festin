@@ -1,6 +1,15 @@
 .RecipeList {
     font-size: 1rem;
     display: flex;
+    width: 100%;
     flex-direction: row;
     font-family: 'DM Sans', sans-serif;
+  }
+
+  .recipeListWrapper {
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
   }

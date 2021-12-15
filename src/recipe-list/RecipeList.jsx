@@ -3,7 +3,7 @@ import './RecipeList.css';
 
 function RecipeList({recipes}) {
     return (
-        <ul>
+        <ul className="recipeListWrapper">
             {recipes.map(recipe => <Recipe key={recipe.id} recipe={recipe}/>)}
         </ul>
     );

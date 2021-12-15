@@ -3,22 +3,30 @@
   align-self: center;
   font-family: 'DM Serif Display', serif;
 }
+
+.tagWrapper {
+  margin: 8px;
+}
+
 .tagSelection {
   display: flex;
+  flex-wrap: wrap;
   list-style: none;
   align-self: center;
   font-family: 'DM Sans', sans-serif;
 }
+
 .searchBar {
-  font-size: 2.4rem;
+  font-size: 3rem;
   width: 25rem;
   height: 5rem;
   border: none;
   outline: none;
   border-radius: 5rem;
-  padding: 2rem;
+  padding: 0 3rem;
   font-family: 'DM Serif Display', serif;
 }
+
 .labelAsButton {
   font-size: 1rem;
   display: flex;
@@ -31,25 +39,13 @@
   border-radius: 12px;
   cursor: pointer;
 }
+
+.labelAsButton:hover {
+  background: #0000001A;
+}
+
 .inputCheck, .inputRadio {
   display: none;
-}
-
-.labelAsButton {
-  font-size: 1rem;
-  display: flex;
-  position: relative;
-  padding: 5px 20px;
-  height: 25px;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid black;
-  border-radius: 12px;
-  cursor: pointer;
-}
-
-.inputCheck:checked + label{
-  background-color: red;
 }
 
 :checked + span {
@@ -57,23 +53,22 @@
   background-color: red;
 }
 
-.labelAsMenu {
-  font-size: 0.75rem;
-  display: flex;
-  margin: 3px;
-  position: relative;
-  min-width: 100px;
-  height: 25px;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid black;
-  border-radius: 20px;
-  cursor: pointer;
-}
 .sectionWrapper {
   display: flex;
+  justify-content: flex-start;
   list-style: none;
   align-self: center;
   font-family: 'DM Sans', sans-serif;
-  justify-content: space-between;
+  margin: 3rem;
+}
+
+.labelAsMenu {
+  font-size: 2rem;
+  display: flex;
+  margin: 0 2rem 0 0;
+  padding: 0;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
