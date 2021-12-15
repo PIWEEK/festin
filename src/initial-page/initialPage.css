@@ -51,11 +51,15 @@ p{
 span.labelAsMenu{
   color: rgba(0, 0, 0, 0.4)
 }
+:checked + span.labelAsButton{
+  font-weight: bold;
+  background-color: var(--all-recipes-color-font);
+  color: var(--all-recipes-color);
+}
 
 :checked + span.labelAsMenu{
   font-weight: bold;
   color: var(--all-recipes-color-font);
-
 }
 
 .sectionWrapper {
