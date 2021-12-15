@@ -23,15 +23,14 @@ function InitialPage({sections, tags, manageInput, setToggleFav, setSelectedSect
 
     return (
         <div className="initial">
-            Aquí va el logo
             <div>
                 <input className="searchBar" type="input" placeholder="Buscar recetas" onChange={manageInput} />
             </div>
             <ul className="tagSelection">
-                <li>
+                <li className="tagWrapper">
                     <label className="labelAsButton" htmlFor="fav"><input className="inputCheck" type="checkbox" onClick={()=> manageFavorite()} name="favOption" id="fav" value="fav" />Preferidas</label>
                 </li>
-                {tags.map(tag => <li key={`tag-${tag}`}><label className="labelAsButton" htmlFor={tag}>
+                {tags.map(tag => <li  className="tagWrapper" key={`tag-${tag}`}><label className="labelAsButton" htmlFor={tag}>
                   <input className="inputCheck" onClick={() => manageCheck(tag)} type="checkbox" name={tag} id={tag} />{tag}</label></li>)}
             </ul>
             <div className="sectionWrapper">
