@@ -48,6 +48,7 @@ export default function Detail() {
                 <Link to="/">
                     <span className="backLink">
                         <FestinLogo />
+                        <div className="blur"></div>
                     </span>
                 </Link>
             </aside>
