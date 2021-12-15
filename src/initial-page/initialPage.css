@@ -48,11 +48,14 @@ p{
 .inputCheck, .inputRadio {
   display: none;
 }
+span.labelAsMenu{
+  color: rgba(0, 0, 0, 0.4)
+}
 
-:checked + span.labelAsButton {
+:checked + span.labelAsMenu{
   font-weight: bold;
-  color: white;
-  background-color: black;
+  color: var(--all-recipes-color-font);
+
 }
 
 .sectionWrapper {
@@ -68,7 +71,7 @@ p{
   font-size: 2rem;
   display: flex;
   margin: 0 2rem 0 0;
-  padding: 0;
+  padding: 0 5px;
   position: relative;
   justify-content: center;
   align-items: center;
