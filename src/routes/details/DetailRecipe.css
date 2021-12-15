@@ -26,7 +26,8 @@
 }
 
 .FrontRecipe{
-    background-color: #e5dec4;
+    background-color: var(--all-recipes-color);
+    color: var(--all-recipes-color-font);
     height: 100vh;
     overflow-x: hidden;
     display: flex;
@@ -36,23 +37,28 @@
 }
 
 .FrontRecipe.Principales{
-    background-color: #f0b485;
+    background-color: var(--principales-color);
+    color: var(--principales-color-font);
 }
 
 .FrontRecipe.Entrantes{
-    background-color: #c8c777;
+    background-color: var(--entrantes-color);
+    color: var(--entrantes-color-font);
 }
 
 .FrontRecipe.Postres{
-    background-color: #bdbfec;
+    background-color: var(--postres-color);
+    color: var(--postres-color-font);
 }
 
 .FrontRecipe.Bebidas{
-    background-color: #b4d8e0;
+    background-color: var(--bebidas-color);
+    color: var(--bebidas-color-font);
 }
 
 .FrontRecipe.Salsas{
-    background-color: #f9a4a3;
+    background-color: var(--salsas-color);
+    color: var(--salsas-color-font);
 }
 
 .recipeTitle{
@@ -72,19 +78,51 @@
 .tag {
     font-family: 'DM Sans';
     font-size: 0.75rem;
-    border: 1px solid black;
+    border: 1px solid var(--all-recipes-color-font);
     padding: 5px 14px;
     margin: 7px;
     border-radius: 14px;
 }
 
+.FrontRecipe.Postres .tag {
+    border: 1px solid var(--postres-color-font);
+    background-color: var(--postres-color);
+    color: var(--postres-color-font);
+}
+
+.FrontRecipe.Principales .tag{
+    border: 1px solid var(--principales-color-font);
+    background-color: var(--principales-color);
+    color: var(--principales-color-font);
+}
+
+.FrontRecipe.Entrantes .tag{
+    border: 1px solid var(--entrantes-color-font);
+    background-color: var(--entrantes-color);
+    color: var(--entrantes-color-font);
+}
+
+.FrontRecipe.Bebidas .tag{
+    border: 1px solid var(--bebidas-color-font);
+    background-color: var(--bebidas-color);
+    color: var(--bebidas-color-font);
+}
+
+.FrontRecipe.Salsas .tag{
+    border: 1px solid var(--salsas-color-font);
+    background-color: var(--salsas-color);
+    color: var(--salsas-color-font);
+}
+
 .backLink{
+    background-color: rgba(0, 0, 0, 0.37);
     font-size: 2rem;
     text-decoration: none;
-    color:white;
-    padding: 20px;
+    margin: 20px;
     position:fixed;
-    background-color: black;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0px 0px 16px 2px #000000;
 }
 
 .ingredientsRecipe {
@@ -104,11 +142,9 @@
     display: none;
 }
 
-/*:checked + span.ingredientLabel{
+/* :checked + span.ingredientLabel{
     text-decoration-line: line-through;
-}
-*/
-
+} */
 
 .stepsRecipe {
     font-family: 'DM Serif';
