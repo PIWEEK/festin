@@ -27,7 +27,7 @@
 
 .FrontRecipe{
     background-color: #e5dec4;
-    height: calc(100vh - 70px);
+    height: 100vh;
     overflow-x: hidden;
     display: flex;
     flex-direction: column;
