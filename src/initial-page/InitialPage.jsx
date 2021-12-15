@@ -43,7 +43,7 @@ function InitialPage({sections, tags, manageInput, setToggleFav, setSelectedSect
             </ul>
             <div className="sectionWrapper">
                 <label htmlFor="all">
-                    <input className="inputRadio" type="radio" onClick={()=> setSelectedSection("all")} name="sectionName" id="all" value="all" />
+                    <input className="inputRadio" type="radio" onClick={()=> setSelectedSection("all")} name="sectionName" id="all" value="all" defaultChecked />
                     <span className="labelAsMenu All" >Todas</span>
                 </label>
                 {sections.map(section => {

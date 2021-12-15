@@ -33,7 +33,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 35px;
+    padding: 50px;
 }
 
 .FrontRecipe.Principales{
@@ -61,27 +61,55 @@
     color: var(--salsas-color-font);
 }
 
+
 .recipeTitle{
     font-size: 4rem;
+    padding: 40px 0;
 }
 
 .prepPartial{
     font-family: 'DM Sans';
-    margin: 0 15px;
+    width: 25%;
 }
 
 .prepText{
     font-family: 'DM Sans';
-    margin: 5px 15px;
+}
+
+.prepText.Principales{
+    color: var(--principales-color-font);
+}
+
+.prepText.Entrantes{
+    color: var(--entrantes-color-font);
+}
+
+.prepText.Postres{
+    color: var(--postres-color-font);
+}
+
+.prepText.Bebidas{
+    color: var(--bebidas-color-font);
+}
+
+.prepText.Salsas{
+    color: var(--salsas-color-font);
+}
+
+.tagContainer {
+    display: flex;
+    gap: 10px;
 }
 
 .tag {
     font-family: 'DM Sans';
-    font-size: 0.75rem;
+    font-size: 1.2rem;
     border: 1px solid var(--all-recipes-color-font);
-    padding: 5px 14px;
-    margin: 7px;
-    border-radius: 14px;
+    padding: 4px 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
 }
 
 .FrontRecipe.Postres .tag {
@@ -130,7 +158,7 @@
     margin: -80px;
     background: black;
     position: absolute;
-    filter: blur(90px);
+    filter: blur(120px);
 }
 
 .ingredientsRecipe {

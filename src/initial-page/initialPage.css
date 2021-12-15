@@ -4,10 +4,6 @@
   padding-top: 3rem;
 }
 
-p{
-  font-size: 1.2rem;
-}
-
 .tagSelection {
   display: flex;
   flex-wrap: wrap;
@@ -33,10 +29,10 @@ p{
   font-size: 1.2rem;
   display: flex;
   position: relative;
+  background: #e7e7f1;
   padding: 4px 14px;
   justify-content: center;
   align-items: center;
-  border: 1px solid black;
   border-radius: 12px;
   cursor: pointer;
 }
@@ -48,18 +44,10 @@ p{
 .inputCheck, .inputRadio {
   display: none;
 }
-span.labelAsMenu{
-  color: rgba(0, 0, 0, 0.4)
-}
-:checked + span.labelAsButton{
-  font-weight: bold;
-  background-color: var(--all-recipes-color-font);
-  color: var(--all-recipes-color);
-}
 
-:checked + span.labelAsMenu{
-  font-weight: bold;
-  color: var(--all-recipes-color-font);
+:checked + span.labelAsButton {
+  color: white;
+  background-color: black;
 }
 
 .sectionWrapper {
@@ -68,16 +56,26 @@ span.labelAsMenu{
   list-style: none;
   align-self: center;
   font-family: 'DM Sans', sans-serif;
-  margin: 50px 50px 10px 50px;
+  margin: 50px 50px 20px 50px;
 }
 
 .labelAsMenu {
   font-size: 2rem;
   display: flex;
   margin: 0 2rem 0 0;
-  padding: 0 5px;
+  padding: 0;
   position: relative;
   justify-content: center;
   align-items: center;
   cursor: pointer;
 }
+
+span.labelAsMenu{
+  color: rgba(0, 0, 0, 0.4)
+  }
+
+:checked + span.labelAsMenu{
+  font-weight: bold;
+  color: var(--all-recipes-color-font);
+  }
+

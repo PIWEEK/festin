@@ -56,21 +56,21 @@ export default function Detail() {
                 <section className={`FrontRecipe ${thisRecipe["main-tag"]}`}>
                     <div className="PrepBar">
                         <div className="prepPartial">
-                            <p className="prepText">Preparación</p>
-                            <p className="prepText">{thisRecipe["prep-time"]}</p>
+                            <p className={`prepText ${thisRecipe["main-tag"]}`}>Preparación</p>
+                            <p className={`prepText ${thisRecipe["main-tag"]}`}>{thisRecipe["prep-time"]}</p>
                         </div>
                         <div className="prepPartial">
-                            <p className="prepText">Cocinado</p>
-                            <p className="prepText">{thisRecipe["cook-time"]}</p>
+                            <p className={`prepText ${thisRecipe["main-tag"]}`}>Cocinado</p>
+                            <p className={`prepText ${thisRecipe["main-tag"]}`}>{thisRecipe["cook-time"]}</p>
                         </div>
                         <div className="prepPartial">
-                            <p className="prepText">Total</p>
-                            <p className="prepText">{thisRecipe["total-time"]}</p>
+                            <p className={`prepText ${thisRecipe["main-tag"]}`}>Total</p>
+                            <p className={`prepText ${thisRecipe["main-tag"]}`}>{thisRecipe["total-time"]}</p>
                         </div>
                     </div>
                     <div className="NameBar">
                         <h2 className="recipeTitle">{name}</h2>
-                        <p>
+                        <p className="tagContainer">
                             {fav ?
                                 <span className="tag">Preferidas</span> :
                                 "" }
