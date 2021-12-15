@@ -1,7 +1,6 @@
 import React, { useCallback } from "react";
 import './initialPage.css';
 
-
 function InitialPage({sections, tags, manageInput, setToggleFav, setSelectedSection, setSelectedTags, selectedTags, toggleFav}) {
     const manageCheck = useCallback(
         (tag) => {
@@ -43,10 +42,15 @@ function InitialPage({sections, tags, manageInput, setToggleFav, setSelectedSect
 
             </ul>
             <div className="sectionWrapper">
-                <label  className="labelAsMenu" htmlFor="all"><input className="inputRadio" type="radio" onClick={()=> setSelectedSection("all")} name="sectionName" id="all" value="all" />Todas</label>
+                <label htmlFor="all">
+                    <input className="inputRadio" type="radio" onClick={()=> setSelectedSection("all")} name="sectionName" id="all" value="all" />
+                    <span className="labelAsMenu All" >Todas</span>
+                </label>
                 {sections.map(section => {
-                    return <label className="labelAsMenu" key={section} htmlFor={section}>
-                    <input className="inputRadio" type="radio" onClick={()=> setSelectedSection(section)} name="sectionName" id={section} value={section} />{section}</label>
+                    return <label key={section} htmlFor={section}>
+                        <input className="inputRadio" type="radio" onClick={()=> setSelectedSection(section)} name="sectionName" id={section} value={section} />
+                        <span className={`labelAsMenu ${section}`} >{section}</span>
+                    </label>
                 })}
             </div>
         </div>
