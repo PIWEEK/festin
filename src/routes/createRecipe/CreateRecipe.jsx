@@ -34,7 +34,6 @@ export default function CreateRecipe() {
         fetch(url)
             .then(response => response.json())
             .then((data) => {
-                console.log(data);
                 setSections(data);
                 setIsLoading(false);
             });
