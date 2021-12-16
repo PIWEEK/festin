@@ -119,5 +119,9 @@ span.labelAsMenu{
 
   .iconWrapper{
     padding-right: 5px;
+    margin-bottom: -4px;
+    stroke: #e7e7f1;
+    stroke-width: 1px;
+    stroke-linejoin: round;
   }
 
