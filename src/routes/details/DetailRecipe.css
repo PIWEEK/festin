@@ -5,7 +5,9 @@
 
 .PrepBar{
     display: flex;
+    flex-wrap: wrap;
 }
+
 .NameBar{
     width: 100%;
 }
@@ -72,7 +74,7 @@
 
 .prepPartial{
     font-family: 'DM Sans';
-    width: 25%;
+    padding: 0 50px 30px 0;
 }
 
 .prepText{
@@ -104,6 +106,26 @@
 }
 
 .prepText.Salsas{
+    color: var(--salsas-color-font);
+}
+
+.rememberText.Principales{
+    color: var(--principales-color-font);
+}
+
+.rememberText.Entrantes{
+    color: var(--entrantes-color-font);
+}
+
+.rememberText.Postres{
+    color: var(--postres-color-font);
+}
+
+.rememberText.Bebidas{
+    color: var(--bebidas-color-font);
+}
+
+.rememberText.Salsas{
     color: var(--salsas-color-font);
 }
 
@@ -174,7 +196,7 @@
 }
 
 .ingredientsRecipe {
-    font-family: 'DM Serif';
+    font-family: 'DM Sans';
     margin: 100px;
     list-style: none;
 }
@@ -196,17 +218,16 @@
 }
 */
 
-.stepsRecipe {
-    font-family: 'DM Serif';
+.stepsRecipe, .otherText{
+    font-family: 'DM Sans';
     margin: 100px;
     list-style: none;
 }
 
-.stepsList {
+.stepsList{
     font-family: 'DM Sans';
     list-style: none;
-    margin: 20px 0px;
-    margin-bottom: 100px;
+    margin: 20px 0px 100px 0px;
     line-height: 25px;
 }
 
@@ -214,6 +235,13 @@
     color: var(--all-recipes-color-font);
     margin: 60px 0;
     line-height: 1.632;
+}
+
+.creditsText{
+    color: var(--all-recipes-color-font);
+    opacity: .8;
+    font-style: italic;
+    margin: 100px;
 }
 
 .ingredientLabel {

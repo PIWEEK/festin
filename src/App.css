@@ -13,4 +13,5 @@ body {
 p{
   font-size: 1.2rem;
   color: var(--all-recipes-color-font);
+  line-height: 1.632;
 }

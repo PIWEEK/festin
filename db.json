@@ -411,6 +411,7 @@
     "name" : "Salsa holandesa",
     "prep-time": "5 minutos",
     "cook-time": "10 minutos",
+    "total-time": "",
     "main-tag": "Salsas",
     "tags": ["Vegetariana"],
     "rations": "4",
@@ -558,6 +559,7 @@
     "name" : "Pan no pan",
     "prep-time": "5 minutos",
     "cook-time": "60 minutos",
+    "total-time": "",
     "main-tag": "Entrante",
     "tags": ["Sin Gluten"],
     "rations": "6",
@@ -640,10 +642,11 @@
   },
   {
     "id": 10,
-    "main-img": "https://drive.google.com/uc?export=view&id=1WVG1gPKszaJiS7o-WBN2Ys0p43q6POPo",
+    "main-img": "https://drive.google.com/uc?export=view&id=1WbYjwAdnBZMziVPuj99AniUr5G4NBYqc",
     "name" : "Salsa Romesco",
     "prep-time": "10 minutos",
     "cook-time": "30 minutos",
+    "total-time": "",
     "main-tag": "Salsas",
     "tags": ["Sin Gluten"],
     "rations": "4",
@@ -712,16 +715,17 @@
           "img": "-"
         }
     },
-    "other" : "",
-    "credits": "",
-    "remember": ""
+    "other" : "En un momento tenemos lista esta estupenda salsa tan tradicional como acompañamiento de los típicos calçots o de cualquier tipo de pescado o verdura a la parrilla.",
+    "credits": "https://www.recetasderechupete.com/salsa-romesco/18922/; https://borges1896.com/es/blog/truco-para-salsa-romesco/",
+    "remember": "¡Comprar ñoras!"
   },
   {
     "id": 11,
     "main-img": "https://drive.google.com/uc?export=view&id=1WVG1gPKszaJiS7o-WBN2Ys0p43q6POPo",
-    "name" : "White russian",
+    "name" : "Arroz con pollo y verduras",
     "prep-time": "10 minutos",
     "cook-time": "30 minutos",
+    "total-time": "",
     "main-tag": "Principales",
     "tags": ["Sin Gluten"],
     "rations": "4",
@@ -800,84 +804,57 @@
   },
   {
     "id": 12,
-    "main-img": "https://drive.google.com/uc?export=view&id=1WVG1gPKszaJiS7o-WBN2Ys0p43q6POPo",
-    "name" : "White russian",
+    "main-img": "https://drive.google.com/uc?export=view&id=1g1gQyI-aWfR_1iuaO2Im88o2uGqiUdmB",
+    "name" : "White russian a lo Big Lebowski",
     "prep-time": "10 minutos",
     "cook-time": "30 minutos",
-    "main-tag": "Salsas",
+    "total-time": "",
+    "main-tag": "Bebidas",
     "tags": ["Sin Gluten"],
     "rations": "4",
     "fav": false,
     "ingredients": {
-        "Pollo troceado": {
-            "quantity": 500,
-            "unit": "gr"
+        "Vodka": {
+            "quantity": 40,
+            "unit": "ml"
         },
-        "Arroz blanco": {
-            "quantity": 2,
-            "unit": "vasos"
+        "Licor de Café": {
+            "quantity": 40,
+            "unit": "ml"
         },
-        "Agua o caldo": {
-          "quantity": 1000,
+        "Nata": {
+          "quantity": 40,
           "unit": "ml"
         },
-        "Pimiento rojo": {
+        "Hielo Picado": {
           "quantity": 1,
-          "unit": ""
-        },
-        "Pimiento verde": {
-          "quantity": 1,
-          "unit": ""
-        },
-        "Cebolla": {
-            "quantity": 1,
-            "unit": ""
-        },
-        "Tomate triturado": {
-          "quantity": 200,
-          "unit": "gr"
-        },
-        "Azafrán": {
-          "quantity": 1,
-          "unit": "pizca"
-        },
-        "Laurel": {
-          "quantity": 1,
-          "unit": "hoja"
-        },
-        "Sal": {
-          "quantity": 1,
-          "unit": "cucharadita"
-        },
-        "Aceite de oliva": {
-          "quantity": "",
           "unit": ""
         }
     },
     "steps" :{
         "1": {
-            "text" : "Pon a calentar el caldo en un cazo. Mientras se calienta, pica todas las verduras",
+            "text" : "Coge un vaso de un armario de tu cocina o de tu salón.",
             "img": "-"
         },
         "2": {
-            "text" : "En una sartén grande o una paella, pon un poco de aceite y marca el pollo hasta que empiece a dorarse. Sácalo y reserva.",
+            "text" : "Echa hielo en abundancia, si tienes hielo picado, mucho mejor.",
             "img": "-"
         },
         "3": {
-          "text" : "Sofríe la cebolla. Una vez empiece a estar transparente, añade el pimiento y el laurel y continúa hasta que empiece a estar blando. Una vez lo esté, añade el tomate y deja que pierda un poco el agua.",
+          "text" : "Echa todos los ingredientes en el vaso (primero el vodka, luego el café y por último la leche y la nata.",
           "img": "-"
         },
         "4": {
-          "text" : "Añade el pollo reservado y el arroz y mezcla todo bien. Una vez que esté bien integrado.",
+          "text" : "Busca una bata o cualquier prenda de ropa que haga las veces de pijama y vístete con ellas.",
           "img": "-"
         },
         "5": {
-          "text" : "Añade el caldo y remueve. Deja que se cocine a fuego medio y vaya perdiendo el agua. Comprueba que esté hecho el arroz (tardará unos 20 minutos). Una vez esté hecho, apaga el fuego, tapa con un trapo y deja reposar 5 minutos.",
+          "text" : "Bébetelo y repite la operación cuantas veces consideres oportuno.",
           "img": "-"
         }
     },
     "other" : "",
-    "credits": "",
+    "credits": "https://www.seriemaniac.com/2020/09/04/como-se-hace-el-ruso-blanco-del-gran-lebowski/",
     "remember": ""
   }]
   }
