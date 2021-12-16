@@ -1,6 +1,6 @@
 {
   "main-tags": ["Entrantes", "Principales", "Postres", "Bebidas", "Salsas"],
-  "tags" : ["Vegetariana" , "Sin gluten", "Sin lactosa", "Sin soja", "Sin pescado", "Sin crustáceos", "Española", "India"],
+  "tags" : ["Vegetariana", "Sin gluten", "De la abuela Isabel", "Sin azúcar", "Sin lactosa", "Sin soja", "Sin pescado", "Sin crustáceos", "Española", "India"],
   "recipes": [
   {
         "id": 1,
@@ -77,15 +77,15 @@
       "cook-time": "40 minutos",
       "total-time": "1 hora",
       "main-tag": "Entrantes",
-      "tags": ["Española", "Sin soja"],
+      "tags": ["Española", "Sin soja", "De la abuela Isabel", "Sin soja", "Sin azúcar", "Sin crustáceos"],
       "rations": "4",
       "fav": true,
       "ingredients": {
-          "eggs": {
+          "Eggs": {
               "quantity": 3,
               "unit": "ud"
           },
-          "flour": {
+          "Flour": {
               "quantity": 200,
               "unit": "gr"
           }
@@ -112,35 +112,35 @@
     "cook-time": "20 minutos",
     "total-time": "30 minutos",
     "main-tag": "Postres",
-    "tags": ["Sin gluten", "Vegetariana"],
+    "tags": ["Sin gluten", "Vegetariana", "Sin pescado", "Sin crustáceos", "Sin soja"],
     "rations": "4",
     "fav": false,
     "ingredients": {
-        "harina de garbanzos": {
+        "Harina de garbanzos": {
             "quantity": 250,
             "unit": "gr"
         },
-        "agua": {
+        "Agua": {
             "quantity": 300,
             "unit": "ml"
         },
-        "huevo": {
+        "Huevo": {
           "quantity": 1,
           "unit": "ud"
         },
-        "leche": {
+        "Leche": {
           "quantity": 70,
           "unit": "ml"
         },
-        "aceite de oliva": {
+        "AVOE": {
           "quantity": 10,
           "unit": "ml"
         },
-        "bicarbonato": {
+        "Bicarbonato": {
           "quantity": 1,
           "unit": "cucharada"
         },
-        "especias": {
+        "Especias": {
           "quantity": 1,
           "unit": "al gusto"
         }
@@ -163,7 +163,7 @@
     "cook-time": "210 minutos",
     "total-time": "2h y 45min",
     "main-tag": "Principales",
-    "tags": ["Española"],
+    "tags": ["Española", "De la abuela Isabel", "Sin gluten"],
     "rations": "6",
     "fav": false,
     "ingredients": {
@@ -551,7 +551,7 @@
     },
     "other" : "Truco: si se te ha solidificado demasiado y quieres aligerarla o simplemente quieres que la salsa no sea tan espesa, añade una cucharadita de agua caliente y tritúrala con la batidora de nuevo. Puedes añadir tanta agua como necesites hasta conseguir la textura que buscas, pero no te pases porque podría quedarse demasiado líquida y además el sabor quedaría demasiado diluido. Yo suelo añadir entre una y dos cucharadas soperas de agua para que no me quede demasiado espesa.",
     "credits": "https://www.recetasderechupete.com/dahl-curry-de-lentejas-rojas/15210/",
-    "remember": "Pedir en la carnicería que nos piquen la pechuga de pollo"
+    "remember": "Es importante dejar las lentejas en remojo la noche anterior"
   },
   {
     "id": 9,
@@ -561,7 +561,7 @@
     "cook-time": "60 minutos",
     "total-time": "",
     "main-tag": "Entrante",
-    "tags": ["Sin Gluten"],
+    "tags": ["Sin gluten", "Sin crustáceos", "Sin pescado", "Vegetariana", "Sin soja"],
     "rations": "6",
     "fav": false,
     "ingredients": {
@@ -648,7 +648,7 @@
     "cook-time": "30 minutos",
     "total-time": "",
     "main-tag": "Salsas",
-    "tags": ["Sin Gluten"],
+    "tags": ["Sin gluten"],
     "rations": "4",
     "fav": false,
     "ingredients": {
@@ -727,7 +727,7 @@
     "cook-time": "30 minutos",
     "total-time": "",
     "main-tag": "Principales",
-    "tags": ["Sin Gluten"],
+    "tags": ["Sin gluten"],
     "rations": "4",
     "fav": false,
     "ingredients": {
@@ -810,7 +810,7 @@
     "cook-time": "30 minutos",
     "total-time": "",
     "main-tag": "Bebidas",
-    "tags": ["Sin Gluten"],
+    "tags": ["Sin gluten"],
     "rations": "4",
     "fav": false,
     "ingredients": {

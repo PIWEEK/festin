@@ -40,7 +40,6 @@ export default function Detail() {
     }
     const [thisRecipe] = recipe;
     const {name, tags, fav, ingredients, steps, credits, other, remember, rations, id } = thisRecipe;
-    console.log(thisRecipe, steps, remember)
     const ingredientList = Object.keys(ingredients);
     const stepList = Object.values(steps);
     return (

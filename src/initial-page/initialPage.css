@@ -66,7 +66,7 @@
   font-size: 1.2rem;
   display: flex;
   position: relative;
-  background: #e7e7f1;
+  background: #2b2c2e1c;
   padding: 8px 16px;
   justify-content: center;
   align-items: center;
@@ -75,7 +75,7 @@
 }
 
 .labelAsButton:hover {
-  background: #0000001A;
+  background: #2b2c2e2a;
 }
 
 :checked + span.labelAsButton {
@@ -120,7 +120,7 @@ span.labelAsMenu{
   .iconWrapper{
     padding-right: 5px;
     margin-bottom: -4px;
-    stroke: #e7e7f1;
+    stroke: var(--all-recipes-color);
     stroke-width: 1px;
     stroke-linejoin: round;
   }
