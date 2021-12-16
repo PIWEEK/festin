@@ -1,11 +1,16 @@
+@font-face {
+  font-family: 'Restora';
+  src: local('restora'), url(../assets//font/restora.otf) format ('opentype')
+}
+
 .initial {
   align-self: center;
   font-family: 'DM Serif Display', serif;
-  padding-top: 20px;
+  padding-top: 30px;
 }
 
 .logoWrapper{
-  margin: 50px;
+  margin: 30px;
 }
 
 .tagSelection {
@@ -14,7 +19,7 @@
   list-style: none;
   align-self: center;
   font-family: 'DM Sans', sans-serif;
-  margin: 0 50px 100px 50px;
+  margin: 0 50px 100px 20px;
   gap: 10px;
 }
 
@@ -25,13 +30,20 @@
 
 .searchBar {
   display: inline;
+  font-family: "Restora";
+  font-weight: 400;
   font-size: 3rem;
   height: 3rem;
   border: none;
   outline: none;
-  padding: 3rem 1rem;
-  background:#f3f3f8;
   font-family: 'DM Serif Display', serif;
+  padding: 80px 30px 50px 30px;
+  background: var(--all-recipes-color);
+}
+
+.searchBar:before{
+  content: "\f109";
+  position: absolute;
 }
 
 .labelAsButton {
@@ -55,7 +67,7 @@
 }
 
 span.labelAsMenu{
-  color: rgba(0, 0, 0, 0.4)
+  color: var(--all-recipes-color-font);
 }
 
 :checked + span.labelAsButton{
@@ -65,8 +77,8 @@ span.labelAsMenu{
 }
 
 :checked + span.labelAsButton {
-  color: white;
-  background-color: black;
+  color: var(--all-recipes-color);
+  background-color: var(--all-recipes-color-font);
 }
 
 .sectionWrapper {
@@ -74,8 +86,8 @@ span.labelAsMenu{
   justify-content: flex-start;
   list-style: none;
   align-self: center;
-  font-family: 'DM Sans', sans-serif;
-  margin: 50px 50px 20px 50px;
+  font-family: 'Restora';
+  margin: 40px 50px 20px 30px;
 }
 
 .labelAsMenu {
@@ -88,10 +100,6 @@ span.labelAsMenu{
   align-items: center;
   cursor: pointer;
 }
-
-span.labelAsMenu{
-  color: rgba(0, 0, 0, 0.4)
-  }
 
 :checked + span.labelAsMenu{
   font-weight: bold;
