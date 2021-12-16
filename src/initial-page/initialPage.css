@@ -1,4 +1,4 @@
-@font-face { 
+@font-face {
   font-family: 'Restora';
   src: local('restora'), url(../assets//font/restora.otf) format ('opentype')
 }
@@ -23,11 +23,16 @@
   gap: 10px;
 }
 
+.iconContainer{
+  display: inline;
+  padding-left: 50px;
+}
+
 .searchBar {
+  display: inline;
   font-family: "Restora";
   font-weight: 400;
   font-size: 3rem;
-  width: 100%;
   height: 3rem;
   border: none;
   outline: none;
@@ -36,7 +41,7 @@
 }
 
 .searchBar:before{
-  content: "\f109"; 
+  content: "\f109";
   position: absolute;
 }
 
@@ -98,5 +103,10 @@ span.labelAsMenu{
 :checked + span.labelAsMenu{
   font-weight: bold;
   color: var(--all-recipes-color-font);
+  }
+
+
+  .iconWrapper{
+    padding-right: 5px;
   }
 
