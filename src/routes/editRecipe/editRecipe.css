@@ -1,0 +1,12 @@
+.editPage{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+.upsText{
+    font-family: "Restora";
+    margin-top: 5rem;
+}
