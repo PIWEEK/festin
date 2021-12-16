@@ -36,7 +36,6 @@
   height: 3rem;
   border: none;
   outline: none;
-  font-family: 'DM Serif Display', serif;
   padding: 80px 30px 50px 30px;
   background: var(--all-recipes-color);
 }
