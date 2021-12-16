@@ -18,19 +18,54 @@
     font-size: 2rem;
     background-color: white;
 }
+.recipeHeader{
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:calc(100vh - 90px);
+}
 
 .FrontRecipeCreate{
     background-color: var(--all-recipes-color);
     color: var(--all-recipes-color-font);
-    height: calc(100vh - 140px);
-    overflow-x: hidden;
+    height: 100%;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 60px;
 }
 
-.FrontRecipeCreate.Entrantes{
+.FrontRecipeCreate.Entrantes .nombreInput::placeholder,
+.FrontRecipeCreate.Principales .nombreInput::placeholder,
+.FrontRecipeCreate.Postres .nombreInput::placeholder,
+.FrontRecipeCreate.Bebidas .nombreInput::placeholder,
+.FrontRecipeCreate.Salsas .nombreInput::placeholder,
+.FrontRecipeCreate.Entrantes .rememberInput::placeholder,
+.FrontRecipeCreate.Principales .rememberInput::placeholder,
+.FrontRecipeCreate.Postres .rememberInput::placeholder,
+.FrontRecipeCreate.Bebidas .rememberInput::placeholder,
+.FrontRecipeCreate.Salsas .rememberInput::placeholder,
+.FrontRecipeCreate.Entrantes .timeInput::placeholder,
+.FrontRecipeCreate.Principales .timeInput::placeholder,
+.FrontRecipeCreate.Postres .timeInput::placeholder,
+.FrontRecipeCreate.Bebidas .timeInput::placeholder,
+.FrontRecipeCreate.Salsas .timeInput::placeholder,
+.FrontRecipeCreate.Entrantes .rationInput::placeholder,
+.FrontRecipeCreate.Principales .rationInput::placeholder,
+.FrontRecipeCreate.Postres .rationInput::placeholder,
+.FrontRecipeCreate.Bebidas .rationInput::placeholder,
+.FrontRecipeCreate.Salsas .rationInput::placeholder,
+.FrontRecipeCreate.Entrantes .rationText,
+.FrontRecipeCreate.Principales .rationText,
+.FrontRecipeCreate.Postres .rationText,
+.FrontRecipeCreate.Bebidas .rationText,
+.FrontRecipeCreate.Salsas .rationText {
+    color: #e7e7f1;
+}
+
+.FrontRecipeCreate.Entrantes {
     background-color: var(--entrantes-color);
     color: var(--entrantes-color-font);
 }
@@ -55,6 +90,45 @@
     color: var(--salsas-color-font);
 }
 
+.FrontRecipeCreate.Entrantes .nombreInput,
+.FrontRecipeCreate.Entrantes .rememberInput,
+.FrontRecipeCreate.Entrantes .timeInput,
+.FrontRecipeCreate.Entrantes .rationInput,
+.FrontRecipeCreate.Entrantes .rationText{
+    color: var(--entrantes-color-font);
+}
+
+.FrontRecipeCreate.Principales .nombreInput,
+.FrontRecipeCreate.Principales .rememberInput,
+.FrontRecipeCreate.Principales .timeInput,
+.FrontRecipeCreate.Principales .rationInput,
+.FrontRecipeCreate.Principales .rationText{
+    color: var(--principales-color-font);
+}
+
+.FrontRecipeCreate.Postres .nombreInput,
+.FrontRecipeCreate.Postres .rememberInput,
+.FrontRecipeCreate.Postres .timeInput,
+.FrontRecipeCreate.Postres .rationInput,
+.FrontRecipeCreate.Postres .rationText{
+    color: var(--postres-color-font);
+}
+
+.FrontRecipeCreate.Bebidas .nombreInput,
+.FrontRecipeCreate.Bebidas .rememberInput,
+.FrontRecipeCreate.Bebidas .timeInput,
+.FrontRecipeCreate.Bebidas .rationInput,
+.FrontRecipeCreate.Bebidas .rationText{
+    color: var(--bebidas-color-font);
+}
+
+.FrontRecipeCreate.Salsas .nombreInput,
+.FrontRecipeCreate.Salsas .rememberInput,
+.FrontRecipeCreate.Salsas .timeInput,
+.FrontRecipeCreate.Salsas .rationInput,
+.FrontRecipeCreate.Salsas .rationText{
+    color: var(--salsas-color-font);
+}
 .imageAsideCreate{
     height:90%;
     width: 50vw;
@@ -133,6 +207,11 @@
     cursor: pointer;
 }
 
+:checked + span.labelAsSection{
+    font-weight: bold;
+    color: var(--all-recipes-color-font);
+}
+
 :checked + span.labelAsSection.Principales{
     font-weight: bold;
     color: var(--principales-color);
@@ -157,3 +236,75 @@
     font-weight: bold;
     color: var(--salsas-color);
 }
+
+.helpText{
+    font-size: 0.8rem;
+}
+
+.helpText.Principales{
+    color: var(--principales-color-font);
+}
+
+.helpText.Entrantes{
+    color: var(--entrantes-color-font);
+}
+
+.helpText.Postres{
+    color: var(--postres-color-font);
+}
+
+.helpText.Bebidas{
+    color: var(--bebidas-color-font);
+}
+
+.helpText.Salsas{
+    color: var(--salsas-color-font);
+}
+
+.tagsWrapper{
+    padding-top: 20px;
+}
+
+.tagContainerCreate{
+    margin-top: 5px;
+    display: flex;
+    gap: 10px;
+}
+
+.labelAsButtonCreate {
+    font-size: 1.2rem;
+    display: flex;
+    position: relative;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    cursor: pointer;
+    border: 1px solid rgb(128, 125, 125);
+    color: rgb(128, 125, 125);
+}
+
+.labelAsButtonCreate.Entrantes,
+.labelAsButtonCreate.Principales,
+.labelAsButtonCreate.Postres,
+.labelAsButtonCreate.Bebidas,
+.labelAsButtonCreate.Salsas {
+    border: 1px solid #e7e7f1;
+    color: #e7e7f1;
+}
+
+.labelAsButtonCreate:hover {
+    background: #0000001A;
+}
+
+:checked + span.labelAsButtonCreate {
+    border: 1px solid var(--all-recipes-color-font);
+    color: var(--all-recipes-color);
+    background-color: var(--all-recipes-color-font);
+}
+
+.hiddenTags, .shownTags{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
