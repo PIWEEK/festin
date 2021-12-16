@@ -40,10 +40,10 @@ function InitialPage({sections, tags, manageInput, setToggleFav, setSelectedSect
                 </Link>
             </nav>
             <div>
-                <input className="searchBar" type="input" placeholder="Buscar recetas"onChange={manageInput} />
-                <span className="iconContainer">
+                 <span className="iconContainer">
                     <SearchIcon />
                 </span>
+                <input className="searchBar" type="input" placeholder="Buscar recetas"onChange={manageInput} />
             </div>
 
             <ul className="tagSelection">

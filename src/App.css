@@ -5,7 +5,6 @@ body {
   font-family: 'DM Sans', sans-serif;
 }
 
-
 @font-face {
   font-family: Restora;
   src: url("./assets/font/restora.otf") format("opentype");
@@ -14,4 +13,5 @@ body {
 p{
   font-size: 1.2rem;
   color: var(--all-recipes-color-font);
+  line-height: 1.632;
 }
