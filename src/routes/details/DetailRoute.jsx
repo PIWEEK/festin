@@ -38,7 +38,7 @@ export default function Detail() {
             );
     }
     const [thisRecipe] = recipe;
-    const {name, tags, fav, ingredients, steps } = thisRecipe;
+    const {name, tags, fav, ingredients, steps, credits, other, remember, rations } = thisRecipe;
     const ingredientList = Object.keys(ingredients);
     const stepList = Object.values(steps);
     return (
@@ -68,9 +68,14 @@ export default function Detail() {
                             <p className={`prepText prepTitle ${thisRecipe["main-tag"]}`}>Total</p>
                             <p className={`prepText ${thisRecipe["main-tag"]}`}>{thisRecipe["total-time"]}</p>
                         </div>
+                        <div className="prepPartial">
+                            <p className={`prepText prepTitle ${thisRecipe["main-tag"]}`}>Para</p>
+                            <p className={`prepText ${thisRecipe["main-tag"]}`}>{rations} personas</p>
+                        </div>
                     </div>
                     <div className="NameBar">
                         <h2 className="recipeTitle">{name}</h2>
+                        {remember ? <p className={`rememberText ${thisRecipe["main-tag"]}`}>{remember}</p>: ""}
                         <p className="tagContainer">
                             {fav ?
                                 <span className="tag">Preferidas</span> :
@@ -102,11 +107,16 @@ export default function Detail() {
                         <p className="stepsList">
                             {stepList.map((step, index)=>{
                                 return(
-                                    <li className="steps" key={index}>{step.text}</li>
+                                    <li className="steps" key={index}>{step.text}
+                                        {step.img!== "-" ? <img className="stepImg" src={step.img} al></img>: ""}
+                                    </li>
                                 )
                             })}
                         </p>
                 </section>
+                {other ? <p className={`otherText ${thisRecipe["main-tag"]}`}> {other}</p>: ""}
+                {credits ? <p className={`creditsText ${thisRecipe["main-tag"]}`}> {credits}</p>: ""}
+                <p></p>
             </main>
         </div>
     );
