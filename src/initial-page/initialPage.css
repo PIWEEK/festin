@@ -25,7 +25,7 @@
 
 .iconContainer{
   display: inline;
-  padding-left: 50px;
+  padding: 0 10px 0 25px;
 }
 
 .searchBar {
@@ -36,13 +36,8 @@
   height: 3rem;
   border: none;
   outline: none;
-  padding: 80px 30px 50px 30px;
+  padding: 100px 0 50px 0;
   background: var(--all-recipes-color);
-}
-
-.searchBar:before{
-  content: "\f109";
-  position: absolute;
 }
 
 .labelAsButton {

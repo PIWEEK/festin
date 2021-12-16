@@ -641,10 +641,170 @@
   {
     "id": 10,
     "main-img": "https://drive.google.com/uc?export=view&id=1WVG1gPKszaJiS7o-WBN2Ys0p43q6POPo",
-    "name" : "Arroz con pollo y verduras",
+    "name" : "Salsa Romesco",
     "prep-time": "10 minutos",
     "cook-time": "30 minutos",
-    "main-tag": "Principal",
+    "main-tag": "Salsas",
+    "tags": ["Sin Gluten"],
+    "rations": "4",
+    "fav": false,
+    "ingredients": {
+        "Pollo troceado": {
+            "quantity": 500,
+            "unit": "gr"
+        },
+        "Arroz blanco": {
+            "quantity": 2,
+            "unit": "vasos"
+        },
+        "Agua o caldo": {
+          "quantity": 1000,
+          "unit": "ml"
+        },
+        "Pimiento rojo": {
+          "quantity": 1,
+          "unit": ""
+        },
+        "Pimiento verde": {
+          "quantity": 1,
+          "unit": ""
+        },
+        "Cebolla": {
+            "quantity": 1,
+            "unit": ""
+        },
+        "Tomate triturado": {
+          "quantity": 200,
+          "unit": "gr"
+        },
+        "Azafrán": {
+          "quantity": 1,
+          "unit": "pizca"
+        },
+        "Laurel": {
+          "quantity": 1,
+          "unit": "hoja"
+        },
+        "Sal": {
+          "quantity": 1,
+          "unit": "cucharadita"
+        },
+        "Aceite de oliva": {
+          "quantity": "",
+          "unit": ""
+        }
+    },
+    "steps" :{
+        "1": {
+            "text" : "Ponemos las ñoras en un cuenco con agua caliente para que se rehidraten. Las dejaremos unos 30 minutos, hasta que estén totalmente hidratadas. Reservamos.",
+            "img": "-"
+        },
+        "2": {
+            "text" : "Pelamos la cebolla y colocamos los tomates, la cebolla y los dientes de ajo en una fuente apta para horno. Horneamos, con el horno previamente caliente a 180º C, durante 30 minutos, hasta que las verduras estén asadas. Para evitar que los tomates puedas reventar, les daremos un corte superficial en la piel.",
+            "img": "-"
+        },
+        "3": {
+          "text" : "Mientras las verduras se cocinan, preparamos el resto de ingredientes. Retiramos las ñoras del agua y eliminamos las semillas interiores. Con la punta de un cuchillo o una cucharilla, vamos separando su carne interior.",
+          "img": "-"
+        },
+        "4": {
+          "text" : "Tostamos las avellanas en una sartén y les retiramos, en lo posible, la piel exterior. Tostamos las almendras y las nueces en una sartén durante unos minutos. Una vez cocinadas las verduras, pelamos los tomates y los dientes de ajo.",
+          "img": "-"
+        }
+    },
+    "other" : "",
+    "credits": "",
+    "remember": ""
+  },
+  {
+    "id": 11,
+    "main-img": "https://drive.google.com/uc?export=view&id=1WVG1gPKszaJiS7o-WBN2Ys0p43q6POPo",
+    "name" : "White russian",
+    "prep-time": "10 minutos",
+    "cook-time": "30 minutos",
+    "main-tag": "Principales",
+    "tags": ["Sin Gluten"],
+    "rations": "4",
+    "fav": false,
+    "ingredients": {
+        "Pollo troceado": {
+            "quantity": 500,
+            "unit": "gr"
+        },
+        "Arroz blanco": {
+            "quantity": 2,
+            "unit": "vasos"
+        },
+        "Agua o caldo": {
+          "quantity": 1000,
+          "unit": "ml"
+        },
+        "Pimiento rojo": {
+          "quantity": 1,
+          "unit": ""
+        },
+        "Pimiento verde": {
+          "quantity": 1,
+          "unit": ""
+        },
+        "Cebolla": {
+            "quantity": 1,
+            "unit": ""
+        },
+        "Tomate triturado": {
+          "quantity": 200,
+          "unit": "gr"
+        },
+        "Azafrán": {
+          "quantity": 1,
+          "unit": "pizca"
+        },
+        "Laurel": {
+          "quantity": 1,
+          "unit": "hoja"
+        },
+        "Sal": {
+          "quantity": 1,
+          "unit": "cucharadita"
+        },
+        "Aceite de oliva": {
+          "quantity": "",
+          "unit": ""
+        }
+    },
+    "steps" :{
+        "1": {
+            "text" : "Pon a calentar el caldo en un cazo. Mientras se calienta, pica todas las verduras",
+            "img": "-"
+        },
+        "2": {
+            "text" : "En una sartén grande o una paella, pon un poco de aceite y marca el pollo hasta que empiece a dorarse. Sácalo y reserva.",
+            "img": "-"
+        },
+        "3": {
+          "text" : "Sofríe la cebolla. Una vez empiece a estar transparente, añade el pimiento y el laurel y continúa hasta que empiece a estar blando. Una vez lo esté, añade el tomate y deja que pierda un poco el agua.",
+          "img": "-"
+        },
+        "4": {
+          "text" : "Añade el pollo reservado y el arroz y mezcla todo bien. Una vez que esté bien integrado.",
+          "img": "-"
+        },
+        "5": {
+          "text" : "Añade el caldo y remueve. Deja que se cocine a fuego medio y vaya perdiendo el agua. Comprueba que esté hecho el arroz (tardará unos 20 minutos). Una vez esté hecho, apaga el fuego, tapa con un trapo y deja reposar 5 minutos.",
+          "img": "-"
+        }
+    },
+    "other" : "",
+    "credits": "",
+    "remember": ""
+  },
+  {
+    "id": 12,
+    "main-img": "https://drive.google.com/uc?export=view&id=1WVG1gPKszaJiS7o-WBN2Ys0p43q6POPo",
+    "name" : "White russian",
+    "prep-time": "10 minutos",
+    "cook-time": "30 minutos",
+    "main-tag": "Salsas",
     "tags": ["Sin Gluten"],
     "rations": "4",
     "fav": false,
