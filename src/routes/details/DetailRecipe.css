@@ -211,6 +211,7 @@
 }
 
 .steps{
+    color: var(--all-recipes-color-font);
     margin: 60px 0;
     line-height: 1.632;
 }
