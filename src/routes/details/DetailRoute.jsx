@@ -6,6 +6,7 @@ import React, { useState, useEffect } from "react";
 
 import "./DetailRecipe.css";
 import { ReactComponent as FestinLogo }from '../../assets/festinLogo.svg';
+import { ReactComponent as EditIcon }from '../../assets/editIcon.svg';
 
 export default function Detail() {
     const [recipe, setRecipe] = useState([]);
@@ -38,7 +39,7 @@ export default function Detail() {
             );
     }
     const [thisRecipe] = recipe;
-    const {name, tags, fav, ingredients, steps, credits, other, remember, rations } = thisRecipe;
+    const {name, tags, fav, ingredients, steps, credits, other, remember, rations, id } = thisRecipe;
     const ingredientList = Object.keys(ingredients);
     const stepList = Object.values(steps);
     return (
@@ -54,7 +55,12 @@ export default function Detail() {
                 </Link>
             </aside>
             <main className="recipeMain">
+
                 <section className={`FrontRecipe ${thisRecipe["main-tag"]}`}>
+                        <Link to={`/editar/${id}`}
+                            className={`editLink ${thisRecipe["main-tag"]}`}>
+                            <EditIcon/>
+                        </Link>
                     <div className="PrepBar">
                         <div className="prepPartial">
                             <p className={`prepText prepTitle ${thisRecipe["main-tag"]}`}>Preparación</p>
@@ -93,10 +99,10 @@ export default function Detail() {
                             const unidad = ingredients[ingr].unit;
                             return(
                                 <li key={ingr}>
-                                  <label htmlFor={ingr}>
-                                    <input className="ingredientCheck" onClick={() =>{}} type="checkbox" name={ingr} id={ingr} />
-                                    <span className="ingredientLabel">{`${ingr}: ${cantidad} ${unidad} `}</span>
-                                  </label>
+                                    <label htmlFor={ingr}>
+                                        <input className="ingredientCheck" onClick={() =>{}} type="checkbox" name={ingr} id={ingr} />
+                                        <span className="ingredientLabel">{`${ingr}: ${cantidad} ${unidad} `}</span>
+                                    </label>
                                 </li>
                             )
                         })}

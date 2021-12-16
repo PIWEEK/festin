@@ -7,6 +7,9 @@ import React, { useState, useEffect } from "react";
 
 import "./createRecipe.css";
 import { ReactComponent as FestinLogo }from '../../assets/festinLogo.svg';
+import { ReactComponent as CircleIcon }from '../../assets/circleIcon.svg';
+import { ReactComponent as AddIcon }from '../../assets/add.svg';
+
 
 export default function CreateRecipe() {
     const [tags, setTags] = useState([]);
@@ -14,6 +17,8 @@ export default function CreateRecipe() {
     const [isLoading, setIsLoading] = useState(true);
     const [choosedSection, setChoosedSection] = useState("");
     const [shown, setShow] = useState(false);
+    const [ingredients, setIngredients] = useState([{name: "", quantity: "", unit: ""}]);
+    const [steps, setSteps] = useState([{text:"", img: ""}]);
 
     const baseUrl = `http://localhost:3004`;
     const fetchTags = (url) => {
@@ -35,6 +40,67 @@ export default function CreateRecipe() {
             });
     };
 
+    const loadIngredComp = () => {
+        const newIgrList = [...ingredients, {name: "", quantity: "", unit: ""}];
+        setIngredients(newIgrList);
+    }
+
+    const IngredientComp = ({ingr, index}) => {
+        return(
+            <div>
+                <input type="number" style={{display: "none"}} value={index}/>
+                <span className="circleDot">
+                    <CircleIcon />
+                </span>
+                <input
+                    className="inputInvisible ingrInput"
+                    type="text"
+                    name="ingrediente"
+                    id="ingr"
+                    placeholder={`Ingrediente ${index}`}
+                    defaultValue={ingr? ingr.name : ""}
+                />
+                <input
+                    className="inputInvisible ingrInput"
+                    type="number"
+                    name="cantidad"
+                    id="quantity"
+                    placeholder="Cantidad"
+                    defaultValue={ingr? ingr.quantity : ""}
+                />
+                <input
+                    className="inputInvisible ingrInput"
+                    type="text"
+                    name="unidades"
+                    id="unit"
+                    placeholder="Unidades"
+                    defaultValue={ingr? ingr.unit : ""}
+                />
+            </div>
+        )
+    };
+
+    const loadStepComp = () => {
+        const newStep = [...steps, {text: "", img:"-"}];
+        setSteps(newStep);
+    }
+
+    const SetpComp = ({step, index}) => {
+        return(
+            <span>
+                <textarea
+                    placeholder="Aquí el paso 1 de tu receta"
+                    className="stepTextArea"
+                    name={`step-text-${index}`}
+                    id={`step-text-${index}`}
+                    cols="30"
+                    rows="3"/>
+                <input defaultValue="-" type="text" name="stepImage" id={`step-img-${index}`} placeholder="Si quieres añadir fotos del paso, pon la url aquí" />
+            </span>
+        )
+    };
+
+
     useEffect(() => {
         fetchTags(`${baseUrl}/tags`);
         fetchSections(`${baseUrl}/main-tags`);
@@ -51,7 +117,6 @@ export default function CreateRecipe() {
                 </main>
             );
     }
-    console.log(choosedSection)
     return (
         <>
         <nav className="navCreate">
@@ -71,7 +136,7 @@ export default function CreateRecipe() {
                     <input className="inputInvisible imgInput" type="text" name="imagen" id="img" placeholder="Pega aquí la url de tu imagen" />
                 </span>
             </aside>
-            <main className="recipeMain">
+            <main className="recipeMainCreate">
                 <div className="recipeHeader">
                     <p className="sectionsWrapper">
                         <span className="smallText">Tipo de receta {"  "}</span>
@@ -126,46 +191,37 @@ export default function CreateRecipe() {
                                     id="nombre-receta"
                                     placeholder="TÍTULO"/>
                             </h2>
-                                <input
-                                    className="inputInvisible rememberInput"
-                                    type="text"
-                                    name="remember"
-                                    id="remember"
-                                    placeholder="Tu nota para no olvidar antes de empezar a cocinar"/>
+                            <input
+                                className="inputInvisible rememberInput"
+                                type="text"
+                                name="remember"
+                                id="remember"
+                                placeholder="Tu nota para no olvidar antes de empezar a cocinar"/>
                             <div className="tagsWrapper">
                                 <p className={`helpText  ${choosedSection}`}>Tags (selecciona las que quieras.)</p>
                                 <div className="tagContainerCreate">
-                                    <span
-                                        className="shownTags"
-                                        // style={{visibility:`${shown? "": "hidden"}`}}>
-                                            style={shown ? {visibility:"hidden", width: 0, height:0} : {}}>
-                                        <label key={tags[0]} htmlFor={tags[0]}>
-                                                    <input className="inputCheck" type="checkbox" name={tags[0]} id={tags[0]} />
-                                                    <span className={`labelAsButtonCreate  ${choosedSection}`} >{tags[0]}</span>
-                                        </label>
-                                        <label key={tags[1]} htmlFor={tags[1]}>
-                                                    <input className="inputCheck" type="checkbox" name={tags[1]} id={tags[1]} />
-                                                    <span className={`labelAsButtonCreate  ${choosedSection}`} >{tags[1]}</span>
-                                        </label>
-                                        <label key={tags[2]} htmlFor={tags[2]}>
-                                                    <input className="inputCheck" type="checkbox" name={tags[2]} id={tags[2]} />
-                                                    <span className={`labelAsButtonCreate  ${choosedSection}`} >{tags[2]}</span>
-                                        </label>
+                                    <span className="shownTags">
+                                    {tags.map((tag, index) =>{
+                                        if(index<=2){
+                                                return <label key={tag}  className="non-hiddeable" htmlFor={tag}>
+                                                        <input className="inputCheck" type="checkbox" name={tag} id={tag} />
+                                                        <span className={`labelAsButtonCreate  ${choosedSection}`} >{tag}</span>
+                                                    </label>
+                                            }
+                                            return <label key={tag}  style={{display:`${shown ? "inline": "none"}`}} className="hiddeable" htmlFor={tag}>
+                                                <input className="inputCheck" type="checkbox" name={tag} id={tag} />
+                                                <span className={`labelAsButtonCreate  ${choosedSection}`} >{tag}</span>
+                                            </label>
+                                        })}
                                         <button
                                             style={{display:`${shown ? "none": "inline"}`}}
                                             className="showMore"
                                             onClick={() => setShow (true)}>Ver más
                                         </button>
-                                    </span>
-                                    <span className="hiddenTags" style={shown ? {}: {visibility:"hidden", width: 0, height:0} }>
-                                        {tags.map((tag, index) =><label key={tag} htmlFor={tag}>
-                                                    <input className="inputCheck" type="checkbox" name={tag} id={tag} />
-                                                    <span className={`labelAsButtonCreate  ${choosedSection}`} >{tag}</span>
-                                                </label>)}
-                                        <label >
+                                        <label style={shown ? {}: {visibility:"hidden", width: 0, height:0} } >
                                             <input className="inputCheck" type="checkbox" name={tags[2]} id={tags[2]} />
                                             <span className={`labelAsButtonCreate  ${choosedSection}`} >
-                                                <input  type="text" placeholder="Crear Nueva" />
+                                                <input className="newTagInput" type="text" placeholder="Crear Nueva" />
                                             </span>
                                         </label>
                                         <button
@@ -181,24 +237,41 @@ export default function CreateRecipe() {
                     </section>
                 </div>
                 <section className="ingredientsRecipe">
-                    <h1>Ingredientes</h1>
+                    <h1 className="ingredTitle">Ingredientes</h1>
                     <div>
-                        <input type="text" name="ingrediente" id="ingr" placeholder="Ingrediente 1"/>
-                        <input type="number" name="cantidad" id="quantity" placeholder="Cantidad"/>
-                        <input type="text" name="unidades" id="unit" placeholder="Unidades"/>
+                        {ingredients.map((ingr, index)=> <IngredientComp ingr={ingr} index={index}/>)}
                     </div>
-                    <button>Nuevo ingrediente</button>
+                    <button className="loadIngrBtn" onClick={loadIngredComp}>
+                        <AddIcon />
+                        <span className="addText"> Añadir ingrediente </span>
+                    </button>
                 </section>
                 <section className="stepsRecipe">
-                    <h1>Pasos</h1>
-                        <textarea name="" id="" cols="30" rows="10"></textarea>
-                        <button>Nuevo paso</button>
+                    <h1 className="ingredTitle">Pasos</h1>
+                    {steps.map((step, index)=> <SetpComp step={step} index={index}/>)}
+                    <button className="loadIngrBtn" onClick={loadStepComp}>
+                        <AddIcon />
+                        <span className="addText"> Añadir Paso </span>
+                    </button>
                 </section>
-                    <p>Notas finales</p>
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                <section className="stepsRecipe">
+                    <h1 className="ingredTitle">Notas finales</h1>
+                    <textarea
+                        placeholder="Escribe aquí cualquier detalle importante"
+                        className="stepTextArea"
+                        name=""
+                        id="" cols="30" rows="3"></textarea>
                     <p>Credito</p>
-                    <input type="text" name="" id="" />
-                    <button type="submit">Guardar</button>
+                    <input
+                        className="inputInvisible"
+                        placeholder="¿De dónde es la receta?"
+                        type="text"
+                        name=""
+                        id="" />
+                    <span className="sendWrapper">
+                        <button className="saveRecipe" type="submit">Guardar receta</button>
+                    </span>
+                </section>
             </main>
         </div>
         </>

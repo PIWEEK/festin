@@ -260,3 +260,30 @@ span.ingredientLabel:before{
     content: "\02713";
     width: 20px;
 }
+
+.editLink{
+    text-decoration: none;
+    color: var(--all-recipes-color-font);
+    position: absolute;
+    right: 55px;
+}
+
+.editLink.Postres  {
+    color: var(--postres-color-font);
+}
+
+.editLink.Principales{
+    color: var(--principales-color-font);
+}
+
+.editLink.Entrantes{
+    color: var(--entrantes-color-font);
+}
+
+.editLink.Bebidas{
+    color: var(--bebidas-color-font);
+}
+
+.editLink.Salsas{
+    color: var(--salsas-color-font);
+}

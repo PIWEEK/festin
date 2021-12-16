@@ -2,6 +2,12 @@
     height: 85px;
 }
 
+.recipeMainCreate{
+    width: 100%;
+    height:calc(100vh - 90px);
+    overflow-y: auto;
+}
+
 .createRecipeWrapper {
     height:calc(100vh - 90px);
     display: grid;
@@ -30,6 +36,7 @@
     background-color: var(--all-recipes-color);
     color: var(--all-recipes-color-font);
     height: 100%;
+    min-height: 470px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -40,27 +47,22 @@
 .FrontRecipeCreate.Entrantes .nombreInput::placeholder,
 .FrontRecipeCreate.Principales .nombreInput::placeholder,
 .FrontRecipeCreate.Postres .nombreInput::placeholder,
-.FrontRecipeCreate.Bebidas .nombreInput::placeholder,
 .FrontRecipeCreate.Salsas .nombreInput::placeholder,
 .FrontRecipeCreate.Entrantes .rememberInput::placeholder,
 .FrontRecipeCreate.Principales .rememberInput::placeholder,
 .FrontRecipeCreate.Postres .rememberInput::placeholder,
-.FrontRecipeCreate.Bebidas .rememberInput::placeholder,
 .FrontRecipeCreate.Salsas .rememberInput::placeholder,
 .FrontRecipeCreate.Entrantes .timeInput::placeholder,
 .FrontRecipeCreate.Principales .timeInput::placeholder,
 .FrontRecipeCreate.Postres .timeInput::placeholder,
-.FrontRecipeCreate.Bebidas .timeInput::placeholder,
 .FrontRecipeCreate.Salsas .timeInput::placeholder,
 .FrontRecipeCreate.Entrantes .rationInput::placeholder,
 .FrontRecipeCreate.Principales .rationInput::placeholder,
 .FrontRecipeCreate.Postres .rationInput::placeholder,
-.FrontRecipeCreate.Bebidas .rationInput::placeholder,
 .FrontRecipeCreate.Salsas .rationInput::placeholder,
 .FrontRecipeCreate.Entrantes .rationText,
 .FrontRecipeCreate.Principales .rationText,
 .FrontRecipeCreate.Postres .rationText,
-.FrontRecipeCreate.Bebidas .rationText,
 .FrontRecipeCreate.Salsas .rationText {
     color: #e7e7f1;
 }
@@ -129,6 +131,7 @@
 .FrontRecipeCreate.Salsas .rationText{
     color: var(--salsas-color-font);
 }
+
 .imageAsideCreate{
     height:90%;
     width: 50vw;
@@ -149,6 +152,14 @@
 .inputInvisible {
     border:none;
     background-color: transparent;
+    min-height: 25px;
+    margin: 0 5px;
+}
+
+.inputInvisible:focus {
+    border:none;
+    background-color: transparent;
+    outline: none;
 }
 
 .imgInput {
@@ -287,7 +298,6 @@
 .labelAsButtonCreate.Entrantes,
 .labelAsButtonCreate.Principales,
 .labelAsButtonCreate.Postres,
-.labelAsButtonCreate.Bebidas,
 .labelAsButtonCreate.Salsas {
     border: 1px solid #e7e7f1;
     color: #e7e7f1;
@@ -303,8 +313,70 @@
     background-color: var(--all-recipes-color-font);
 }
 
-.hiddenTags, .shownTags{
+.shownTags{
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-  }
+}
+
+.showMore, .showLess {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.ingredTitle{
+    font-family: Restora;
+    font-size: 2rem;
+    padding-bottom: 15px;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+.circleDot{
+    transform: scale(0.7);
+    margin-right: 5px;
+}
+
+.loadIngrBtn{
+    background-color: transparent;
+    border: none;
+    cursor: pointer
+}
+.addText{
+    margin-left: 5px;
+}
+
+.stepTextArea{
+    display: block;
+    border: none;
+    width: 100%;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.stepTextArea:focus{
+    outline: none;
+}
+
+.saveRecipe {
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 1.2rem;
+    display: flex;
+    position: relative;
+    padding: 4px 14px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    cursor: pointer;
+    color: black;
+    margin-right: 20px;
+    border: 1px solid black;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.sendWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
