@@ -87,15 +87,20 @@ export default function CreateRecipe() {
 
     const SetpComp = ({step, index}) => {
         return(
-            <span>
+            <span className="stepWrapper">
                 <textarea
-                    placeholder="Aquí el paso 1 de tu receta"
+                    placeholder={`Aquí el paso ${index+1} de tu receta`}
                     className="stepTextArea"
                     name={`step-text-${index}`}
                     id={`step-text-${index}`}
                     cols="30"
                     rows="3"/>
-                <input defaultValue="-" type="text" name="stepImage" id={`step-img-${index}`} placeholder="Si quieres añadir fotos del paso, pon la url aquí" />
+                <input
+                    className="inputInvisible"
+                    type="text"
+                    name="stepImage"
+                    id={`step-img-${index}`}
+                    placeholder="Añade la foto de este paso" />
             </span>
         )
     };
@@ -221,7 +226,7 @@ export default function CreateRecipe() {
                                         <label style={shown ? {}: {visibility:"hidden", width: 0, height:0} } >
                                             <input className="inputCheck" type="checkbox" name={tags[2]} id={tags[2]} />
                                             <span className={`labelAsButtonCreate  ${choosedSection}`} >
-                                                <input className="newTagInput" type="text" placeholder="Crear Nueva" />
+                                                <input className="inputInvisible newTagInput" type="text" placeholder="Crear Nueva" />
                                             </span>
                                         </label>
                                         <button

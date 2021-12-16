@@ -40,6 +40,7 @@ export default function Detail() {
     }
     const [thisRecipe] = recipe;
     const {name, tags, fav, ingredients, steps, credits, other, remember, rations, id } = thisRecipe;
+    console.log(thisRecipe, steps, remember)
     const ingredientList = Object.keys(ingredients);
     const stepList = Object.values(steps);
     return (
@@ -114,7 +115,7 @@ export default function Detail() {
                             {stepList.map((step, index)=>{
                                 return(
                                     <li className="steps" key={index}>{step.text}
-                                        {step.img!== "-" ? <img className="stepImg" src={step.img} alt="step images"></img>: ""}
+                                        {step.img!== "" ? <img className="stepImg" src={step.img} alt="step images"></img>: ""}
                                     </li>
                                 )
                             })}

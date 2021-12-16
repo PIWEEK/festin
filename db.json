@@ -1,6 +1,6 @@
 {
   "main-tags": ["Entrantes", "Principales", "Postres", "Bebidas", "Salsas"],
-  "tags" : ["Vegetariana" , "Sin gluten", "Sin azúcar", "Sin lactosa", "Sin soja", "Sin pescado", "Sin crustáceos", "Española", "India"],
+  "tags" : ["Vegetariana" , "Sin gluten", "Sin lactosa", "Sin soja", "Sin pescado", "Sin crustáceos", "Española", "India"],
   "recipes": [
   {
         "id": 1,
@@ -54,15 +54,15 @@
             },
             "2": {
                 "text" : "Extendemos papel film y ponemos la mitad de la mezcla, enrollamos formando un rulo que cerramos apretando los extremos como si fuera un caramelo. Para cocinarlo podéis hacerlo de varias formas, bien  en el microondas, unos 8-10 minutos a máxima potencia dándole la vuelta a mitad de la cocción o al baño María, en este caso envuelvo el rulo de papel film de nuevo en papel aluminio.",
-                "img": "-"
+                "img": ""
             },
             "3": {
               "text" : "O al baño María, en este caso envuelvo el rulo de papel film de nuevo en papel aluminio. Lo dejamos cocer unos 30 o 40 minutos.",
-              "img": "-"
+              "img": ""
             },
             "4": {
               "text" : "Una vez que está cocinado, lo dejamos enfriar y guardamos en el frigorífico. Una vez frío, está listo para utilizar.",
-              "img": "-"
+              "img": ""
           }
         },
         "other" : "El embutido dura bien una semana en la nevera",
@@ -93,11 +93,11 @@
       "steps" :{
           "1": {
               "text" : "askajdkljsd",
-              "img": "-"
+              "img": ""
           },
           "2": {
               "text" : "askajdkljsd",
-              "img": "-"
+              "img": ""
           }
       },
       "other" : "",
@@ -148,7 +148,7 @@
     "steps" :{
         "1": {
             "text" : "Mezclar y hacer en una sartén antiadherente.",
-            "img": "-"
+            "img": ""
         }
     },
     "other" : "",
@@ -211,27 +211,27 @@
     "steps" :{
         "1": {
             "text" : "Se pone en una cazuela grande el morcillo, el jamón, el lacón y los huesos. Se pone agua fría (bastante, pero contando que tienen que caber el resto de ingredientes).",
-            "img": "-"
+            "img": ""
         },
         "2": {
             "text" : "Cuando rompe a hervir, le quitas la espuma y hechas los garbanzos escurridos.",
-            "img": "-"
+            "img": ""
         },
         "3": {
           "text" : "A la hora echas los chorizos y la gallina.",
-          "img": "-"
+          "img": ""
         },
         "4": {
           "text" : "Lo dejas otra hora y echas la patata y la zanahoria. Cuando veas que está hecha se apaga y se deja reposar.",
-          "img": "-"
+          "img": ""
         },
         "5": {
           "text" : "Luego típica sopa de fideos con el caldo.",
-          "img": "-"
+          "img": ""
         },
         "6": {
           "text" : "La morcilla yo la cuezo aparte en un cacito para que no quede muy fuerte la sopa y si hago repollo también aparte.",
-          "img": "-"
+          "img": ""
 
       }
     },
@@ -279,20 +279,20 @@
     "steps" :{
         "1": {
             "text" : "Pon la menta y el azúcar en el vaso. Programa 10 segundos, velocidad 6. Reparte en el fondo de los 4 vasos.",
-            "img": "-"
+            "img": ""
         },
         "2": {
             "text" : "Sin limpiar el vaso, añade los hielos y dale 5 o 6 golpes de turbo (recuerda, usa hielo hecho en casa, que el de bolsa comercial es muy duro). Reparte el hielo triturado en los vasos donde habías puesto la menta y el azúcar",
-            "img": "-"
+            "img": ""
         },
         "3": {
             "text" : "Añade un chorrito de ron en cada vaso, el zumo de ½ lima por vaso y el refresco hasta completar el vaso. Decora con una rodaja de lima y unas hojas de menta o hierbabuena. Remueve con una pajita y listo para disfrutar.",
-            "img": "-"
-        },
-    "other" : "",
-    "credits": "",
-    "remember": "Acuérdate de comprar harina de garbanzos y leche de soja."
-    }
+            "img": ""
+        }
+      },
+      "other" : "",
+      "credits": "",
+      "remember": "Acuérdate de comprar harina de garbanzos y leche de soja."
   },
   {
     "id": 6,
@@ -374,31 +374,31 @@
     "steps" :{
         "1": {
             "text" : "Comenzamos limpiando las tajadas de pollo retirando la piel y cortándolas en trozos de tamaño mediano limpios y sin hueso. Yo usé pechugas y contramuslos para hacerlo de manera más sencilla.",
-            "img": "-"
+            "img": ""
         },
         "2": {
             "text" : "Preparamos nuestra mezcla de especias, con el garam masala, comino molido, cilantro en polvo, hojas de curry, cúrcuma, ajo en polvo, jengibre en polvo, y lo mezclamos bien. Tomamos la mitad de esa mezcla y la reservamos.",
-            "img": "-"
+            "img": ""
         },
         "3": {
           "text" : "La otra mitad de esas especias, la mezclamos con el yogur y la utilizamos para marinar allí el pollo durante unas horas. Podéis hacerlo por la noche y dejarlo toda la noche en la nevera para que tome sabor.",
-          "img": "-"
+          "img": ""
         },
         "4": {
           "text" : "Tras el marinado, freímos las tajadas de pollo hasta que queden ligeramente doradas.",
-          "img": "-"
+          "img": ""
         },
         "5": {
           "text" : "Después preparamos una pasta con el tomate concentrado, tres tomates sin piel ni pepitas, la cebolla, un diente de ajo, unas bayas de pimienta y la otra mitad de la mezcla de especias, triturando en un procesador de alimentos.",
-          "img": "-"
+          "img": ""
         },
         "6": {
           "text" : "En la misma sartén donde tenemos las tajadas del pollo, añadimos la leche de coco y la pasta de tomate y especias que hemos hecho con el procesador, dejando que el pollo cueza dentro, donde tomará su tradicional color rojizo. Mientras el pollo se termina de hacer, podemos aprovechar para preparar el arroz para la guarnición.",
-          "img": "-"
+          "img": ""
         },
         "7": {
           "text" : "Terminamos la receta añadiendo si queremos un poco de cilantro fresco muy picado que refrescará la elaboración o agregando un cm de raíz de jengibre rallado.",
-          "img": "-"
+          "img": ""
         }
         },
     "other" : "",
@@ -441,38 +441,38 @@
     "steps" :{
         "1": {
             "text" : "El primer caso es clarificar la mantequilla. Para ello ponla en un cazo a fuego suave hasta que se vuelva líquida, y durante el proceso no la remuevas ni tampoco esperes a que hierva y burbujee. Esto mismo también puedes hacerlo en el microondas, vigilando cada pocos segundos para comprobar si ya está líquida.",
-            "img": "-"
+            "img": ""
         },
         "2": {
             "text" : "Déjala reposar unos 5 minutos.",
-            "img": "-"
+            "img": ""
         },
         "3": {
           "text" : "En una jarrita pon un colador y echa sobre él la mantequilla poco a poco para que se quede tanto en el colador como en el fondo de la jarra original la parte blanquecina de la mantequilla que es el suero."
         },
         "4": {
           "text" : "Ahora ya podemos preparar la salsa holandesa. Para mi un truco muy bueno es utilizar una batidora de mano para montarla.",
-          "img": "-"
+          "img": ""
         },
         "5": {
           "text" : "Casca los huevos, separa la yema de la clara y echa las yemas en el vaso de la batidora junto con el zumo de limón o lima, la sal y el agua.",
-          "img": "-"
+          "img": ""
         },
         "6": {
           "text" : "Empieza a batir sin mover la batidora y cuando se empiece a montar la mezcla ve añadiendo poco a poco la mantequilla, sin dejar de batir.",
-          "img": "-"
+          "img": ""
         },
         "7": {
           "text" : "Casca los huevos, separa la yema de la clara y echa las yemas en el vaso de la batidora junto con el zumo de limón o lima, la sal y el agua.",
-          "img": "-"
+          "img": ""
         },
         "8": {
           "text" : "No eches toda la mantequilla, fíjate que en el fondo seguirá quedando un poco de residuo blanquecino y no debes añadirlo. ",
-          "img": "-"
+          "img": ""
         },
         "9": {
           "text" : "Cuando ya la tengas lista ten en cuenta que en cuanto deje de estar en contacto con calor se endurecerá, así que para mantenerla bien ve cambiando el agua del recipiente exterior para que siempre esté caliente. También puedes pasarla a un bol y mantener éste sobre un cazo con agua caliente pero sin llegar a hervir y sin que en ningún momento el bol toque el agua.",
-          "img": "-"
+          "img": ""
       }
     },
     "other" : "Truco: si se te ha solidificado demasiado y quieres aligerarla o simplemente quieres que la salsa no sea tan espesa, añade una cucharadita de agua caliente y tritúrala con la batidora de nuevo. Puedes añadir tanta agua como necesites hasta conseguir la textura que buscas, pero no te pases porque podría quedarse demasiado líquida y además el sabor quedaría demasiado diluido. Yo suelo añadir entre una y dos cucharadas soperas de agua para que no me quede demasiado espesa.",
@@ -519,18 +519,18 @@
     "steps" :{
         "1": {
             "text" : "Calentamos y el aceite vegetal en una cazuela grande. Podemos sustituir el aceite por 3 cucharadas de mantequilla. En la cazuela salteamos los ajos y la cebolla finamente picada, removiendo continuamente durante dos o tres minutos.",
-            "img": "-"
+            "img": ""
         },
         "2": {
             "text" : "Lavamos el pimiento rojo y pelamos las zanahorias, cortamos todo en trocitos cuadrados iguales, no muy grandes.",
-            "img": "-"
+            "img": ""
         },
         "3": {
           "text" : "Añadimos a la cazuela con la cebolla y el ajo y dejamos que se cocine todo a fuego medio bajo durante 10 minutos."
         },
         "4": {
           "text" : "Una vez que tenemos nuestro sofrito perfecto es hora de añadir el trozo de jengibre. A mi me gusta incorporarlo entero para que de todo su sabor y aroma pero pueda quitarlo al final de la cocción.",
-          "img": "-"
+          "img": ""
         },
         "5": {
           "text" : "Añadimos al sofrito las lentejas rojas previamente hidratadas. Mezclamos bien con todos los ingredientes.",
@@ -538,15 +538,15 @@
         },
         "6": {
           "text" : "Incorporamos nuestras especias, el cúrcuma (o curry), el garam masala, el comino, la canela en rama y el toque picante (opcional) de la cayena o el chile molido. Mezclamos bien durante unos segundos.",
-          "img": "-"
+          "img": ""
         },
         "7": {
           "text" : "Añadimos el tomate fresco sin piel y troceado en daditos pequeños y los tomate enteros en conserva (sin el agua que trae el bote), removemos todo para juntar sabores.",
-          "img": "-"
+          "img": ""
         },
         "8": {
           "text" : "Vertemos el caldo de verduras (o agua) y la leche de coco. Mezclamos bien, tapamos y lo llevamos a ebullición. Salpimentamos al gusto.",
-          "img": "-"
+          "img": ""
         }
     },
     "other" : "Truco: si se te ha solidificado demasiado y quieres aligerarla o simplemente quieres que la salsa no sea tan espesa, añade una cucharadita de agua caliente y tritúrala con la batidora de nuevo. Puedes añadir tanta agua como necesites hasta conseguir la textura que buscas, pero no te pases porque podría quedarse demasiado líquida y además el sabor quedaría demasiado diluido. Yo suelo añadir entre una y dos cucharadas soperas de agua para que no me quede demasiado espesa.",
@@ -609,31 +609,31 @@
     "steps" :{
         "1": {
             "text" : "Precalienta el horno a 180 grados",
-            "img": "-"
+            "img": ""
         },
         "2": {
             "text" : "En un bol, mezcla todos los ingredientes sólidos (las harinas, la chía, el psyllium, las semillas, la levadura y la sal). Remueve con un tenedor para integrarlos de forma homogénea.",
-            "img": "-"
+            "img": ""
         },
         "3": {
           "text" : "Añade ahora los ingredientes líquidos (el agua y el vinagre), y remueve hasta conseguir una mezcla uniforme.",
-          "img": "-"
-        },        
+          "img": ""
+        },
         "4": {
           "text" : "Cubre con papel de horno un molde rectangular, y con ayuda de una lengua, introduce la mezcla dentro del molde. Hazlo con cuidado, ¡que la mezcla está muy líquida!",
-          "img": "-"
+          "img": ""
         },
         "5": {
           "text" : "Deja reposar unos 10 minutos para que las semillas se hidraten un poco. También puedes añadir más semillas para decorar en la parte superior.",
-          "img": "-"
+          "img": ""
         },
         "6": {
           "text" : "Una vez haya reposado, introduce en el horno a 180 grados durante una hora, o hasta que al pinchar con un palito de madera, éste salga seco. Apaga el horno y deja el pan dentro un rato para que acabe de perder humedad",
-          "img": "-"
+          "img": ""
         },
         "7": {
           "text" : "¡Recuerda que debe enfriarse antes de cortarlo!",
-          "img": "-"
+          "img": ""
         }
     },
     "other" : "",
@@ -700,19 +700,19 @@
     "steps" :{
         "1": {
             "text" : "Ponemos las ñoras en un cuenco con agua caliente para que se rehidraten. Las dejaremos unos 30 minutos, hasta que estén totalmente hidratadas. Reservamos.",
-            "img": "-"
+            "img": ""
         },
         "2": {
             "text" : "Pelamos la cebolla y colocamos los tomates, la cebolla y los dientes de ajo en una fuente apta para horno. Horneamos, con el horno previamente caliente a 180º C, durante 30 minutos, hasta que las verduras estén asadas. Para evitar que los tomates puedas reventar, les daremos un corte superficial en la piel.",
-            "img": "-"
+            "img": ""
         },
         "3": {
           "text" : "Mientras las verduras se cocinan, preparamos el resto de ingredientes. Retiramos las ñoras del agua y eliminamos las semillas interiores. Con la punta de un cuchillo o una cucharilla, vamos separando su carne interior.",
-          "img": "-"
+          "img": ""
         },
         "4": {
           "text" : "Tostamos las avellanas en una sartén y les retiramos, en lo posible, la piel exterior. Tostamos las almendras y las nueces en una sartén durante unos minutos. Una vez cocinadas las verduras, pelamos los tomates y los dientes de ajo.",
-          "img": "-"
+          "img": ""
         }
     },
     "other" : "En un momento tenemos lista esta estupenda salsa tan tradicional como acompañamiento de los típicos calçots o de cualquier tipo de pescado o verdura a la parrilla.",
@@ -779,23 +779,23 @@
     "steps" :{
         "1": {
             "text" : "Pon a calentar el caldo en un cazo. Mientras se calienta, pica todas las verduras",
-            "img": "-"
+            "img": ""
         },
         "2": {
             "text" : "En una sartén grande o una paella, pon un poco de aceite y marca el pollo hasta que empiece a dorarse. Sácalo y reserva.",
-            "img": "-"
+            "img": ""
         },
         "3": {
           "text" : "Sofríe la cebolla. Una vez empiece a estar transparente, añade el pimiento y el laurel y continúa hasta que empiece a estar blando. Una vez lo esté, añade el tomate y deja que pierda un poco el agua.",
-          "img": "-"
+          "img": ""
         },
         "4": {
           "text" : "Añade el pollo reservado y el arroz y mezcla todo bien. Una vez que esté bien integrado.",
-          "img": "-"
+          "img": ""
         },
         "5": {
           "text" : "Añade el caldo y remueve. Deja que se cocine a fuego medio y vaya perdiendo el agua. Comprueba que esté hecho el arroz (tardará unos 20 minutos). Una vez esté hecho, apaga el fuego, tapa con un trapo y deja reposar 5 minutos.",
-          "img": "-"
+          "img": ""
         }
     },
     "other" : "",
@@ -834,23 +834,23 @@
     "steps" :{
         "1": {
             "text" : "Coge un vaso de un armario de tu cocina o de tu salón.",
-            "img": "-"
+            "img": ""
         },
         "2": {
             "text" : "Echa hielo en abundancia, si tienes hielo picado, mucho mejor.",
-            "img": "-"
+            "img": ""
         },
         "3": {
           "text" : "Echa todos los ingredientes en el vaso (primero el vodka, luego el café y por último la leche y la nata.",
-          "img": "-"
+          "img": ""
         },
         "4": {
           "text" : "Busca una bata o cualquier prenda de ropa que haga las veces de pijama y vístete con ellas.",
-          "img": "-"
+          "img": ""
         },
         "5": {
           "text" : "Bébetelo y repite la operación cuantas veces consideres oportuno.",
-          "img": "-"
+          "img": ""
         }
     },
     "other" : "",
