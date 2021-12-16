@@ -165,12 +165,12 @@
 }
 
 .blur {
-    height: 200px;
-    width: 200px;
-    margin: -80px;
+    height: 300px;
+    width: 300px;
+    margin: -140px;
     background: black;
     position: absolute;
-    filter: blur(120px);
+    filter: blur(140px);
 }
 
 .ingredientsRecipe {

@@ -477,5 +477,247 @@
     "other" : "Truco: si se te ha solidificado demasiado y quieres aligerarla o simplemente quieres que la salsa no sea tan espesa, añade una cucharadita de agua caliente y tritúrala con la batidora de nuevo. Puedes añadir tanta agua como necesites hasta conseguir la textura que buscas, pero no te pases porque podría quedarse demasiado líquida y además el sabor quedaría demasiado diluido. Yo suelo añadir entre una y dos cucharadas soperas de agua para que no me quede demasiado espesa.",
     "credits": "",
     "remember": "Pedir en la carnicería que nos piquen la pechuga de pollo"
+  },
+  {
+    "id": 8,
+    "main-img": "https://drive.google.com/uc?export=view&id=150xk3_mz_BRkGx1Va7-EziayVfSXi2Rc",
+    "name" : "Dahl de lentejas",
+    "prep-time": "10 minutos",
+    "cook-time": "30 minutos",
+    "total-time": "40 minutos",
+    "main-tag": "Principales",
+    "tags": ["Sin gluten","Vegetariana","India"],
+    "rations": "4",
+    "fav": true,
+    "ingredients": {
+        "lentejas rojas": {
+            "quantity": 190,
+            "unit": "gr"
+        },
+        "cebolla": {
+            "quantity": 1,
+            "unit": ""
+        },
+        "ajo": {
+          "quantity": 1,
+          "unit": ""
+        },
+        "zumo de limón o lima": {
+          "quantity": 1,
+          "unit": "cucharadita"
+        },
+        "curry": {
+          "quantity": 1,
+          "unit": "pizca"
+        },
+        "canela": {
+          "quantity": 1,
+          "unit": "ramita"
+        }
+    },
+    "steps" :{
+        "1": {
+            "text" : "Calentamos y el aceite vegetal en una cazuela grande. Podemos sustituir el aceite por 3 cucharadas de mantequilla. En la cazuela salteamos los ajos y la cebolla finamente picada, removiendo continuamente durante dos o tres minutos.",
+            "img": "-"
+        },
+        "2": {
+            "text" : "Lavamos el pimiento rojo y pelamos las zanahorias, cortamos todo en trocitos cuadrados iguales, no muy grandes.",
+            "img": "-"
+        },
+        "3": {
+          "text" : "Añadimos a la cazuela con la cebolla y el ajo y dejamos que se cocine todo a fuego medio bajo durante 10 minutos."
+        },
+        "4": {
+          "text" : "Una vez que tenemos nuestro sofrito perfecto es hora de añadir el trozo de jengibre. A mi me gusta incorporarlo entero para que de todo su sabor y aroma pero pueda quitarlo al final de la cocción.",
+          "img": "-"
+        },
+        "5": {
+          "text" : "Añadimos al sofrito las lentejas rojas previamente hidratadas. Mezclamos bien con todos los ingredientes.",
+          "img": "https://drive.google.com/uc?export=view&id=1tS_rNFDB4TBAiATivRohR1e66GUUNA3w"
+        },
+        "6": {
+          "text" : "Incorporamos nuestras especias, el cúrcuma (o curry), el garam masala, el comino, la canela en rama y el toque picante (opcional) de la cayena o el chile molido. Mezclamos bien durante unos segundos.",
+          "img": "-"
+        },
+        "7": {
+          "text" : "Añadimos el tomate fresco sin piel y troceado en daditos pequeños y los tomate enteros en conserva (sin el agua que trae el bote), removemos todo para juntar sabores.",
+          "img": "-"
+        },
+        "8": {
+          "text" : "Vertemos el caldo de verduras (o agua) y la leche de coco. Mezclamos bien, tapamos y lo llevamos a ebullición. Salpimentamos al gusto.",
+          "img": "-"
+        }
+    },
+    "other" : "Truco: si se te ha solidificado demasiado y quieres aligerarla o simplemente quieres que la salsa no sea tan espesa, añade una cucharadita de agua caliente y tritúrala con la batidora de nuevo. Puedes añadir tanta agua como necesites hasta conseguir la textura que buscas, pero no te pases porque podría quedarse demasiado líquida y además el sabor quedaría demasiado diluido. Yo suelo añadir entre una y dos cucharadas soperas de agua para que no me quede demasiado espesa.",
+    "credits": "https://www.recetasderechupete.com/dahl-curry-de-lentejas-rojas/15210/",
+    "remember": "Pedir en la carnicería que nos piquen la pechuga de pollo"
+  },
+  {
+    "id": 9,
+    "main-img": "https://drive.google.com/uc?export=view&id=1WPojEt87aJnPNB9rdAM6ZwWCbguvAvAm",
+    "name" : "Pan no pan",
+    "prep-time": "5 minutos",
+    "cook-time": "60 minutos",
+    "main-tag": "Entrante",
+    "tags": ["Sin Gluten"],
+    "rations": "6",
+    "fav": false,
+    "ingredients": {
+        "Harina de almendras": {
+            "quantity": 150,
+            "unit": "gr"
+        },
+        "Harina de garbanzo": {
+            "quantity": 140,
+            "unit": "gr"
+        },
+        "Agua": {
+          "quantity": 400,
+          "unit": "ml"
+        },
+        "Semillas de chía": {
+          "quantity": 3,
+          "unit": "cucharadas"
+        },
+        "Psyllium": {
+          "quantity": 3,
+          "unit": "cucharadas"
+        },
+        "Mix de semillas": {
+            "quantity": 140,
+            "unit": "gr"
+        },
+        "Levadura de reposteria": {
+          "quantity": 2,
+          "unit": "cucharaditas"
+        },
+        "Bicarbonato": {
+          "quantity": 1,
+          "unit": "cucharadita"
+        },
+        "Sal": {
+          "quantity": 1,
+          "unit": "cucharadita"
+        },
+        "Vinagre de manzana": {
+          "quantity": 2,
+          "unit": "cucharadas"
+        }
+    },
+    "steps" :{
+        "1": {
+            "text" : "Precalienta el horno a 180 grados",
+            "img": "-"
+        },
+        "2": {
+            "text" : "En un bol, mezcla todos los ingredientes sólidos (las harinas, la chía, el psyllium, las semillas, la levadura y la sal). Remueve con un tenedor para integrarlos de forma homogénea.",
+            "img": "-"
+        },
+        "3": {
+          "text" : "Añade ahora los ingredientes líquidos (el agua y el vinagre), y remueve hasta conseguir una mezcla uniforme.",
+          "img": "-"
+        },        
+        "4": {
+          "text" : "Cubre con papel de horno un molde rectangular, y con ayuda de una lengua, introduce la mezcla dentro del molde. Hazlo con cuidado, ¡que la mezcla está muy líquida!",
+          "img": "-"
+        },
+        "5": {
+          "text" : "Deja reposar unos 10 minutos para que las semillas se hidraten un poco. También puedes añadir más semillas para decorar en la parte superior.",
+          "img": "-"
+        },
+        "6": {
+          "text" : "Una vez haya reposado, introduce en el horno a 180 grados durante una hora, o hasta que al pinchar con un palito de madera, éste salga seco. Apaga el horno y deja el pan dentro un rato para que acabe de perder humedad",
+          "img": "-"
+        },
+        "7": {
+          "text" : "¡Recuerda que debe enfriarse antes de cortarlo!",
+          "img": "-"
+        }
+    },
+    "other" : "",
+    "credits": "",
+    "remember": ""
+  },
+  {
+    "id": 10,
+    "main-img": "https://drive.google.com/uc?export=view&id=1WVG1gPKszaJiS7o-WBN2Ys0p43q6POPo",
+    "name" : "Arroz con pollo y verduras",
+    "prep-time": "10 minutos",
+    "cook-time": "30 minutos",
+    "main-tag": "Principal",
+    "tags": ["Sin Gluten"],
+    "rations": "4",
+    "fav": false,
+    "ingredients": {
+        "Pollo troceado": {
+            "quantity": 500,
+            "unit": "gr"
+        },
+        "Arroz blanco": {
+            "quantity": 2,
+            "unit": "vasos"
+        },
+        "Agua o caldo": {
+          "quantity": 1000,
+          "unit": "ml"
+        },
+        "Pimiento rojo": {
+          "quantity": 1,
+          "unit": ""
+        },
+        "Pimiento verde": {
+          "quantity": 1,
+          "unit": ""
+        },
+        "Cebolla": {
+            "quantity": 1,
+            "unit": ""
+        },
+        "Tomate triturado": {
+          "quantity": 200,
+          "unit": "gr"
+        },
+        "Azafrán": {
+          "quantity": 1,
+          "unit": "pizca"
+        },
+        "Laurel": {
+          "quantity": 1,
+          "unit": "hoja"
+        },
+        "Sal": {
+          "quantity": 1,
+          "unit": "cucharadita"
+        },
+        "Aceite de oliva": {
+          "quantity": "",
+          "unit": ""
+        }
+    },
+    "steps" :{
+        "1": {
+            "text" : "Pon a calentar el caldo en un cazo. Mientras se calienta, pica todas las verduras",
+            "img": "-"
+        },
+        "2": {
+            "text" : "En una sartén grande o una paella, pon un poco de aceite y marca el pollo hasta que empiece a dorarse. Sácalo y reserva.",
+            "img": "-"
+        },
+        "3": {
+          "text" : "Sofríe la cebolla. Una vez empiece a estar transparente, añade el pimiento y el laurel y continúa hasta que empiece a estar blando. Una vez lo esté, añade el tomate y deja que pierda un poco el agua.",
+          "img": "-"
+        },
+        "4": {
+          "text" : "Añade el pollo reservado y el arroz y mezcla todo bien. Una vez que esté bien integrado.",
+          "img": "-"
+        },
+        "5": {
+          "text" : "Añade el caldo y remueve. Deja que se cocine a fuego medio y vaya perdiendo el agua. Comprueba que esté hecho el arroz (tardará unos 20 minutos). Una vez esté hecho, apaga el fuego, tapa con un trapo y deja reposar 5 minutos.",
+          "img": "-"
+        }
+    },
+    "other" : "",
+    "credits": "",
+    "remember": ""
   }]
-}
+  }
