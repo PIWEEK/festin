@@ -2,6 +2,8 @@ import React, { useCallback } from "react";
 
 import { ReactComponent as FestinLogo }from '../assets/festinLogoBlack.svg';
 import './initialPage.css';
+import { ReactComponent as CorazonIcon }from '../assets/heart-5.svg';
+import { ReactComponent as SearchIcon }from '../assets/search-1.svg';
 
 function InitialPage({sections, tags, manageInput, setToggleFav, setSelectedSection, setSelectedTags, selectedTags, toggleFav}) {
     const manageCheck = useCallback(
@@ -28,13 +30,16 @@ function InitialPage({sections, tags, manageInput, setToggleFav, setSelectedSect
                 <FestinLogo />
             </span>
             <div>
-                <input className="searchBar" type="input" placeholder="Buscar recetas" onChange={manageInput} />
+                <input className="searchBar" type="input" placeholder="Buscar recetas"onChange={manageInput} />
+                <span className="iconContainer">
+                    <SearchIcon />
+                </span>
             </div>
             <ul className="tagSelection">
                 <li className="tagWrapper">
                     <label htmlFor="fav">
                         <input className="inputCheck" type="checkbox" onClick={()=> manageFavorite()} name="favOption" id="fav"/>
-                        <span className="labelAsButton" >Preferidas</span>
+                        <span className="labelAsButton"><span className="iconWrapper"><CorazonIcon /> </span> Preferidas</span>
                     </label>
                 </li>
                 {tags.map(tag => <li className="tagWrapper" key={`tag-${tag}`}>
