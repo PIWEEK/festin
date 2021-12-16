@@ -1,7 +1,10 @@
 import React, { useCallback } from "react";
+import {
+    Link
+  } from "react-router-dom";
 
-import { ReactComponent as FestinLogo }from '../assets/festinLogoBlack.svg';
-import './initialPage.css';
+  import './initialPage.css';
+  import { ReactComponent as FestinLogo }from '../assets/festinLogoBlack.svg';
 import { ReactComponent as CorazonIcon }from '../assets/heart-5.svg';
 import { ReactComponent as SearchIcon }from '../assets/search-1.svg';
 
@@ -26,15 +29,23 @@ function InitialPage({sections, tags, manageInput, setToggleFav, setSelectedSect
 
     return (
         <div className="initial">
-            <span className="logoWrapper">
-                <FestinLogo/>
-            </span>
+            <nav className="navBar">
+                <span className="logoWrapper">
+                    <FestinLogo/>
+                </span>
+                <Link
+                    className="createLink"
+                    to={`/crear`}>
+                        Añadir nueva receta
+                </Link>
+            </nav>
             <div>
                 <input className="searchBar" type="input" placeholder="Buscar recetas"onChange={manageInput} />
                 <span className="iconContainer">
                     <SearchIcon />
                 </span>
             </div>
+
             <ul className="tagSelection">
                 <li className="tagWrapper">
                     <label htmlFor="fav">

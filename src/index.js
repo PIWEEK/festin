@@ -9,6 +9,7 @@ import {
 import './index.css';
 import App from './App';
 import Detail from "./routes/details/DetailRoute";
+import CreateRecipe from "./routes/createRecipe/CreateRecipe";
 
 
 ReactDOM.render(
@@ -18,6 +19,7 @@ ReactDOM.render(
         <Route path="receta" element={<Detail />} >
           <Route path=":recipeId" />
         </Route>
+        <Route path="crear" element={<CreateRecipe />} />
         <Route
             path="*"
             element={

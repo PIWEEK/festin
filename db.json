@@ -1,6 +1,6 @@
 {
   "main-tags": ["Entrantes", "Principales", "Postres", "Bebidas", "Salsas"],
-  "tags" : ["Vegetariana" ,"Vegana" , "Sin gluten", "Sin azúcar", "Sin lactosa", "Sin huevo", "Sin soja", "Sin pescado", "Sin crustáceos", "Japonesa", "Española", "Mediterránea", "Americana", "India", "Thai", "China", "Francesa", "Italiana"],
+  "tags" : ["Vegetariana" , "Sin gluten", "Sin azúcar", "Sin lactosa", "Sin soja", "Sin pescado", "Sin crustáceos", "Española", "India"],
   "recipes": [
   {
         "id": 1,

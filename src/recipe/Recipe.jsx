@@ -11,11 +11,6 @@ function Recipe({recipe}) {
           key={recipe.id}>
               <p className="recipeImg"><img src={recipe["main-img"]} alt="main"></img></p>
               <p className="recipeName">{recipe.name}</p>
-              {/* 
-              <p>Fav: {recipe.fav ? "Si" : "No"}</p>
-              <p>Categoria: {recipe["main-tag"]}</p>
-              <p>{recipe.tags.map(item=><span key={item}>{item}</span>)}</p>
-              */}
         </Link>
       </li>
     );

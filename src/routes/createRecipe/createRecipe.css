@@ -1,0 +1,159 @@
+.navCreate{
+    height: 85px;
+}
+
+.createRecipeWrapper {
+    height:calc(100vh - 90px);
+    display: grid;
+    grid-template-columns: 50% 1fr;
+    background-color: white;
+    overflow: hidden;
+}
+
+.createTitle {
+    text-align: center;
+    font-family: "Restora";
+    font-weight: normal;
+    padding: 20px;
+    font-size: 2rem;
+    background-color: white;
+}
+
+.FrontRecipeCreate{
+    background-color: var(--all-recipes-color);
+    color: var(--all-recipes-color-font);
+    height: calc(100vh - 140px);
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 60px;
+}
+
+.FrontRecipeCreate.Entrantes{
+    background-color: var(--entrantes-color);
+    color: var(--entrantes-color-font);
+}
+
+.FrontRecipeCreate.Principales{
+    background-color: var(--principales-color);
+    color: var(--principales-color-font);
+}
+
+.FrontRecipeCreate.Postres{
+    background-color: var(--postres-color);
+    color: var(--postres-color-font);
+}
+
+.FrontRecipeCreate.Bebidas{
+    background-color: var(--bebidas-color);
+    color: var(--bebidas-color-font);
+}
+
+.FrontRecipeCreate.Salsas{
+    background-color: var(--salsas-color);
+    color: var(--salsas-color-font);
+}
+
+.imageAsideCreate{
+    height:90%;
+    width: 50vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.imgInputWrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputInvisible {
+    border:none;
+    background-color: transparent;
+}
+
+.imgInput {
+    text-align: center;
+    font-family: "Restora";
+    font-size: 1rem;
+    min-width: 250px;
+}
+
+.rationInput {
+    display: inline;
+    width: 20%;
+}
+
+.rationText {
+    font-size: 0.8rem;
+    color: #6a6969;
+}
+
+.nombreInput {
+    font-family: "Restora";
+    font-size: 3.5rem;
+    border-bottom: 1px solid #ccc;
+}
+.rememberInput {
+    margin-top: 35px;
+    border-bottom: 1px solid #ccc;
+    font-size: 1.5rem;
+    width: 70%;
+}
+
+.sectionsWrapper{
+    display: flex;
+    margin: 15px;
+}
+
+.smallText{
+    display: inline;
+    padding-right: 20px;
+}
+
+.sectionsContainer{
+    display: flex;
+    font-family: "Restora";
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.labelAsSection {
+    display: flex;
+    margin: 0 2rem 0 0;
+    padding: 0;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+:checked + span.labelAsSection.Principales{
+    font-weight: bold;
+    color: var(--principales-color);
+}
+
+:checked + span.labelAsSection.Entrantes{
+    font-weight: bold;
+    color: var(--entrantes-color);
+}
+
+:checked + span.labelAsSection.Postres{
+    font-weight: bold;
+    color: var(--postres-color);
+}
+
+:checked + span.labelAsSection.Bebidas{
+    font-weight: bold;
+    color: var(--bebidas-color);
+}
+
+:checked + span.labelAsSection.Salsas{
+    font-weight: bold;
+    color: var(--salsas-color);
+}
