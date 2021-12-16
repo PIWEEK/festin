@@ -108,7 +108,7 @@ export default function Detail() {
                             {stepList.map((step, index)=>{
                                 return(
                                     <li className="steps" key={index}>{step.text}
-                                        {step.img!== "-" ? <img className="stepImg" src={step.img} alt="step images"></img>: ""}
+                                        {step.img!== "-" ? <img className="stepImg" src={step.img} alt="step"></img>: ""}
                                     </li>
                                 )
                             })}
