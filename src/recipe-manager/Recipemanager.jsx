@@ -8,6 +8,7 @@ const RecipeManager = () => {
     const [favRecipes, setFavRecipes] = useState([]);
     const [tags, setTags] = useState([]);
     const [sections, setSections] = useState([]);
+    const [error, setError] = useState({hasError: false, error: ""});
 
     const [toggleFav, setToggleFav] = useState(false);
     const [selectedSection, setSelectedSection] = useState("all");
@@ -33,8 +34,12 @@ const RecipeManager = () => {
         fetch(url)
             .then(response => response.json())
             .then((data) => {
-                setRecipes(data);
-            });
+                if(data) {setRecipes(data);}
+                else {
+                    setRecipes([])
+                }
+            })
+            .catch(error => setError({hasError:true, error}));
     };
 
     const fetchFavs = (url) => {
@@ -42,7 +47,7 @@ const RecipeManager = () => {
             .then(response => response.json())
             .then((data) => {
                 setFavRecipes(data);
-            });
+            }).catch(error=>console.log(error));;
     };
 
     const fetchTags = (url) => {
@@ -50,7 +55,7 @@ const RecipeManager = () => {
             .then(response => response.json())
             .then((data) => {
                 setTags(data);
-            });
+            }).catch(error=>console.log(error));;
     };
 
     const fetchSections = (url) => {
@@ -58,7 +63,7 @@ const RecipeManager = () => {
             .then(response => response.json())
             .then((data) => {
                 setSections(data);
-            });
+            }).catch(error=>console.log(error));
     };
 
     useEffect(() => {
@@ -71,6 +76,22 @@ const RecipeManager = () => {
     const manageInput = (event) => {
         setRecipeName(event.currentTarget.value);
     };
+
+    if(error.error) {
+        return <>
+            <InitialPage
+                favs={[]}
+                sections={[]}
+                tags={[]}
+                toggleFav={toggleFav}
+                manageInput={manageInput}
+                setToggleFav={setToggleFav}
+                setSelectedSection={setSelectedSection}
+                setSelectedTags={setSelectedTags}
+                selectedTags={selectedTags}/>
+                <RecipeList recipes={[]} />
+        </>
+    }
 
     return (
         <>

@@ -20,6 +20,17 @@ export default function CreateRecipe() {
     const [ingredients, setIngredients] = useState([{name: "", quantity: "", unit: ""}]);
     const [steps, setSteps] = useState([{text:"", img: ""}]);
 
+    const [recipeName, setRecipeName] = useState("");
+    const [prepTime, setPrepTime] = useState("");
+    const [cookTime, setCookTime] = useState("");
+    const [totalTime, setTotalTime] = useState("");
+    const [rations, setRations] = useState(0);
+    const [remember, setRemember] = useState("");
+    const [other, setOther] = useState("");
+    const [credit, setCredit] = useState("");
+    const [mainImg, setMainImg] = useState("");
+    const [chooshedTags, setChoosedTags] = useState([]);
+
     const baseUrl = `http://localhost:3004`;
     const fetchTags = (url) => {
         fetch(url)
@@ -46,7 +57,7 @@ export default function CreateRecipe() {
 
     const IngredientComp = ({ingr, index}) => {
         return(
-            <div>
+            <div key={`${ingr.name}-${index}`}>
                 <input type="number" style={{display: "none"}} value={index}/>
                 <span className="circleDot">
                     <CircleIcon />
@@ -86,7 +97,7 @@ export default function CreateRecipe() {
 
     const SetpComp = ({step, index}) => {
         return(
-            <span className="stepWrapper">
+            <span key={`${step}-${index}`} className="stepWrapper">
                 <textarea
                     placeholder={`Aquí el paso ${index+1} de tu receta`}
                     className="stepTextArea"
@@ -104,6 +115,13 @@ export default function CreateRecipe() {
         )
     };
 
+    const manageTags = (newChooseTag) => {
+        if(chooshedTags.includes(newChooseTag)){
+            setChoosedTags(chooshedTags.filter(item => item !== newChooseTag));
+        } else {
+            setChoosedTags([...chooshedTags, newChooseTag].sort());
+        }
+    };
 
     useEffect(() => {
         fetchTags(`${baseUrl}/tags`);
@@ -121,6 +139,7 @@ export default function CreateRecipe() {
                 </main>
             );
     }
+
     return (
         <>
         <nav className="navCreate">
@@ -137,7 +156,14 @@ export default function CreateRecipe() {
                 style={{backgroundImage:`url(${defaultImg})`,}}
                 >
                 <span className="imgInputWrapper">
-                    <input className="inputInvisible imgInput" type="text" name="imagen" id="img" placeholder="Pega aquí la url de tu imagen" />
+                    <input
+                        onChange={(ev)=> setMainImg(ev.currentTarget.value)}
+                        className="inputInvisible imgInput"
+                        type="text"
+                        name="imagen"
+                        id="main-img"
+                        placeholder="Aquí la url de tu imagen"
+                        value={mainImg} />
                 </span>
             </aside>
             <main className="recipeMainCreate">
@@ -146,13 +172,31 @@ export default function CreateRecipe() {
                         <span className="smallText">Tipo de receta {"  "}</span>
                         <span className="sectionsContainer">
                             <label key="all" htmlFor="all">
-                                <input className="inputRadio" type="radio" onClick={() => setChoosedSection("")} name="sectionName" id="all" value="all" />
+                                <input
+                                    className="inputRadio"
+                                    type="radio"
+                                    onClick={() => setChoosedSection("")}
+                                    name="sectionName"
+                                    id="all"
+                                    value="all"
+                                    defaultChecked
+                                />
                                 <span className={`labelAsSection`} >Todas</span>
                             </label>
                             {sections.map(section => {
                                     return <label key={section} htmlFor={section}>
-                                        <input className="inputRadio" type="radio" onChange={() => setChoosedSection(section)} name="sectionName" id={section} value={section} />
-                                        <span className={`labelAsSection ${section}`} >{section}</span>
+                                        <input
+                                            className="inputRadio"
+                                            type="radio"
+                                            onChange={() => setChoosedSection(section)}
+                                            name="sectionName"
+                                            id={section}
+                                            value={section} />
+                                        <span
+                                            className={`labelAsSection ${section}`}
+                                        >
+                                            {section}
+                                        </span>
                                     </label>
                                 })}
                         </span>
@@ -163,25 +207,57 @@ export default function CreateRecipe() {
                             <div className="prepPartial">
                                 <p className={`prepText prepTitle ${choosedSection}`}>Preparación</p>
                                 <p className={`prepText `}>
-                                    <input className="inputInvisible timeInput" placeholder="20 minutos" type="text" name="prep-time" id="prep" />
+                                    <input
+                                        onChange={(event)=> setPrepTime(event.currentTarget.value)}
+                                        className="inputInvisible timeInput"
+                                        placeholder="20 minutos"
+                                        type="text"
+                                        name="prep-time"
+                                        id="prep"
+                                        value={prepTime}
+                                    />
                                     </p>
                             </div>
                             <div className="prepPartial">
-                                <p className={`prepText prepTitle  ${choosedSection}`}>Cocinado</p>
+                                <p className={`prepText prepTitle ${choosedSection}`}>Cocinado</p>
                                 <p className={`prepText`}>
-                                    <input className="inputInvisible timeInput" placeholder="30 minutos" type="text" name="cook-time" id="cook" />
+                                    <input
+                                        onChange={(event)=> setCookTime(event.currentTarget.value)}
+                                        className="inputInvisible timeInput"
+                                        placeholder="30 minutos"
+                                        type="text"
+                                        name="cook-time"
+                                        id="cook"
+                                        value={cookTime}
+                                    />
                                 </p>
                             </div>
                             <div className="prepPartial">
-                                <p className={`prepText prepTitle  ${choosedSection}`}>Total</p>
+                                <p className={`prepText prepTitle ${choosedSection}`}>Total</p>
                                 <p className={`prepText `}>
-                                    <input className="inputInvisible timeInput" placeholder="50 minutos" type="text" name="total-time" id="total" />
+                                    <input
+                                        onChange={(event)=> setTotalTime(event.currentTarget.value)}
+                                        className="inputInvisible timeInput"
+                                        placeholder="50 minutos"
+                                        type="text"
+                                        name="total-time"
+                                        id="total"
+                                        value={totalTime}
+                                    />
                                 </p>
                             </div>
                             <div className="prepPartial">
-                                <p className={`prepText prepTitle  ${choosedSection}`}>Para</p>
+                                <p className={`prepText prepTitle ${choosedSection}`}>Para</p>
                                 <p className={`prepText`}>
-                                    <input className="inputInvisible rationInput" placeholder="4" type="number" name="rations" id="ration" />
+                                    <input
+                                        onChange={(event)=> setRations(event.currentTarget.value)}
+                                        className="inputInvisible rationInput"
+                                        placeholder="4"
+                                        type="number"
+                                        name="rations"
+                                        id="ration"
+                                        value={rations}
+                                    />
                                     <span className="rationText">personas</span>
                                 </p>
                             </div>
@@ -189,34 +265,64 @@ export default function CreateRecipe() {
                         <div className="NameBar">
                             <h2 className="recipeTitle">
                                 <input
+                                    onChange={(event)=> setRecipeName(event.currentTarget.value)}
                                     className="inputInvisible nombreInput"
                                     type="text"
                                     name="nombre"
                                     id="nombre-receta"
-                                    placeholder="TÍTULO"/>
+                                    placeholder="TÍTULO"
+                                    value={recipeName}/>
                             </h2>
                             <input
+                                onChange={(event)=> setRemember(event.currentTarget.value)}
                                 className="inputInvisible rememberInput"
                                 type="text"
                                 name="remember"
                                 id="remember"
-                                placeholder="Tu nota para no olvidar antes de empezar a cocinar"/>
+                                placeholder="Tu nota para no olvidar antes de empezar a cocinar"
+                                value={remember}/>
                             <div className="tagsWrapper">
-                                <p className={`helpText  ${choosedSection}`}>Tags (selecciona las que quieras.)</p>
+                                <p className={`helpText  ${choosedSection}`}>
+                                    Tags (selecciona las que quieras.)
+                                </p>
                                 <div className="tagContainerCreate">
                                     <span className="shownTags">
                                     {tags.map((tag, index) =>{
                                         if(index<=2){
-                                                return <label key={tag}  className="non-hiddeable" htmlFor={tag}>
-                                                        <input className="inputCheck" type="checkbox" name={tag} id={tag} />
-                                                        <span className={`labelAsButtonCreate  ${choosedSection}`} >{tag}</span>
-                                                    </label>
-                                            }
-                                            return <label key={tag}  style={{display:`${shown ? "inline": "none"}`}} className="hiddeable" htmlFor={tag}>
-                                                <input className="inputCheck" type="checkbox" name={tag} id={tag} />
-                                                <span className={`labelAsButtonCreate  ${choosedSection}`} >{tag}</span>
+                                            return (
+                                            <label
+                                                key={tag}
+                                                className="non-hiddeable"
+                                                htmlFor={tag}
+                                            >
+                                                <input
+                                                    onChange={(event)=> manageTags(event.currentTarget.value)}
+                                                    className="inputCheck"
+                                                    type="checkbox"
+                                                    name={tag}
+                                                    id={tag}
+                                                    value={tag}
+                                                />
+                                                <span
+                                                    className={`labelAsButtonCreate  ${choosedSection}`} >
+                                                        {tag}
+                                                </span>
                                             </label>
-                                        })}
+                                        )}
+                                        return (
+                                            <label key={tag}  style={{display:`${shown ? "inline": "none"}`}} className="hiddeable" htmlFor={tag}>
+                                                <input
+                                                    className="inputCheck"
+                                                    type="checkbox"
+                                                    name={tag}
+                                                    id={tag} />
+                                                <span
+                                                    className={`labelAsButtonCreate  ${choosedSection}`} >
+                                                        {tag}
+                                                </span>
+                                            </label>
+                                        )
+                                    })}
                                         <button
                                             style={{display:`${shown ? "none": "inline"}`}}
                                             className="showMore"
@@ -225,7 +331,10 @@ export default function CreateRecipe() {
                                         <label style={shown ? {}: {visibility:"hidden", width: 0, height:0} } >
                                             <input className="inputCheck" type="checkbox" name={tags[2]} id={tags[2]} />
                                             <span className={`labelAsButtonCreate  ${choosedSection}`} >
-                                                <input className="inputInvisible newTagInput" type="text" placeholder="Crear Nueva" />
+                                                <input
+                                                    className="inputInvisible newTagInput"
+                                                    type="text"
+                                                    placeholder="Crear Nueva" />
                                             </span>
                                         </label>
                                         <button
@@ -261,17 +370,23 @@ export default function CreateRecipe() {
                 <section className="stepsRecipe">
                     <h1 className="ingredTitle">Notas finales</h1>
                     <textarea
+                        onChange={(event)=>{setOther(event.currentTarget)}}
                         placeholder="Escribe aquí cualquier detalle importante"
                         className="stepTextArea"
-                        name=""
-                        id="" cols="30" rows="3"></textarea>
-                    <p>Credito</p>
+                        name="other-text"
+                        id="other-text"
+                        cols="30"
+                        rows="3"
+                        value={other}/>
+                    <p>Crédito</p>
                     <input
+                         onChange={(event)=>{setCredit(event.currentTarget)}}
                         className="inputInvisible"
                         placeholder="¿De dónde es la receta?"
                         type="text"
                         name=""
-                        id="" />
+                        id=""
+                        value={credit} />
                     <span className="sendWrapper">
                         <button className="saveRecipe" type="submit">Guardar receta</button>
                     </span>
