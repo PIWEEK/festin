@@ -12,7 +12,7 @@
         "main-tag": "Entrantes",
         "tags": ["Española"],
         "rations": "4",
-        "fav": true,
+        "fav": false,
         "ingredients": {
             "Pechuga de pollo picada": {
                 "quantity": 300,
@@ -70,39 +70,59 @@
         "remember": "Pedir en la carnicería que nos piquen la pechuga de pollo"
   },
   {
-      "id": 2,
-      "main-img": "https://drive.google.com/uc?export=view&id=1JGuDnbe8-ChhsTu8Y-2V12tAyYIwk9e7",
-      "name" : "Empanadillas de atún",
-      "prep-time": "20 minutos",
-      "cook-time": "40 minutos",
-      "total-time": "1 hora",
-      "main-tag": "Entrantes",
-      "tags": ["Española", "Sin soja", "De la abuela Isabel", "Sin soja", "Sin azúcar", "Sin crustáceos"],
-      "rations": "4",
-      "fav": true,
-      "ingredients": {
-          "Eggs": {
-              "quantity": 3,
-              "unit": "ud"
-          },
-          "Flour": {
-              "quantity": 200,
-              "unit": "gr"
-          }
-      },
-      "steps" :{
-          "1": {
-              "text" : "cucharadita",
-              "img": ""
-          },
-          "2": {
-              "text" : "askajdkljsd",
-              "img": ""
-          }
-      },
-      "other" : "",
-      "credits": "",
-      "remember": ""
+    "id": 2,
+    "main-img": "https://drive.google.com/uc?export=view&id=1Vt9c1iHEvr_E_NF7Zp8B0i-dUURb6nvF",
+    "name" : "Salmón Teriyaki",
+    "prep-time": "10 minutos",
+    "cook-time": "30 minutos",
+    "total-time": "40 minutos",
+    "main-tag": "Principales",
+    "tags": ["Sin gluten","Sin crustáceos","Sin lactosa"],
+    "rations": "8",
+    "fav": true,
+    "ingredients": {
+        "Huevos": {
+            "quantity": 4,
+            "unit": ""
+        },
+        "Patatas": {
+            "quantity": 5,
+            "unit": ""
+        },
+        "Cebolla": {
+          "quantity": 500,
+          "unit": "gr"
+        },
+        "AVOE": {
+          "quantity": 1,
+          "unit": "chorrito"
+        }
+    },
+    "steps" :{
+        "1": {
+            "text" : "Preparamos el café y lo dejamos enfriar. Para acelerar el proceso lo podemos verter sobre una fuente amplia en una capa fina. Enfriará en cuestión de 15-20 minutos.",
+            "img": ""
+        },
+        "2": {
+            "text" : "Separamos las yemas de las claras de los huevos. Montamos las claras a punto de nieve ligero y reservamos. A continuación batimos las yemas con el azúcar hasta blanquear y que el azúcar se disuelva completamente, que no se note el granillo. La crema quedará con un color amarillo pálido.",
+            "img": ""
+        },
+        "3": {
+          "text" : "Echa todos los ingredientes en el vaso (primero el vodka, luego el café y por último la leche y la nata.",
+          "img": ""
+        },
+        "4": {
+          "text" : "Busca una bata o cualquier prenda de ropa que haga las veces de pijama y vístete con ellas.",
+          "img": ""
+        },
+        "5": {
+          "text" : "Bébetelo y repite la operación cuantas veces consideres oportuno.",
+          "img": ""
+        }
+    },
+    "other" : "",
+    "credits": "https://www.seriemaniac.com/2020/09/04/como-se-hace-el-ruso-blanco-del-gran-lebowski/",
+    "remember": ""
   },
   {
     "id": 3,
@@ -163,7 +183,7 @@
     "cook-time": "210 minutos",
     "total-time": "2h y 45min",
     "main-tag": "Principales",
-    "tags": ["Española", "De la abuela Isabel", "Sin gluten", "Sin azúcar","Sin pescado","Sin crustáceos","Sin soja"],
+    "tags": ["Española", "De la abuela Isabel", "Sin azúcar","Sin pescado","Sin crustáceos","Sin soja"],
     "rations": "6",
     "fav": false,
     "ingredients": {
@@ -407,7 +427,7 @@
   },
   {
     "id": 7,
-    "main-img": "https://drive.google.com/uc?export=view&id=1tS_rNFDB4TBAiATivRohR1e66GUUNA3w",
+    "main-img": "https://drive.google.com/uc?export=view&id=1x1ZZWKVF5yd1P8DZ0ZOhZMRxiYwIeZMO",
     "name" : "Salsa holandesa",
     "prep-time": "5 minutos",
     "cook-time": "10 minutos",
@@ -729,7 +749,7 @@
     "main-tag": "Principales",
     "tags": ["Sin gluten","Española","De la abuela Isabel","Sin crustáceos","Sin pescado","Sin soja"],
     "rations": "4",
-    "fav": false,
+    "fav": true,
     "ingredients": {
         "Pollo troceado": {
             "quantity": 500,
@@ -799,16 +819,16 @@
         }
     },
     "other" : "",
-    "credits": "",
+    "credits": "www.clara.com",
     "remember": ""
   },
   {
     "id": 13,
     "main-img": "https://drive.google.com/uc?export=view&id=1g1gQyI-aWfR_1iuaO2Im88o2uGqiUdmB",
     "name" : "White russian",
-    "prep-time": "10 minutos",
-    "cook-time": "30 minutos",
-    "total-time": "",
+    "prep-time": "2 minutos",
+    "cook-time": "Nada",
+    "total-time": "Nada",
     "main-tag": "Bebidas",
     "tags": ["Sin gluten"],
     "rations": "4",
@@ -1087,7 +1107,7 @@
     "main-tag": "Bebidas",
     "tags": ["Sin gluten","Sin pescado","Sin crustáceos","Sin soja","Vegetariana"],
     "rations": "8",
-    "fav": true,
+    "fav": false,
     "ingredients": {
         "Huevos": {
             "quantity": 4,
@@ -1197,7 +1217,7 @@
     "main-tag": "Postres",
     "tags": ["Sin gluten","Sin pescado","Sin crustáceos","Sin soja","Vegetariana"],
     "rations": "8",
-    "fav": true,
+    "fav": false,
     "ingredients": {
         "Huevos": {
             "quantity": 4,
@@ -1296,5 +1316,40 @@
     "other" : "",
     "credits": "https://www.seriemaniac.com/2020/09/04/como-se-hace-el-ruso-blanco-del-gran-lebowski/",
     "remember": ""
+  },
+  {
+      "id": 22,
+      "main-img": "https://drive.google.com/uc?export=view&id=1JGuDnbe8-ChhsTu8Y-2V12tAyYIwk9e7",
+      "name" : "Empanadillas de atún",
+      "prep-time": "20 minutos",
+      "cook-time": "40 minutos",
+      "total-time": "1 hora",
+      "main-tag": "Entrantes",
+      "tags": ["Española", "Sin soja", "De la abuela Isabel", "Sin soja", "Sin azúcar", "Sin crustáceos"],
+      "rations": "4",
+      "fav": true,
+      "ingredients": {
+          "Eggs": {
+              "quantity": 3,
+              "unit": "ud"
+          },
+          "Flour": {
+              "quantity": 200,
+              "unit": "gr"
+          }
+      },
+      "steps" :{
+          "1": {
+              "text" : "cucharadita",
+              "img": ""
+          },
+          "2": {
+              "text" : "askajdkljsd",
+              "img": ""
+          }
+      },
+      "other" : "",
+      "credits": "",
+      "remember": ""
   }]
   }
