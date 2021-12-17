@@ -136,6 +136,7 @@
 
 .tagContainer {
     display: flex;
+    flex-wrap: wrap;
     padding: 30px 0 0 0;
     gap: 10px;
 }
@@ -258,10 +259,16 @@ img.stepImg {
     
 }
 
+.quantity {
+    font-style: bold;
+    opacity: .5;
+    padding-left: 10px;
+}
+
 span.ingredientLabel:before{
-    content: "\025c7";
-    font-size: 2rem;
-    width: 20px;
+    content: "\025ef";
+    font-size: 1.5rem;
+    width: 26px;
     display: inline-block;
     padding: 15px 15px 15px 0;
 }
@@ -269,7 +276,7 @@ span.ingredientLabel:before{
 :checked + span.ingredientLabel:before{
     content: "\025c9";
     font-size: 2rem;
-    width: 20px;
+    width: 26px;
     display: inline-block;
 }
 

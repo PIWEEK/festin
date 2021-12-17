@@ -14,35 +14,35 @@
         "rations": "4",
         "fav": true,
         "ingredients": {
-            "pechuga de pollo picada": {
+            "Pechuga de pollo picada": {
                 "quantity": 300,
                 "unit": "gr"
             },
-            "huevos": {
+            "Huevos": {
                 "quantity": 3,
                 "unit": "ud"
             },
-            "sémola de trigo": {
+            "Sémola de trigo": {
               "quantity": 100,
               "unit": "gr"
             },
-            "queso crema para untar": {
+            "Queso crema para untar": {
               "quantity": 60,
               "unit": "gr"
             },
-            "aceite de oliva extra": {
+            "Aceite de oliva extra": {
               "quantity": 3,
               "unit": "cucharadas"
             },
-            "mezcla de frutos secos": {
+            "Mezcla de frutos secos": {
               "quantity": 3,
               "unit": "cucharadas"
             },
-            "sal": {
+            "Sal": {
               "quantity": 1,
               "unit": "cucharadita"
             },
-            "pimienta negra": {
+            "Pimienta negra": {
               "quantity": 1,
               "unit": "pizca"
     }
@@ -92,7 +92,7 @@
       },
       "steps" :{
           "1": {
-              "text" : "askajdkljsd",
+              "text" : "cucharadita",
               "img": ""
           },
           "2": {
@@ -167,43 +167,43 @@
     "rations": "6",
     "fav": false,
     "ingredients": {
-        "garbanzos": {
+        "Garbanzos": {
             "quantity": 350,
             "unit": "gr"
         },
-        "gallina": {
+        "Gallina": {
             "quantity": 1,
             "unit": "cuarto"
         },
-        "morcillo": {
+        "Morcillo": {
           "quantity": 500,
           "unit": "gr"
         },
-        "chorizos": {
+        "Chorizos": {
           "quantity": 2,
           "unit": "ud"
         },
-        "morcilla": {
+        "Morcilla": {
           "quantity": 1,
           "unit": "ud"
         },
-        "huesos de jamón": {
+        "Huesos de jamón": {
           "quantity": 2,
           "unit": "ud"
         },
-        "taco jamón": {
+        "Taco jamón": {
           "quantity": 1,
           "unit": "ud"
         },
-        "lacón": {
+        "Lacón": {
           "quantity": 1,
           "unit": "trozo"
         },
-        "patatas medianas": {
+        "Patatas medianas": {
           "quantity": 2,
           "unit": "uds"
         },
-        "zanahorias": {
+        "Zanahorias": {
           "quantity": 3,
           "unit": "uds"
   }
@@ -251,15 +251,15 @@
     "rations": "6",
     "fav": false,
     "ingredients": {
-        "hierbabuena": {
+        "Hierbabuena": {
             "quantity": 40,
             "unit": "hojas"
         },
-        "azúcar moreno": {
+        "Azúcar moreno": {
             "quantity": 100,
             "unit": "gr"
         },
-        "hielo": {
+        "Hielo": {
           "quantity": 80,
           "unit": "gr"
         },
@@ -267,11 +267,11 @@
           "quantity": 4,
           "unit": "latas"
         },
-        "limas": {
+        "Limas": {
           "quantity": 3,
           "unit": "uds"
         },
-        "ron blanco": {
+        "Ron blanco": {
           "quantity": 130,
           "unit": "ml"
         }
@@ -318,15 +318,15 @@
           "quantity": 1,
           "unit": "cucharada"
         },
-        "comino molido": {
+        "Comino molido": {
           "quantity": 1,
           "unit": "cucharadita"
         },
-        "cilantro en grano": {
+        "Cilantro en grano": {
           "quantity": 1,
           "unit": "cucharadita"
         },
-        "tomate concentrado": {
+        "Tomate concentrado": {
           "quantity": 50,
           "unit": "ml"
         },
@@ -334,39 +334,39 @@
           "quantity": 3,
           "unit": "uds"
         },
-        "leche de coco": {
+        "Leche de coco": {
           "quantity": 125,
           "unit": "ml"
         },
-        "pimienta negra en grano": {
+        "Pimienta negra en grano": {
           "quantity": 8,
           "unit": "granos"
         },
-        "jengibre fresco rallado": {
+        "Jengibre fresco rallado": {
           "quantity": 1,
           "unit": "cm"
         },
-        "cilantro fresco": {
+        "Cilantro fresco": {
           "quantity": 1,
           "unit": "ramita"
         },
-        "hojas de curry": {
+        "Hojas de curry": {
           "quantity": 6,
           "unit": "uds"
         },
-        "cilantro molido": {
+        "Cilantro molido": {
           "quantity": 1,
           "unit": "cucharadita"
         },
-        "jengibre molido": {
+        "Jengibre molido": {
           "quantity": 1,
           "unit": "cucharadita"
         },
-        "ajo en polvo": {
+        "Ajo en polvo": {
           "quantity": 1,
           "unit": "cucharadita"
         },
-        "diente de ajo": {
+        "Diente de ajo": {
           "quantity": 1,
           "unit": "ud"
         }
@@ -417,23 +417,23 @@
     "rations": "4",
     "fav": false,
     "ingredients": {
-        "yemas de huevo": {
+        "Yemas de huevo": {
             "quantity": 2,
             "unit": "ud"
         },
-        "mantequilla sin sal": {
+        "Mantequilla sin sal": {
             "quantity": 100,
             "unit": "gr"
         },
-        "agua": {
+        "Agua": {
           "quantity": 1,
           "unit": "cucharada"
         },
-        "zumo de limón o lima": {
+        "Zumo de limón o lima": {
           "quantity": 1,
           "unit": "cucharadita"
         },
-        "sal": {
+        "Sal": {
           "quantity": 1,
           "unit": "pizca"
         }
@@ -491,27 +491,27 @@
     "rations": "4",
     "fav": true,
     "ingredients": {
-        "lentejas rojas": {
+        "Lentejas rojas": {
             "quantity": 190,
             "unit": "gr"
         },
-        "cebolla": {
+        "Cebolla": {
             "quantity": 1,
             "unit": ""
         },
-        "ajo": {
+        "Ajo": {
           "quantity": 1,
           "unit": ""
         },
-        "zumo de limón o lima": {
+        "Zumo de limón o lima": {
           "quantity": 1,
           "unit": "cucharadita"
         },
-        "curry": {
+        "Curry": {
           "quantity": 1,
           "unit": "pizca"
         },
-        "canela": {
+        "Canela": {
           "quantity": 1,
           "unit": "ramita"
         }
@@ -787,15 +787,15 @@
         },
         "3": {
           "text" : "Sofríe la cebolla. Una vez empiece a estar transparente, añade el pimiento y el laurel y continúa hasta que empiece a estar blando. Una vez lo esté, añade el tomate y deja que pierda un poco el agua.",
-          "img": ""
+          "img": "https://drive.google.com/uc?export=view&id=1xDeUXwr1HGRpMe3eRiI_SqXWjrbs0N7x"
         },
         "4": {
           "text" : "Añade el pollo reservado y el arroz y mezcla todo bien. Una vez que esté bien integrado.",
-          "img": ""
+          "img": "https://drive.google.com/uc?export=view&id=1zP3jc3Rp0SddunXK_sjkTZE86MXhFTYJ"
         },
         "5": {
           "text" : "Añade el caldo y remueve. Deja que se cocine a fuego medio y vaya perdiendo el agua. Comprueba que esté hecho el arroz (tardará unos 20 minutos). Una vez esté hecho, apaga el fuego, tapa con un trapo y deja reposar 5 minutos.",
-          "img": ""
+          "img": "https://drive.google.com/uc?export=view&id=1wBtuf_2lw_bpbCAqn67I6FZYkjW10CmD"
         }
     },
     "other" : "",
@@ -803,9 +803,9 @@
     "remember": ""
   },
   {
-    "id": 12,
+    "id": 13,
     "main-img": "https://drive.google.com/uc?export=view&id=1g1gQyI-aWfR_1iuaO2Im88o2uGqiUdmB",
-    "name" : "White russian a lo Big Lebowski",
+    "name" : "White russian",
     "prep-time": "10 minutos",
     "cook-time": "30 minutos",
     "total-time": "",
@@ -838,6 +838,61 @@
         },
         "2": {
             "text" : "Echa hielo en abundancia, si tienes hielo picado, mucho mejor.",
+            "img": ""
+        },
+        "3": {
+          "text" : "Echa todos los ingredientes en el vaso (primero el vodka, luego el café y por último la leche y la nata.",
+          "img": ""
+        },
+        "4": {
+          "text" : "Busca una bata o cualquier prenda de ropa que haga las veces de pijama y vístete con ellas.",
+          "img": ""
+        },
+        "5": {
+          "text" : "Bébetelo y repite la operación cuantas veces consideres oportuno.",
+          "img": ""
+        }
+    },
+    "other" : "",
+    "credits": "https://www.seriemaniac.com/2020/09/04/como-se-hace-el-ruso-blanco-del-gran-lebowski/",
+    "remember": ""
+  },
+  {
+    "id": 12,
+    "main-img": "https://drive.google.com/uc?export=view&id=1vCLXm9z3fVnXpk7dsY4cShFwX3cfrXYc",
+    "name" : "Tortilla de patata",
+    "prep-time": "10 minutos",
+    "cook-time": "30 minutos",
+    "total-time": "",
+    "main-tag": "Entrantes",
+    "tags": ["Sin gluten","Española","Sin azúcar","Sin gluten","Sin lactosa","Sin pescado","Sin crustáceos","Sin soja","Vegetariana","De la abuela Isabel"],
+    "rations": "4",
+    "fav": false,
+    "ingredients": {
+        "Huevos": {
+            "quantity": 4,
+            "unit": ""
+        },
+        "Patatas": {
+            "quantity": 5,
+            "unit": ""
+        },
+        "Cebolla": {
+          "quantity": 500,
+          "unit": "gr"
+        },
+        "AVOE": {
+          "quantity": 1,
+          "unit": "chorrito"
+        }
+    },
+    "steps" :{
+        "1": {
+            "text" : "Pon a pochar un poco de cebolla en la sartén y mientras tanto corta las patatas en daditos pequeños. Cuando termines fríelas en la sartén",
+            "img": ""
+        },
+        "2": {
+            "text" : "Mezcla el resultado con los huevos y bátelo todo junto hasta que las patatas estén bien impregnadas.",
             "img": ""
         },
         "3": {
