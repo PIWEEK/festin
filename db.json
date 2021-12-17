@@ -725,9 +725,9 @@
     "name" : "Arroz con pollo y verduras",
     "prep-time": "10 minutos",
     "cook-time": "30 minutos",
-    "total-time": "",
+    "total-time": "40 minutos",
     "main-tag": "Principales",
-    "tags": ["Sin gluten"],
+    "tags": ["Sin gluten","Española","De la abuela Isabel","Sin crustáceos","Sin pescado","Sin soja"],
     "rations": "4",
     "fav": false,
     "ingredients": {
@@ -812,7 +812,7 @@
     "main-tag": "Bebidas",
     "tags": ["Sin gluten"],
     "rations": "4",
-    "fav": false,
+    "fav": true,
     "ingredients": {
         "Vodka": {
             "quantity": 40,
@@ -858,7 +858,7 @@
     "remember": ""
   },
   {
-    "id": 12,
+    "id": 14,
     "main-img": "https://drive.google.com/uc?export=view&id=1vCLXm9z3fVnXpk7dsY4cShFwX3cfrXYc",
     "name" : "Tortilla de patata",
     "prep-time": "10 minutos",
@@ -893,6 +893,171 @@
         },
         "2": {
             "text" : "Mezcla el resultado con los huevos y bátelo todo junto hasta que las patatas estén bien impregnadas.",
+            "img": ""
+        },
+        "3": {
+          "text" : "Echa todos los ingredientes en el vaso (primero el vodka, luego el café y por último la leche y la nata.",
+          "img": ""
+        },
+        "4": {
+          "text" : "Busca una bata o cualquier prenda de ropa que haga las veces de pijama y vístete con ellas.",
+          "img": ""
+        },
+        "5": {
+          "text" : "Bébetelo y repite la operación cuantas veces consideres oportuno.",
+          "img": ""
+        }
+    },
+    "other" : "",
+    "credits": "https://www.seriemaniac.com/2020/09/04/como-se-hace-el-ruso-blanco-del-gran-lebowski/",
+    "remember": ""
+  },
+  {
+    "id": 15,
+    "main-img": "https://drive.google.com/uc?export=view&id=1aTwKap7PY8GRk4kJ8SH-2IPsYsvN_1r8",
+    "name" : "Tiramisú",
+    "prep-time": "10 minutos",
+    "cook-time": "30 minutos",
+    "total-time": "40 minutos",
+    "main-tag": "Postres",
+    "tags": ["Sin gluten","Sin pescado","Sin crustáceos","Sin soja","Vegetariana"],
+    "rations": "8",
+    "fav": false,
+    "ingredients": {
+        "Huevos": {
+            "quantity": 4,
+            "unit": ""
+        },
+        "Patatas": {
+            "quantity": 5,
+            "unit": ""
+        },
+        "Cebolla": {
+          "quantity": 500,
+          "unit": "gr"
+        },
+        "AVOE": {
+          "quantity": 1,
+          "unit": "chorrito"
+        }
+    },
+    "steps" :{
+        "1": {
+            "text" : "Preparamos el café y lo dejamos enfriar. Para acelerar el proceso lo podemos verter sobre una fuente amplia en una capa fina. Enfriará en cuestión de 15-20 minutos.",
+            "img": ""
+        },
+        "2": {
+            "text" : "Separamos las yemas de las claras de los huevos. Montamos las claras a punto de nieve ligero y reservamos. A continuación batimos las yemas con el azúcar hasta blanquear y que el azúcar se disuelva completamente, que no se note el granillo. La crema quedará con un color amarillo pálido.",
+            "img": ""
+        },
+        "3": {
+          "text" : "Echa todos los ingredientes en el vaso (primero el vodka, luego el café y por último la leche y la nata.",
+          "img": ""
+        },
+        "4": {
+          "text" : "Busca una bata o cualquier prenda de ropa que haga las veces de pijama y vístete con ellas.",
+          "img": ""
+        },
+        "5": {
+          "text" : "Bébetelo y repite la operación cuantas veces consideres oportuno.",
+          "img": ""
+        }
+    },
+    "other" : "",
+    "credits": "https://www.seriemaniac.com/2020/09/04/como-se-hace-el-ruso-blanco-del-gran-lebowski/",
+    "remember": ""
+  },
+  {
+    "id": 16,
+    "main-img": "https://drive.google.com/uc?export=view&id=1pdLu40BJL10LTZ-NXylq0REU9ZQ3WrqF",
+    "name" : "Caramelo",
+    "prep-time": "10 minutos",
+    "cook-time": "30 minutos",
+    "total-time": "40 minutos",
+    "main-tag": "Salsas",
+    "tags": ["Sin gluten","Sin pescado","Sin crustáceos","Sin soja","Vegetariana"],
+    "rations": "8",
+    "fav": true,
+    "ingredients": {
+        "Huevos": {
+            "quantity": 4,
+            "unit": ""
+        },
+        "Patatas": {
+            "quantity": 5,
+            "unit": ""
+        },
+        "Cebolla": {
+          "quantity": 500,
+          "unit": "gr"
+        },
+        "AVOE": {
+          "quantity": 1,
+          "unit": "chorrito"
+        }
+    },
+    "steps" :{
+        "1": {
+            "text" : "Preparamos el café y lo dejamos enfriar. Para acelerar el proceso lo podemos verter sobre una fuente amplia en una capa fina. Enfriará en cuestión de 15-20 minutos.",
+            "img": ""
+        },
+        "2": {
+            "text" : "Separamos las yemas de las claras de los huevos. Montamos las claras a punto de nieve ligero y reservamos. A continuación batimos las yemas con el azúcar hasta blanquear y que el azúcar se disuelva completamente, que no se note el granillo. La crema quedará con un color amarillo pálido.",
+            "img": ""
+        },
+        "3": {
+          "text" : "Echa todos los ingredientes en el vaso (primero el vodka, luego el café y por último la leche y la nata.",
+          "img": ""
+        },
+        "4": {
+          "text" : "Busca una bata o cualquier prenda de ropa que haga las veces de pijama y vístete con ellas.",
+          "img": ""
+        },
+        "5": {
+          "text" : "Bébetelo y repite la operación cuantas veces consideres oportuno.",
+          "img": ""
+        }
+    },
+    "other" : "",
+    "credits": "https://www.seriemaniac.com/2020/09/04/como-se-hace-el-ruso-blanco-del-gran-lebowski/",
+    "remember": ""
+  },
+  {
+    "id": 17,
+    "main-img": "https://drive.google.com/uc?export=view&id=1dawpeJo0XPbrLmqeit2_3MjSnpVNBQVw",
+    "name" : "Salsa picante",
+    "prep-time": "10 minutos",
+    "cook-time": "30 minutos",
+    "total-time": "40 minutos",
+    "main-tag": "Salsas",
+    "tags": ["Sin gluten","Sin pescado","Sin crustáceos","Sin soja","Vegetariana"],
+    "rations": "8",
+    "fav": false,
+    "ingredients": {
+        "Huevos": {
+            "quantity": 4,
+            "unit": ""
+        },
+        "Patatas": {
+            "quantity": 5,
+            "unit": ""
+        },
+        "Cebolla": {
+          "quantity": 500,
+          "unit": "gr"
+        },
+        "AVOE": {
+          "quantity": 1,
+          "unit": "chorrito"
+        }
+    },
+    "steps" :{
+        "1": {
+            "text" : "Preparamos el café y lo dejamos enfriar. Para acelerar el proceso lo podemos verter sobre una fuente amplia en una capa fina. Enfriará en cuestión de 15-20 minutos.",
+            "img": ""
+        },
+        "2": {
+            "text" : "Separamos las yemas de las claras de los huevos. Montamos las claras a punto de nieve ligero y reservamos. A continuación batimos las yemas con el azúcar hasta blanquear y que el azúcar se disuelva completamente, que no se note el granillo. La crema quedará con un color amarillo pálido.",
             "img": ""
         },
         "3": {

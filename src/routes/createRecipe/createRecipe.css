@@ -134,7 +134,6 @@
 }
 
 .imageAsideCreate{
-    background-color: black;
     height: 100%;
     width: auto;
     background-repeat: no-repeat;
@@ -200,7 +199,6 @@
 .sectionsWrapper{
     display: flex;
     padding: 15px;
-    background-color: var(--all-recipes-color);
 }
 
 .smallText{
@@ -286,7 +284,6 @@
 .tagContainerCreate{
     margin-top: 5px;
     display: flex;
-    flex-wrap: wrap;
     gap: 10px;
 }
 
