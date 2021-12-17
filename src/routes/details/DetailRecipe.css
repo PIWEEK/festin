@@ -248,8 +248,9 @@ img.stepImg {
 }
 
 .creditsText{
+    font-size: 1rem;
     color: var(--all-recipes-color-font);
-    opacity: .8;
+    opacity: .5;
     font-style: italic;
     margin: 100px;
 }

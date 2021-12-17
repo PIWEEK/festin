@@ -163,7 +163,7 @@
     "cook-time": "210 minutos",
     "total-time": "2h y 45min",
     "main-tag": "Principales",
-    "tags": ["Española", "De la abuela Isabel", "Sin gluten"],
+    "tags": ["Española", "De la abuela Isabel", "Sin gluten", "Sin azúcar","Sin pescado","Sin crustáceos","Sin soja"],
     "rations": "6",
     "fav": false,
     "ingredients": {
@@ -559,7 +559,7 @@
     "name" : "Pan no pan",
     "prep-time": "5 minutos",
     "cook-time": "60 minutos",
-    "total-time": "",
+    "total-time": "65 minutos",
     "main-tag": "Entrante",
     "tags": ["Sin gluten", "Sin crustáceos", "Sin pescado", "Vegetariana", "Sin soja"],
     "rations": "6",
@@ -865,7 +865,7 @@
     "cook-time": "30 minutos",
     "total-time": "",
     "main-tag": "Entrantes",
-    "tags": ["Sin gluten","Española","Sin azúcar","Sin gluten","Sin lactosa","Sin pescado","Sin crustáceos","Sin soja","Vegetariana","De la abuela Isabel"],
+    "tags": ["Sin gluten","Española","Vegetariana","Sin azúcar","Sin gluten","Sin lactosa","Sin pescado","Sin crustáceos","Sin soja","Vegetariana","De la abuela Isabel"],
     "rations": "4",
     "fav": false,
     "ingredients": {
@@ -1033,6 +1033,226 @@
     "tags": ["Sin gluten","Sin pescado","Sin crustáceos","Sin soja","Vegetariana"],
     "rations": "8",
     "fav": false,
+    "ingredients": {
+        "Huevos": {
+            "quantity": 4,
+            "unit": ""
+        },
+        "Patatas": {
+            "quantity": 5,
+            "unit": ""
+        },
+        "Cebolla": {
+          "quantity": 500,
+          "unit": "gr"
+        },
+        "AVOE": {
+          "quantity": 1,
+          "unit": "chorrito"
+        }
+    },
+    "steps" :{
+        "1": {
+            "text" : "Preparamos el café y lo dejamos enfriar. Para acelerar el proceso lo podemos verter sobre una fuente amplia en una capa fina. Enfriará en cuestión de 15-20 minutos.",
+            "img": ""
+        },
+        "2": {
+            "text" : "Separamos las yemas de las claras de los huevos. Montamos las claras a punto de nieve ligero y reservamos. A continuación batimos las yemas con el azúcar hasta blanquear y que el azúcar se disuelva completamente, que no se note el granillo. La crema quedará con un color amarillo pálido.",
+            "img": ""
+        },
+        "3": {
+          "text" : "Echa todos los ingredientes en el vaso (primero el vodka, luego el café y por último la leche y la nata.",
+          "img": ""
+        },
+        "4": {
+          "text" : "Busca una bata o cualquier prenda de ropa que haga las veces de pijama y vístete con ellas.",
+          "img": ""
+        },
+        "5": {
+          "text" : "Bébetelo y repite la operación cuantas veces consideres oportuno.",
+          "img": ""
+        }
+    },
+    "other" : "",
+    "credits": "https://www.seriemaniac.com/2020/09/04/como-se-hace-el-ruso-blanco-del-gran-lebowski/",
+    "remember": ""
+  },
+  {
+    "id": 18,
+    "main-img": "https://drive.google.com/uc?export=view&id=1BPVssKEisQBFxI2lGQUmmkbkSAmQxNyK",
+    "name" : "Colacao casero",
+    "prep-time": "10 minutos",
+    "cook-time": "30 minutos",
+    "total-time": "40 minutos",
+    "main-tag": "Bebidas",
+    "tags": ["Sin gluten","Sin pescado","Sin crustáceos","Sin soja","Vegetariana"],
+    "rations": "8",
+    "fav": true,
+    "ingredients": {
+        "Huevos": {
+            "quantity": 4,
+            "unit": ""
+        },
+        "Patatas": {
+            "quantity": 5,
+            "unit": ""
+        },
+        "Cebolla": {
+          "quantity": 500,
+          "unit": "gr"
+        },
+        "AVOE": {
+          "quantity": 1,
+          "unit": "chorrito"
+        }
+    },
+    "steps" :{
+        "1": {
+            "text" : "Preparamos el café y lo dejamos enfriar. Para acelerar el proceso lo podemos verter sobre una fuente amplia en una capa fina. Enfriará en cuestión de 15-20 minutos.",
+            "img": ""
+        },
+        "2": {
+            "text" : "Separamos las yemas de las claras de los huevos. Montamos las claras a punto de nieve ligero y reservamos. A continuación batimos las yemas con el azúcar hasta blanquear y que el azúcar se disuelva completamente, que no se note el granillo. La crema quedará con un color amarillo pálido.",
+            "img": ""
+        },
+        "3": {
+          "text" : "Echa todos los ingredientes en el vaso (primero el vodka, luego el café y por último la leche y la nata.",
+          "img": ""
+        },
+        "4": {
+          "text" : "Busca una bata o cualquier prenda de ropa que haga las veces de pijama y vístete con ellas.",
+          "img": ""
+        },
+        "5": {
+          "text" : "Bébetelo y repite la operación cuantas veces consideres oportuno.",
+          "img": ""
+        }
+    },
+    "other" : "",
+    "credits": "https://www.seriemaniac.com/2020/09/04/como-se-hace-el-ruso-blanco-del-gran-lebowski/",
+    "remember": ""
+  },
+  {
+    "id": 19,
+    "main-img": "https://drive.google.com/uc?export=view&id=1XbKYSKvVhqK6-T2GgunwhTtA0TsrMzYU",
+    "name" : "Tartaletas de limón",
+    "prep-time": "10 minutos",
+    "cook-time": "30 minutos",
+    "total-time": "40 minutos",
+    "main-tag": "Postres",
+    "tags": ["Sin gluten","Sin pescado","Sin crustáceos","Sin soja","Vegetariana"],
+    "rations": "8",
+    "fav": true,
+    "ingredients": {
+        "Huevos": {
+            "quantity": 4,
+            "unit": ""
+        },
+        "Patatas": {
+            "quantity": 5,
+            "unit": ""
+        },
+        "Cebolla": {
+          "quantity": 500,
+          "unit": "gr"
+        },
+        "AVOE": {
+          "quantity": 1,
+          "unit": "chorrito"
+        }
+    },
+    "steps" :{
+        "1": {
+            "text" : "Preparamos el café y lo dejamos enfriar. Para acelerar el proceso lo podemos verter sobre una fuente amplia en una capa fina. Enfriará en cuestión de 15-20 minutos.",
+            "img": ""
+        },
+        "2": {
+            "text" : "Separamos las yemas de las claras de los huevos. Montamos las claras a punto de nieve ligero y reservamos. A continuación batimos las yemas con el azúcar hasta blanquear y que el azúcar se disuelva completamente, que no se note el granillo. La crema quedará con un color amarillo pálido.",
+            "img": ""
+        },
+        "3": {
+          "text" : "Echa todos los ingredientes en el vaso (primero el vodka, luego el café y por último la leche y la nata.",
+          "img": ""
+        },
+        "4": {
+          "text" : "Busca una bata o cualquier prenda de ropa que haga las veces de pijama y vístete con ellas.",
+          "img": ""
+        },
+        "5": {
+          "text" : "Bébetelo y repite la operación cuantas veces consideres oportuno.",
+          "img": ""
+        }
+    },
+    "other" : "",
+    "credits": "https://www.seriemaniac.com/2020/09/04/como-se-hace-el-ruso-blanco-del-gran-lebowski/",
+    "remember": ""
+  },
+  {
+    "id": 20,
+    "main-img": "https://drive.google.com/uc?export=view&id=17n1LAsFr-Wx_ijP87nXXEtjhD5z-Eex-",
+    "name" : "Yogurt casero",
+    "prep-time": "10 minutos",
+    "cook-time": "30 minutos",
+    "total-time": "40 minutos",
+    "main-tag": "Postres",
+    "tags": ["Sin gluten","Sin pescado","Sin crustáceos","Sin soja","Vegetariana"],
+    "rations": "8",
+    "fav": true,
+    "ingredients": {
+        "Huevos": {
+            "quantity": 4,
+            "unit": ""
+        },
+        "Patatas": {
+            "quantity": 5,
+            "unit": ""
+        },
+        "Cebolla": {
+          "quantity": 500,
+          "unit": "gr"
+        },
+        "AVOE": {
+          "quantity": 1,
+          "unit": "chorrito"
+        }
+    },
+    "steps" :{
+        "1": {
+            "text" : "Preparamos el café y lo dejamos enfriar. Para acelerar el proceso lo podemos verter sobre una fuente amplia en una capa fina. Enfriará en cuestión de 15-20 minutos.",
+            "img": ""
+        },
+        "2": {
+            "text" : "Separamos las yemas de las claras de los huevos. Montamos las claras a punto de nieve ligero y reservamos. A continuación batimos las yemas con el azúcar hasta blanquear y que el azúcar se disuelva completamente, que no se note el granillo. La crema quedará con un color amarillo pálido.",
+            "img": ""
+        },
+        "3": {
+          "text" : "Echa todos los ingredientes en el vaso (primero el vodka, luego el café y por último la leche y la nata.",
+          "img": ""
+        },
+        "4": {
+          "text" : "Busca una bata o cualquier prenda de ropa que haga las veces de pijama y vístete con ellas.",
+          "img": ""
+        },
+        "5": {
+          "text" : "Bébetelo y repite la operación cuantas veces consideres oportuno.",
+          "img": ""
+        }
+    },
+    "other" : "",
+    "credits": "https://www.seriemaniac.com/2020/09/04/como-se-hace-el-ruso-blanco-del-gran-lebowski/",
+    "remember": ""
+  },
+  {
+    "id": 21,
+    "main-img": "https://drive.google.com/uc?export=view&id=194c8qla6bHtvb2dFWuN7Jb60dTwipgWs",
+    "name" : "Hummus",
+    "prep-time": "10 minutos",
+    "cook-time": "30 minutos",
+    "total-time": "40 minutos",
+    "main-tag": "Entrantes",
+    "tags": ["Sin gluten","Sin pescado","Sin crustáceos","Sin soja","Vegetariana", "Sin azúcar"],
+    "rations": "8",
+    "fav": true,
     "ingredients": {
         "Huevos": {
             "quantity": 4,
