@@ -16,18 +16,18 @@
 
 .createLink {
   text-decoration: none;
-  font-size: 1.2rem;
-  display: flex;
-  position: relative;
-  padding: 4px 14px;
+  font-size: 1rem;
+  line-height: 1rem;
+  text-align: center;
+  padding: 23px 10px;
   justify-content: center;
-  align-items: center;
-  border-radius: 12px;
+  height: 100px;
+  width: 100px;
+  border-radius: 292px;
   cursor: pointer;
   color: black;
-  margin-right: 20px;
-  border: 1px solid black;
-  background-color: var(--all-recipes-color);
+  margin: 20px;
+  background-color: #2b2c2e1c;
   font-family: 'DM Sans', sans-serif;
 }
 
@@ -41,7 +41,7 @@
   list-style: none;
   align-self: center;
   font-family: 'DM Sans', sans-serif;
-  margin: 0 50px 100px 20px;
+  margin: 0 50px 100px 25px;
   gap: 10px;
 }
 
@@ -58,7 +58,7 @@
   height: 3rem;
   border: none;
   outline: none;
-  padding: 100px 0 50px 0;
+  padding: 70px 0 50px 0;
   background: var(--all-recipes-color);
 }
 
