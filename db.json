@@ -14,7 +14,7 @@
         "rations": "4",
         "fav": true,
         "ingredients": {
-            "pechuga de pollo picada": {
+            "Pechuga de pollo picada": {
                 "quantity": 300,
                 "unit": "gr"
             },
@@ -803,9 +803,9 @@
     "remember": ""
   },
   {
-    "id": 12,
+    "id": 13,
     "main-img": "https://drive.google.com/uc?export=view&id=1g1gQyI-aWfR_1iuaO2Im88o2uGqiUdmB",
-    "name" : "White russian a lo Big Lebowski",
+    "name" : "White russian",
     "prep-time": "10 minutos",
     "cook-time": "30 minutos",
     "total-time": "",
@@ -838,6 +838,61 @@
         },
         "2": {
             "text" : "Echa hielo en abundancia, si tienes hielo picado, mucho mejor.",
+            "img": ""
+        },
+        "3": {
+          "text" : "Echa todos los ingredientes en el vaso (primero el vodka, luego el café y por último la leche y la nata.",
+          "img": ""
+        },
+        "4": {
+          "text" : "Busca una bata o cualquier prenda de ropa que haga las veces de pijama y vístete con ellas.",
+          "img": ""
+        },
+        "5": {
+          "text" : "Bébetelo y repite la operación cuantas veces consideres oportuno.",
+          "img": ""
+        }
+    },
+    "other" : "",
+    "credits": "https://www.seriemaniac.com/2020/09/04/como-se-hace-el-ruso-blanco-del-gran-lebowski/",
+    "remember": ""
+  },
+  {
+    "id": 12,
+    "main-img": "https://drive.google.com/uc?export=view&id=1vCLXm9z3fVnXpk7dsY4cShFwX3cfrXYc",
+    "name" : "Tortilla de patata",
+    "prep-time": "10 minutos",
+    "cook-time": "30 minutos",
+    "total-time": "",
+    "main-tag": "Entrantes",
+    "tags": ["Sin gluten","Española","Sin azúcar","Sin gluten","Sin lactosa","Sin pescado","Sin crustáceos","Sin soja","Vegetariana","De la abuela Isabel"],
+    "rations": "4",
+    "fav": false,
+    "ingredients": {
+        "Huevos": {
+            "quantity": 4,
+            "unit": ""
+        },
+        "Patatas": {
+            "quantity": 5,
+            "unit": ""
+        },
+        "Cebolla": {
+          "quantity": 500,
+          "unit": "gr"
+        },
+        "AVOE": {
+          "quantity": 1,
+          "unit": "chorrito"
+        }
+    },
+    "steps" :{
+        "1": {
+            "text" : "Pon a pochar un poco de cebolla en la sartén y mientras tanto corta las patatas en daditos pequeños. Cuando termines fríelas en la sartén",
+            "img": ""
+        },
+        "2": {
+            "text" : "Mezcla el resultado con los huevos y bátelo todo junto hasta que las patatas estén bien impregnadas.",
             "img": ""
         },
         "3": {

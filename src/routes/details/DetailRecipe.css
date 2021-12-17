@@ -136,6 +136,7 @@
 
 .tagContainer {
     display: flex;
+    flex-wrap: wrap;
     padding: 30px 0 0 0;
     gap: 10px;
 }
