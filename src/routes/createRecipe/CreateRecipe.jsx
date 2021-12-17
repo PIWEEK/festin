@@ -90,6 +90,10 @@ export default function CreateRecipe() {
         )
     };
 
+    const manageIngredient = (id, event) => {
+
+    };
+
     const loadStepComp = () => {
         const newStep = [...steps, {text: "", img:"-"}];
         setSteps(newStep);
@@ -280,7 +284,8 @@ export default function CreateRecipe() {
                                 name="remember"
                                 id="remember"
                                 placeholder="Tu nota para no olvidar antes de empezar a cocinar"
-                                value={remember}/>
+                                value={remember}
+                            />
                             <div className="tagsWrapper">
                                 <p className={`helpText  ${choosedSection}`}>
                                     Tags (selecciona las que quieras.)
@@ -380,7 +385,7 @@ export default function CreateRecipe() {
                         value={other}/>
                     <p>Crédito</p>
                     <input
-                         onChange={(event)=>{setCredit(event.currentTarget)}}
+                        onChange={(event)=>{setCredit(event.currentTarget)}}
                         className="inputInvisible"
                         placeholder="¿De dónde es la receta?"
                         type="text"
