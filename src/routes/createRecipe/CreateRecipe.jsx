@@ -17,7 +17,7 @@ export default function CreateRecipe() {
     const [isLoading, setIsLoading] = useState(true);
     const [choosedSection, setChoosedSection] = useState("");
     const [shown, setShow] = useState(false);
-    const [ingredients, setIngredients] = useState([{name: "", quantity: "", unit: ""}]);
+    const [ingredients, setIngredients] = useState([{id: 0, name: "", quantity: "", unit: ""}]);
     const [steps, setSteps] = useState([{text:"", img: ""}]);
 
     const [recipeName, setRecipeName] = useState("");
@@ -51,14 +51,14 @@ export default function CreateRecipe() {
     };
 
     const loadIngredComp = () => {
-        const newIgrList = [...ingredients, {name: "", quantity: "", unit: ""}];
+        const newIgrList = [...ingredients, {name: "", quantity: "", unit: "", id: ingredients.length}];
         setIngredients(newIgrList);
     }
 
     const IngredientComp = ({ingr, index}) => {
+        console.log(ingr)
         return(
             <div key={`${ingr.name}-${index}`}>
-                <input type="number" style={{display: "none"}} value={index}/>
                 <span className="circleDot">
                     <CircleIcon />
                 </span>
@@ -66,33 +66,43 @@ export default function CreateRecipe() {
                     className="inputInvisible ingrInput"
                     type="text"
                     name="ingrediente"
-                    id="ingr"
+                    id={`ingrName-${index}`}
                     placeholder={`Ingrediente ${index}`}
-                    defaultValue={ingr? ingr.name : ""}
+                    defaultValue={ingr ? ingr.name : ""}
                 />
                 <input
                     className="inputInvisible ingrInput"
                     type="number"
                     name="cantidad"
-                    id="quantity"
+                    id={`ingrQuantity-${index}`}
                     placeholder="Cantidad"
-                    defaultValue={ingr? ingr.quantity : ""}
+                    defaultValue={ingr ? ingr.quantity : ""}
                 />
                 <input
                     className="inputInvisible ingrInput"
                     type="text"
                     name="unidades"
-                    id="unit"
+                    id={`ingrUnit-${index}`}
                     placeholder="Unidades"
-                    defaultValue={ingr? ingr.unit : ""}
+                    defaultValue={ingr ? ingr.unit : ""}
                 />
+                <button className="confirmButton" onClick={()=>updateIngredient(index)}>Confirmar</button>
             </div>
         )
     };
 
-    const manageIngredient = (id, event) => {
 
-    };
+    const updateIngredient = (id) => {
+        const ingName= document.getElementById(`ingrName-${id}`).value;
+        const ingQuantity= document.getElementById(`ingrQuantity-${id}`).value;
+        const ingUnit= document.getElementById(`ingrUnit-${id}`).value;
+        const myList = [...ingredients];
+        const myIngre = ingredients[id];
+        myIngre.unit = ingUnit;
+        myIngre.quantity = ingQuantity;
+        myIngre.name = ingName;
+        setTimeout(setIngredients(myList), 1000);
+    }
 
     const loadStepComp = () => {
         const newStep = [...steps, {text: "", img:"-"}];
@@ -357,7 +367,7 @@ export default function CreateRecipe() {
                 <section className="ingredientsRecipe">
                     <h1 className="ingredTitle">Ingredientes</h1>
                     <div>
-                        {ingredients.map((ingr, index)=> <IngredientComp ingr={ingr} index={index}/>)}
+                        {ingredients.map((ingr, index)=>  <IngredientComp ingr={ingr} index={index}/>)}
                     </div>
                     <button className="loadIngrBtn" onClick={loadIngredComp}>
                         <AddIcon />
