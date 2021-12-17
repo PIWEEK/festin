@@ -24,6 +24,7 @@
     font-size: 2rem;
     background-color: white;
 }
+
 .recipeHeader{
     overflow-x: hidden;
     display: flex;
@@ -97,7 +98,7 @@
 .FrontRecipeCreate.Entrantes .timeInput,
 .FrontRecipeCreate.Entrantes .rationInput,
 .FrontRecipeCreate.Entrantes .rationText{
-    color: var(--entrantes-color-font);
+    color: var(--entrantes-color-font) !important;
 }
 
 .FrontRecipeCreate.Principales .nombreInput,
@@ -105,7 +106,7 @@
 .FrontRecipeCreate.Principales .timeInput,
 .FrontRecipeCreate.Principales .rationInput,
 .FrontRecipeCreate.Principales .rationText{
-    color: var(--principales-color-font);
+    color: var(--principales-color-font) !important;
 }
 
 .FrontRecipeCreate.Postres .nombreInput,
@@ -113,7 +114,7 @@
 .FrontRecipeCreate.Postres .timeInput,
 .FrontRecipeCreate.Postres .rationInput,
 .FrontRecipeCreate.Postres .rationText{
-    color: var(--postres-color-font);
+    color: var(--postres-color-font) !important;
 }
 
 .FrontRecipeCreate.Bebidas .nombreInput,
@@ -121,7 +122,7 @@
 .FrontRecipeCreate.Bebidas .timeInput,
 .FrontRecipeCreate.Bebidas .rationInput,
 .FrontRecipeCreate.Bebidas .rationText{
-    color: var(--bebidas-color-font);
+    color: var(--bebidas-color-font) !important;
 }
 
 .FrontRecipeCreate.Salsas .nombreInput,
@@ -129,7 +130,7 @@
 .FrontRecipeCreate.Salsas .timeInput,
 .FrontRecipeCreate.Salsas .rationInput,
 .FrontRecipeCreate.Salsas .rationText{
-    color: var(--salsas-color-font);
+    color: var(--salsas-color-font) !important;
 }
 
 .imageAsideCreate{
@@ -156,7 +157,7 @@
     margin: 0 5px;
 }
 
-.inputInvisible:focus {
+.inputInvisible:focus, .inputInvisible:active {
     border:none;
     background-color: transparent;
     outline: none;
@@ -165,8 +166,12 @@
 .imgInput {
     text-align: center;
     font-family: "Restora";
-    font-size: 1rem;
+    font-size: 1.5rem;
     min-width: 250px;
+    color: var(--all-recipes-color-font);
+}
+.imgInput::placeholder {
+    color: var(--all-recipes-color-font);
 }
 
 .rationInput {
@@ -384,4 +389,14 @@
 .stepWrapper{
     display: block;
     margin-bottom: 10px;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+    transition: background-color 600000s 0s, color 600000s 0s;
+}
+
+.confirmButton{
+    background-color: transparent;
+    border: none;
 }
