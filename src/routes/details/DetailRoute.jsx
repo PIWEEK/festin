@@ -101,7 +101,7 @@ export default function Detail() {
                                 <li key={ingr}>
                                     <label htmlFor={ingr}>
                                         <input className="ingredientCheck" onClick={() =>{}} type="checkbox" name={ingr} id={ingr} />
-                                        <span className="ingredientLabel">{`${ingr}: ${cantidad} ${unidad} `}</span>
+                                        <span className="ingredientLabel">{`${ingr}`}<span className="quantity">{`${cantidad} ${unidad} `}</span></span>                                        
                                     </label>
                                 </li>
                             )
